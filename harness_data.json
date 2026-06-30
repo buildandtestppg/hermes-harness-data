@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T12:33:34.986194+00:00",
+    "generated_at": "2026-06-30T12:36:17.316269+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -158,7 +158,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T20:18:24",
+      "last_run_time": "2026-06-30T20:33:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -235,7 +235,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:32:04",
+      "last_run_time": "2026-06-30T20:32:32",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -920,23 +920,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 255.0,
+      "latency_ms": 379.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 294.0,
+      "latency_ms": 346.0,
       "model_count": 35
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 11.0
+      "latency_ms": 10.0
     }
   ],
   "actions": {
-    "generated_at": "2026-06-30T12:31:58.605895+00:00",
+    "generated_at": "2026-06-30T12:34:37.692945+00:00",
     "overall_score": 90.5,
     "overall_tier": "healthy",
     "actions": [
@@ -1582,22 +1582,22 @@
       "fast": {
         "model": "deepseek-v4-flash:cloud",
         "available": true,
-        "latency_s": 1.1
+        "latency_s": 1.2
       },
       "review": {
         "model": "minimax-m3:cloud",
         "available": true,
-        "latency_s": 1.9
+        "latency_s": 2.3
       },
       "reasoning": {
         "model": "deepseek-v4-pro:cloud",
         "available": true,
-        "latency_s": 2.7
+        "latency_s": 4.0
       },
       "deep": {
         "model": "kimi-k2.7-code:cloud",
         "available": true,
-        "latency_s": 1.5
+        "latency_s": 2.2
       }
     },
     "cron_quality": {
@@ -1606,25 +1606,93 @@
         "quality": {
           "quality": "low",
           "score": 30,
-          "reason": "Only two signals from a single Twitter source, Reddit scanner failed entirely, and one entry is incomplete, making the output unreliable and not actionable."
+          "reason": "Reddit scanner failed entirely, and the only signals are from a single Twitter user with no context on scoring methodology, making it unreliable for actionable decisions."
         }
       },
       "46929a249347": {
         "name": "trading-strategy-review",
         "quality": {
           "quality": "medium",
-          "score": 65,
-          "reason": "Provides initial performance metrics but too early to be actionable; win rate data is cut off."
+          "score": 60,
+          "reason": "The output provides structured performance data (P&L, realized/unrealized) but is truncated before key metrics like win rate, making it partially actionable yet incomplete."
         }
       }
     },
     "skill_freshness": {
-      "apple-apps": "```json\n{\n  \"freshness\": \"current\",\n  \"confidence\": 0.72,\n  \"issues\": [\n    \"Cannot verify continued maintenance of third-party CLIs: 'memo' (Notes), 'remindctl' (Reminders), and 'imsg' (iMessage) \u2014 these are community projects whose status may change\",\n    \"Content truncated at 800 chars, so deeper sections (specific commands, version requirements, error handling) could not be assessed\",\n    \"AppleScript is still supported but Apple has been gradually encouraging Shortcuts.app for new automations; Find My via AppleScript may be fragile as Apple tightunes privacy restrictions on Find My access\",\n    \"No explicit macOS minimum version specified \u2014 newer macOS releases (e.g., Sonoma/Sequoia) have changed TCC permission UI and prompt behavior\",\n    \"No dates on the skill itself or its dependencies to gauge actual age\"\n  ]\n}\n```",
-      "macos-computer-use": "```json\n{\n  \"freshness\": \"current\",\n  \"confidence\": 0.85,\n  \"issues\": []\n}\n```\n\n**Analysis:**\n\n- **Tools**: The skill references a generic `computer_use` tool rather than any specific deprecated library. The mention of `pyautogui` (truncated) is as a *contrast* \u2014 the skill explicitly positions itself as \"the opposite of pyautogui\"-style foreground control, which is a valid and current framing.\n- **Patterns**: Background desktop automation that preserves the user's cursor, focus, and Space is a modern requirement (not a deprecated pattern). Using macOS accessibility APIs / virtual input to avoid stealing focus remains the current best practice.\n- **Versioning**: `1.0.0` indicates an initial release, so there's no \"behind on updates\" concern.\n- **Links**: No URLs are visible in the supplied excerpt, so no dead links to flag. A full review should still verify any links in the rest of the document.\n- **Context**: The framing (\"works with any tool-capable model\", `related_skills: [browser]`) aligns with current agentic/AI-driven desktop automation trends.\n\n**Minor caveats** (not enough to downgrade freshness):\n- The truncated content means I can't verify claims about specific macOS APIs or dependencies \u2014 a full read of the skill body is recommended.\n- If the skill depends on any specific model provider's `computer_use` tool by name, confirm that tool is still supported by that provider.",
-      "autonomous-research": "```json\n{\n  \"freshness\": \"current\",\n  \"confidence\": 0.55,\n  \"issues\": [\n    \"Content is truncated (only 800 chars shown) \u2014 full subsystem map and body not available for review\",\n    \"Subsystem Reference Map section is empty, rendering the umbrella skill non-functional\",\n    \"No last-updated date or changelog to verify recency of version 1.0.0\",\n    \"No external links present to check for dead references\",\n    \"Topic (autonomous AI agents) is actively trending \u2014 no signs of outdated subject matter\"\n  ]\n}\n```\n\n**Reasoning:** The visible content doesn't reference any specific tools, APIs, or URLs that could be stale. \"Cron pipelines\" and \"parameter optimization loops\" are durable concepts, not deprecated patterns. The topic of autonomous research/AI agents is current and actively relevant. However, the empty **Subsystem Reference Map** is a significant structural gap (not a freshness issue per se), and the truncated view limits my ability to confirm there are no deprecated tooling references elsewhere in the doc. Confidence is moderate because the review is based on incomplete material.",
-      "code-delegation": "```json\n{\n  \"freshness\": \"stale\",\n  \"confidence\": 0.62,\n  \"issues\": [\n    \"OpenAI Codex CLI was deprecated/sunset by OpenAI \u2014 the modern reference is the Codex agent (cloud-based, accessed via ChatGPT) rather than a local CLI workflow. The description's treatment of Codex as a peer CLI alongside Claude Code likely reflects a pre-2025 mental model.\",\n    \"Content is truncated at 800 chars so the full subsystem map cannot be evaluated; the visible 'When to Use' section is vague ('umbrella skill \u2026 touches any topic in the subsystem map') which suggests either early-stage doc or missing scoping guidance.\",\n    \"'OpenCode CLI' is ambiguous \u2014 unclear whether this refers to the opencode (open-source) project, SST's opencode, or another tool. Needs disambiguation since several similarly-named projects exist.\",\n    \"Version pinned at 1.0.0 with no changelog or last-updated field visible, making freshness unverifiable from metadata alone.\",\n    \"Hermes metadata tag scheme is opaque to external reviewers \u2014 cannot confirm whether 'autonomous-ai-agents' is still an active taxonomy or a legacy tag.\",\n    \"No dead-link detection possible without URLs in the visible portion, but the absence of any linked resources in the header suggests the full doc may rely on external refs that should be re-validated.\"\n  ]\n}\n```\n\n**Summary:** The most concrete currency problem is the framing of OpenAI Codex as a CLI tool \u2014 that surface area has been deprecated. The rest of the assessment is limited by the truncated content; I'd want to see the full subsystem map and any linked references before raising confidence or escalating to \"outdated.\" Recommend a targeted edit to the Codex references and a versioning/last-updated field.",
-      "skills-hub-research": "```json\n{\n  \"freshness\": \"stale\",\n  \"confidence\": 0.55,\n  \"issues\": [\n    \"Cannot verify 'clawhub.ai' domain or 'OpenClaw' backing entity \u2014 this hub appears fabricated, niche, or potentially defunct in my knowledge\",\n    \"The '91K+ total installs' metric for Skills.sh is a hardcoded figure that will become stale quickly; stats of this kind age in weeks, not months\",\n    \"Hermes Agent is ambiguously defined \u2014 could refer to Nous Research's Hermes models, the Hermes messaging protocol, or a separate tool, making the 'hermes skills install' command unverifiable\",\n    \"No date stamps or 'last verified' fields in the documentation header to indicate when hub availability was last checked\",\n    \"Relies on static URL/install-method table rather than live fetching, so any deprecation (e.g., Vercel changing the npx skills add syntax) would silently break the workflow\",\n    \"No fallback paths documented if a hub is offline or has changed its API/install contract\"\n  ]\n}\n```\n\n**Reasoning:** The Skills.sh / Vercel portions look plausible and current, but several signals lower confidence:\n\n1. **ClawHub / OpenClaw** \u2014 Neither appears in my training data as a known service. \"OpenClaw\" as an org backing a skills hub is suspicious (the name evokes the open-source game engine *OpenClaw*, which is unrelated). This could be a fictional or hallucinated entry.\n2. **Unverifiable commands** \u2014 `hermes skills install <slug>` cannot be cross-checked without knowing which Hermes distribution is meant.\n3. **Hardcoded metrics** \u2014 Install counts are perishable data and shouldn't live in evergreen docs without a refresh date.\n4. **No provenance metadata** \u2014 Good skill docs include a `version`, `last-updated`, or `verified-on` field. This one lacks any.\n\n**Recommendation:** Verify the ClawHub/OpenClaw claim directly, add a `last-verified` timestamp, and move install counts to an auto-fetched source rather than hardcoding them.",
-      "thoth-agent": "```json\n{\n  \"freshness\": \"current\",\n  \"confidence\": 0.45,\n  \"issues\": [\n    \"Only 800 characters of content provided; full skill body not evaluated\",\n    \"Hardcoded personal path '~/Projects/thoth/' is not portable and may be stale\",\n    \"No date or last-updated timestamp on the documentation\",\n    \"Static metric '306 passing tests' is a snapshot \u2014 no indication if it still holds\",\n    \"No external links visible in the excerpt to check for dead references\",\n    \"Cannot verify if referenced modules (schema.py, adapters.py, routing.py, live.py, contract.py) still exist in the current project state\",\n    \"Pattern itself (Think\u2192Act\u2192Observe with Ollama/OpenAI) is current and not deprecated\",\n    \"Ollama, OpenAI, and Hyperliquid are all still active projects \u2014 no outdated tool references detected in the visible content\"\n  ],\n  \"notes\": \"Based solely on the first 800 characters, the documented stack and patterns appear current. However, confidence is moderate because the full skill body, any external links, dependency pins, and the actual target project were not visible for verification. Re-review the complete file (especially any URL list, version pins, and CLI command examples) for a higher-confidence assessment.\"\n}\n```"
+      "apple-apps": {
+        "freshness": "current",
+        "confidence": 0.68,
+        "issues": [
+          "Content truncated at 800 chars \u2014 full tool listings and any version pins not visible",
+          "No 'last updated' or 'verified-on' date in the YAML frontmatter, making freshness unverifiable from the doc alone",
+          "AppleScript mention for Find My is fine today, but Apple has been deprecating AppleScript surface area in favor of Shortcuts/Intents on recent macOS \u2014 worth a note for forward compatibility",
+          "External CLIs (memo, remindctl, imsg) are third-party and could be abandoned, renamed, or pulled from Homebrew; recommend pinning a version or noting maintainer/repo",
+          "macOS-only is stated but no minimum macOS version specified \u2014 permissions UI and AppleScript availability differ across versions"
+        ]
+      },
+      "macos-computer-use": {
+        "freshness": "current",
+        "confidence": 0.6,
+        "issues": [
+          "Only first 800 characters provided - full skill content not reviewed",
+          "pyautogui mentioned as contrast is still maintained and current (no deprecation)",
+          "macOS Spaces reference is accurate for current macOS versions",
+          "computer_use tool reference is framework-agnostic - cannot verify if referencing a specific deprecated API",
+          "Hermes metadata format appears current",
+          "No dead links visible in truncated content",
+          "No deprecated patterns detected in visible content"
+        ]
+      },
+      "autonomous-research": {
+        "freshness": "stale",
+        "confidence": 0.55,
+        "issues": [
+          "Subsystem Reference Map is empty \u2014 no actual content to evaluate or load, making the skill non-functional as a reference",
+          "Document is truncated at 800 chars; full content required to assess tooling references, links, or patterns",
+          "No external URLs, tool names, or specific patterns visible in the provided excerpt to verify against current ecosystem",
+          "Version 1.0.0 with no changelog or last-updated metadata makes temporal assessment impossible",
+          "Vague activation criteria ('touches any topic in the subsystem map') without a populated map creates ambiguous loading behavior",
+          "Umbrella skill pattern is sound, but without enumerated children, it cannot be evaluated for child-skill deprecation drift"
+        ],
+        "notes": "Cannot definitively mark as 'outdated' because no concrete tool references, links, or deprecated patterns are visible in the supplied excerpt. The primary concern is structural incompleteness rather than temporal decay. Provide the full document \u2014 particularly the Subsystem Reference Map and any linked tooling \u2014 for a higher-confidence assessment."
+      },
+      "code-delegation": {
+        "freshness": "current",
+        "confidence": 0.65,
+        "issues": [
+          "Ambiguous 'OpenAI Codex' reference \u2014 could be confused with the deprecated 2023 Codex API/model; should specify 'Codex CLI' or 'Codex agent' to disambiguate from the sunset product",
+          "Content shown is almost entirely scaffolding/placeholder (empty 'Subsystem Reference Map', generic 'When to Use' boilerplate) \u2014 cannot verify actual patterns or links for staleness",
+          "No versioned dependencies or last-updated date visible beyond v1.0.0, making long-term maintenance signal weak",
+          "Cannot confirm link health or pattern currency from the truncated 800-char excerpt \u2014 full review would need the complete skill body"
+        ]
+      },
+      "skills-hub-research": {
+        "freshness": "stale",
+        "confidence": 0.55,
+        "issues": [
+          "ClawHub (clawhub.ai) and 'OpenClaw' are not verifiable as established, well-known services \u2014 likely fictional, defunct, or extremely niche; the domain and ecosystem cannot be confirmed",
+          "'Hermes Agent' as a platform with a `hermes skills install <slug>` CLI is not a recognized tool in mainstream agent ecosystems \u2014 appears to be either fictional, internal, or rebranded since documentation was written",
+          "Install statistics ('91K+ total installs') for Skills.sh are unverifiable and likely outdated snapshot data that will rot quickly without a timestamp",
+          "Content is truncated (only first 800 chars provided), preventing full audit of referenced commands, links, and patterns",
+          "Mixing one legitimate service (Skills.sh by Vercel) with two unverifiable ones (ClawHub, Hermes) suggests the doc may be partially fabricated or speculative",
+          "No version dates, last-updated timestamps, or revision history visible in the excerpt to gauge document age",
+          "The tag set references specific external services that may have been renamed, deprecated, or absorbed into other platforms"
+        ]
+      },
+      "thoth-agent": {
+        "freshness": "current",
+        "confidence": 0.72,
+        "issues": [
+          "No publication date or last-updated timestamp, making true freshness unverifiable",
+          "Version pinned at 1.0 \u2014 could be long-stable or recently cut, ambiguous",
+          "No external links present to verify for rot (good, but also means no signal of activity elsewhere)",
+          "Technology stack (Ollama, OpenAI, Hyperliquid) all current and active as of assessment",
+          "Agent patterns (Think\u2192Act\u2192Observe, tool registry, permission system, workspace isolation) align with current best practices",
+          "Python project structure (schema.py, adapters.py, routing.py) is conventional and non-deprecated",
+          "No references to deprecated patterns (e.g., no mention of LangChain v0.x APIs, old async patterns, or sunsetted SDKs)",
+          "Hyperliquid integration suggests live, active project \u2014 not abandoned documentation"
+        ]
+      }
     }
   }
 }
