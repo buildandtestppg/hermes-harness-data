@@ -1,0 +1,1584 @@
+{
+  "meta": {
+    "generated_at": "2026-06-30T10:10:18.170743+00:00",
+    "harness_version": "1.0.0",
+    "hermes_instance": "prod"
+  },
+  "overall": {
+    "score": 90.6,
+    "tier": "healthy",
+    "weights": {
+      "cron": 35,
+      "skills": 25,
+      "memory": 20,
+      "providers": 20
+    },
+    "component_scores": {
+      "cron": 100.0,
+      "skills": 90.4,
+      "memory": 65,
+      "providers": 100
+    },
+    "issues": [
+      "45/118 facts are 60+ days old \u2014 review candidates",
+      "1 duplicate fact groups \u2014 merge candidates",
+      "Retrieval tracking not active \u2014 enable fact_feedback for better scoring"
+    ]
+  },
+  "scores": {
+    "cron": {
+      "score": 100.0,
+      "tier": "healthy",
+      "breakdown": {
+        "total": 29,
+        "ok": 29,
+        "silent": 0,
+        "success_rate": 100.0
+      },
+      "issues": []
+    },
+    "skills": {
+      "score": 90.4,
+      "tier": "healthy",
+      "breakdown": {
+        "total": 110,
+        "valid": 78,
+        "functional": 110,
+        "has_stale_refs": 32,
+        "broken": 0,
+        "functional_rate": 100.0
+      },
+      "issues": [],
+      "broken_details": [
+        "  fleet-autoreason: 9 broken ref(s)",
+        "  fleet-janitor: 1 broken ref(s)",
+        "  fleet-operations: 15 broken ref(s)",
+        "  hermes-agent: 7 broken ref(s)",
+        "  meta-agent-orchestrator: 14 broken ref(s)"
+      ]
+    },
+    "memory": {
+      "score": 65,
+      "tier": "degraded",
+      "breakdown": {
+        "total": 118,
+        "stale": 0,
+        "duplicates": 1,
+        "never_retrieved": 118,
+        "helpful": 0,
+        "stale_rate": 0.0
+      },
+      "issues": [
+        "45/118 facts are 60+ days old \u2014 review candidates",
+        "1 duplicate fact groups \u2014 merge candidates",
+        "Retrieval tracking not active \u2014 enable fact_feedback for better scoring"
+      ]
+    },
+    "providers": {
+      "score": 100,
+      "tier": "healthy",
+      "breakdown": {
+        "total": 3,
+        "available": 3
+      },
+      "issues": []
+    }
+  },
+  "crons": [
+    {
+      "id": "43ba1d393c5a",
+      "name": "X Crypto Scanner",
+      "schedule": "5,35 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T17:50:29",
+      "output_count_24h": 21,
+      "potentially_silent": false
+    },
+    {
+      "id": "a354447653dc",
+      "name": "Fleet Operations Agent",
+      "schedule": "25 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T17:26:03",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "46929a249347",
+      "name": "trading-strategy-review",
+      "schedule": "2 0,6,12,18 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:03:51",
+      "output_count_24h": 4,
+      "potentially_silent": false
+    },
+    {
+      "id": "66a98cf277aa",
+      "name": "\ud83d\udc0b Whale Monitor",
+      "schedule": "*/20 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:02:03",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "8bd6a73fc440",
+      "name": "\ud83d\udcf0 News Agent",
+      "schedule": "7,22,37,52 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:09:20",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "4a4564fc946b",
+      "name": "\u23f0 Daily Review",
+      "schedule": "2 9 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T09:04:08",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "6f7b35ec5e0b",
+      "name": "\ud83d\udc9a Fleet Heartbeat",
+      "schedule": "3,18,33,48 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:04:15",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "652fe2a9c9ca",
+      "name": "arXiv Research Scanner",
+      "schedule": "2 10 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T10:04:28",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "3876dd862ca1",
+      "name": "Polymarket Sentiment Scanner",
+      "schedule": "2 3,9,15,21 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T15:03:41",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "0d71774646b8",
+      "name": "Fleet Research Agent",
+      "schedule": "22 1,5,9,13,17,21 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T17:24:24",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "d6cc11071af7",
+      "name": "Daily Market Analysis",
+      "schedule": "0 9 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T09:01:53",
+      "output_count_24h": 2,
+      "potentially_silent": false
+    },
+    {
+      "id": "14fd127d289c",
+      "name": "AutoReason Signal Weights",
+      "schedule": "0 4 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T04:00:36",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "7c57a0c4cff1",
+      "name": "Wiki Compactor",
+      "schedule": "0 2 * * 0",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-28T02:01:04",
+      "output_count_24h": 0,
+      "potentially_silent": false
+    },
+    {
+      "id": "ccddd0e232cc",
+      "name": "\ud83d\udcca Daily Chart Digest",
+      "schedule": "30 */2 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T16:31:45",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "7f41b1d5bd77",
+      "name": "\u2696\ufe0f Signal Conflict Resolver",
+      "schedule": "15 0,6,12,18 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T12:21:06",
+      "output_count_24h": 4,
+      "potentially_silent": false
+    },
+    {
+      "id": "c67b5b611845",
+      "name": "\ud83e\uddf9 Fleet Janitor",
+      "schedule": "0 3 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T03:00:32",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "25c7da78acdf",
+      "name": "Prediction Market Arb Scanner",
+      "schedule": "every 5m",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:08:08",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "938626448011",
+      "name": "Cross-Chain Arb Scanner",
+      "schedule": "every 1m",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:09:18",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "7d8920b2c397",
+      "name": "\ud83d\udcf8 Weekly Fitness Check-in",
+      "schedule": "0 9 * * 1",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-29T09:01:16",
+      "output_count_24h": 0,
+      "potentially_silent": false
+    },
+    {
+      "id": "8f99666a8744",
+      "name": "\ud83d\udcca Market Analyst",
+      "schedule": "0 */2 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:00:51",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "19d3cb3ac835",
+      "name": "\ud83d\udd2c Research Analyst",
+      "schedule": "2 3,9,15,21 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T15:02:29",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "cdfa4ef4a5c0",
+      "name": "\ud83d\udcb0 Trading Analyst",
+      "schedule": "10 2,8,14,20 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T14:10:24",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "75c3948a260e",
+      "name": "\ud83e\udde0 Intelligence Synthesizer",
+      "schedule": "5 9,15,21 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T15:05:57",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "472ce4aec60d",
+      "name": "\u26bd WC Portfolio Tracker",
+      "schedule": "0 */6 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:00:52",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "39999f004261",
+      "name": "HL Strategy Lab \u2014 Paper Trader (5min)",
+      "schedule": "*/5 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:05:57",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "7f3363224842",
+      "name": "HL Strategy Lab \u2014 Autonomous Optimizer (4h)",
+      "schedule": "*/30 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:01:00",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "410fb2ac468e",
+      "name": "HL Strategy Lab \u2014 Full Harness",
+      "schedule": "every 60m",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T17:21:17",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "81a00f55a695",
+      "name": "HL Strategy Lab \u2014 Weekly Deep Eval",
+      "schedule": "0 6 * * 0",
+      "status": "active",
+      "last_run_ok": false,
+      "never_run": true,
+      "last_run_time": null,
+      "output_count_24h": 0,
+      "potentially_silent": false
+    },
+    {
+      "id": "3c2578a553f3",
+      "name": "Hermes Health Harness",
+      "schedule": "0 */6 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-06-30T18:02:39",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    }
+  ],
+  "skills": {
+    "total": 110,
+    "valid": 78,
+    "broken": 32,
+    "items": [
+      {
+        "name": "apple-apps",
+        "category": "apple",
+        "path": "/Users/mojoai/.hermes/skills/apple/apple-apps",
+        "valid": true,
+        "error": null,
+        "size_bytes": 2892,
+        "file_count": 6,
+        "line_count": 97
+      },
+      {
+        "name": "macos-computer-use",
+        "category": "apple",
+        "path": "/Users/mojoai/.hermes/skills/apple/macos-computer-use",
+        "valid": true,
+        "error": null,
+        "size_bytes": 7309,
+        "file_count": 1,
+        "line_count": 201
+      },
+      {
+        "name": "autonomous-research",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/autonomous-research",
+        "valid": true,
+        "error": null,
+        "size_bytes": 470,
+        "file_count": 4,
+        "line_count": 20
+      },
+      {
+        "name": "code-delegation",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/code-delegation",
+        "valid": true,
+        "error": null,
+        "size_bytes": 492,
+        "file_count": 5,
+        "line_count": 20
+      },
+      {
+        "name": "fleet-autoreason",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-autoreason",
+        "valid": false,
+        "error": "9 broken ref(s)",
+        "size_bytes": 21567,
+        "file_count": 2,
+        "line_count": 247
+      },
+      {
+        "name": "fleet-janitor",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-janitor",
+        "valid": false,
+        "error": "1 broken ref(s)",
+        "size_bytes": 6249,
+        "file_count": 1,
+        "line_count": 150
+      },
+      {
+        "name": "fleet-operations",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-operations",
+        "valid": false,
+        "error": "15 broken ref(s)",
+        "size_bytes": 66868,
+        "file_count": 58,
+        "line_count": 754
+      },
+      {
+        "name": "hermes-agent",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/hermes-agent",
+        "valid": false,
+        "error": "7 broken ref(s)",
+        "size_bytes": 43042,
+        "file_count": 6,
+        "line_count": 1013
+      },
+      {
+        "name": "meta-agent-orchestrator",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/meta-agent-orchestrator",
+        "valid": false,
+        "error": "14 broken ref(s)",
+        "size_bytes": 77318,
+        "file_count": 7,
+        "line_count": 1250
+      },
+      {
+        "name": "ollama-local-inference",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/ollama-local-inference",
+        "valid": false,
+        "error": "1 broken ref(s)",
+        "size_bytes": 6467,
+        "file_count": 1,
+        "line_count": 188
+      },
+      {
+        "name": "passive-income-generator",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/passive-income-generator",
+        "valid": false,
+        "error": "1 broken ref(s)",
+        "size_bytes": 7458,
+        "file_count": 1,
+        "line_count": 170
+      },
+      {
+        "name": "signal-conflict-resolver",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/signal-conflict-resolver",
+        "valid": false,
+        "error": "6 broken ref(s)",
+        "size_bytes": 8116,
+        "file_count": 2,
+        "line_count": 156
+      },
+      {
+        "name": "skills-hub-research",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/skills-hub-research",
+        "valid": true,
+        "error": null,
+        "size_bytes": 5529,
+        "file_count": 1,
+        "line_count": 124
+      },
+      {
+        "name": "thoth-agent",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/thoth-agent",
+        "valid": true,
+        "error": null,
+        "size_bytes": 10614,
+        "file_count": 6,
+        "line_count": 249
+      },
+      {
+        "name": "wiki-accumulation",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-accumulation",
+        "valid": false,
+        "error": "8 broken ref(s)",
+        "size_bytes": 14192,
+        "file_count": 2,
+        "line_count": 296
+      },
+      {
+        "name": "wiki-compaction",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-compaction",
+        "valid": false,
+        "error": "5 broken ref(s)",
+        "size_bytes": 4410,
+        "file_count": 1,
+        "line_count": 111
+      },
+      {
+        "name": "x-scanner",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner",
+        "valid": false,
+        "error": "16 broken ref(s)",
+        "size_bytes": 29722,
+        "file_count": 2,
+        "line_count": 540
+      },
+      {
+        "name": "ai-music",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/ai-music",
+        "valid": true,
+        "error": null,
+        "size_bytes": 2787,
+        "file_count": 5,
+        "line_count": 85
+      },
+      {
+        "name": "ascii-visuals",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/ascii-visuals",
+        "valid": true,
+        "error": null,
+        "size_bytes": 2484,
+        "file_count": 12,
+        "line_count": 65
+      },
+      {
+        "name": "baoyu-article-illustrator",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/baoyu-article-illustrator",
+        "valid": false,
+        "error": "2 broken ref(s)",
+        "size_bytes": 10131,
+        "file_count": 39,
+        "line_count": 207
+      },
+      {
+        "name": "baoyu-comic",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/baoyu-comic",
+        "valid": true,
+        "error": null,
+        "size_bytes": 14621,
+        "file_count": 40,
+        "line_count": 247
+      },
+      {
+        "name": "baoyu-infographic",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/baoyu-infographic",
+        "valid": true,
+        "error": null,
+        "size_bytes": 10434,
+        "file_count": 50,
+        "line_count": 237
+      },
+      {
+        "name": "comfyui",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/comfyui",
+        "valid": true,
+        "error": null,
+        "size_bytes": 24287,
+        "file_count": 37,
+        "line_count": 612
+      },
+      {
+        "name": "creative-ideation",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/creative-ideation",
+        "valid": true,
+        "error": null,
+        "size_bytes": 6318,
+        "file_count": 3,
+        "line_count": 152
+      },
+      {
+        "name": "diagrams",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/diagrams",
+        "valid": true,
+        "error": null,
+        "size_bytes": 3611,
+        "file_count": 10,
+        "line_count": 89
+      },
+      {
+        "name": "humanizer",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/humanizer",
+        "valid": true,
+        "error": null,
+        "size_bytes": 30025,
+        "file_count": 2,
+        "line_count": 578
+      },
+      {
+        "name": "manim-video",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/manim-video",
+        "valid": false,
+        "error": "3 broken ref(s); may reference old Hermes version",
+        "size_bytes": 11763,
+        "file_count": 19,
+        "line_count": 269
+      },
+      {
+        "name": "p5js",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/p5js",
+        "valid": false,
+        "error": "1 broken ref(s)",
+        "size_bytes": 27494,
+        "file_count": 20,
+        "line_count": 556
+      },
+      {
+        "name": "pixel-art",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/pixel-art",
+        "valid": true,
+        "error": null,
+        "size_bytes": 7581,
+        "file_count": 9,
+        "line_count": 218
+      },
+      {
+        "name": "pretext",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/pretext",
+        "valid": true,
+        "error": null,
+        "size_bytes": 14168,
+        "file_count": 6,
+        "line_count": 220
+      },
+      {
+        "name": "touchdesigner-mcp",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/touchdesigner-mcp",
+        "valid": true,
+        "error": null,
+        "size_bytes": 15429,
+        "file_count": 25,
+        "line_count": 356
+      },
+      {
+        "name": "web-design",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/web-design",
+        "valid": true,
+        "error": null,
+        "size_bytes": 5803,
+        "file_count": 62,
+        "line_count": 129
+      },
+      {
+        "name": "crypto-scanner-ops",
+        "category": "crypto",
+        "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops",
+        "valid": false,
+        "error": "10 broken ref(s)",
+        "size_bytes": 100831,
+        "file_count": 37,
+        "line_count": 634
+      },
+      {
+        "name": "chrome-cdp-operations",
+        "category": "data-science",
+        "path": "/Users/mojoai/.hermes/skills/data-science/chrome-cdp-operations",
+        "valid": true,
+        "error": null,
+        "size_bytes": 468,
+        "file_count": 4,
+        "line_count": 20
+      },
+      {
+        "name": "jupyter-live-kernel",
+        "category": "data-science",
+        "path": "/Users/mojoai/.hermes/skills/data-science/jupyter-live-kernel",
+        "valid": false,
+        "error": "1 broken ref(s)",
+        "size_bytes": 5285,
+        "file_count": 1,
+        "line_count": 167
+      },
+      {
+        "name": "api-model-health-check",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/api-model-health-check",
+        "valid": false,
+        "error": "2 broken ref(s)",
+        "size_bytes": 4153,
+        "file_count": 1,
+        "line_count": 104
+      },
+      {
+        "name": "cloudflare-quick-tunnel",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/cloudflare-quick-tunnel",
+        "valid": true,
+        "error": null,
+        "size_bytes": 2365,
+        "file_count": 1,
+        "line_count": 50
+      },
+      {
+        "name": "cron-operations",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/cron-operations",
+        "valid": false,
+        "error": "8 broken ref(s)",
+        "size_bytes": 21421,
+        "file_count": 12,
+        "line_count": 411
+      },
+      {
+        "name": "discord-operations",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/discord-operations",
+        "valid": true,
+        "error": null,
+        "size_bytes": 3947,
+        "file_count": 9,
+        "line_count": 78
+      },
+      {
+        "name": "fleet-daily-review",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/fleet-daily-review",
+        "valid": false,
+        "error": "20 broken ref(s)",
+        "size_bytes": 46157,
+        "file_count": 2,
+        "line_count": 774
+      },
+      {
+        "name": "fleet-research-agent",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/fleet-research-agent",
+        "valid": false,
+        "error": "4 broken ref(s)",
+        "size_bytes": 61392,
+        "file_count": 2,
+        "line_count": 943
+      },
+      {
+        "name": "hermes-agent-update",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/hermes-agent-update",
+        "valid": true,
+        "error": null,
+        "size_bytes": 5839,
+        "file_count": 3,
+        "line_count": 127
+      },
+      {
+        "name": "hermes-system-harness",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness",
+        "valid": true,
+        "error": null,
+        "size_bytes": 7613,
+        "file_count": 3,
+        "line_count": 170
+      },
+      {
+        "name": "hermes-workspace-dev",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/hermes-workspace-dev",
+        "valid": true,
+        "error": null,
+        "size_bytes": 7600,
+        "file_count": 3,
+        "line_count": 169
+      },
+      {
+        "name": "hyperevm-payments",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/hyperevm-payments",
+        "valid": true,
+        "error": null,
+        "size_bytes": 28278,
+        "file_count": 1,
+        "line_count": 587
+      },
+      {
+        "name": "kanban",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/kanban",
+        "valid": true,
+        "error": null,
+        "size_bytes": 5105,
+        "file_count": 6,
+        "line_count": 124
+      },
+      {
+        "name": "llm-resource-forensics",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/llm-resource-forensics",
+        "valid": false,
+        "error": "1 broken ref(s)",
+        "size_bytes": 6077,
+        "file_count": 5,
+        "line_count": 159
+      },
+      {
+        "name": "magic-sdk-vanilla-auth",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/magic-sdk-vanilla-auth",
+        "valid": true,
+        "error": null,
+        "size_bytes": 11096,
+        "file_count": 1,
+        "line_count": 228
+      },
+      {
+        "name": "mobile-devops",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/mobile-devops",
+        "valid": true,
+        "error": null,
+        "size_bytes": 478,
+        "file_count": 4,
+        "line_count": 20
+      },
+      {
+        "name": "ollama-code-generation",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/ollama-code-generation",
+        "valid": false,
+        "error": "2 broken ref(s)",
+        "size_bytes": 7006,
+        "file_count": 1,
+        "line_count": 197
+      }
+    ]
+  },
+  "memory": {
+    "total_facts": 118,
+    "total_entities": 116,
+    "avg_trust": 0.5,
+    "trust_distribution": {
+      "low (<0.3)": 0,
+      "medium (0.3-0.7)": 118,
+      "high (>0.7)": 0
+    },
+    "categories": {
+      "general": 56,
+      "user_pref": 24,
+      "project": 22,
+      "tool": 12,
+      "crypto": 1,
+      "tools": 1,
+      "user": 1,
+      "workflows": 1
+    },
+    "never_retrieved": 118,
+    "stale_14d": 0,
+    "old_60d": 45,
+    "helpful_count": 0,
+    "duplicate_prefixes": 1,
+    "orphans": []
+  },
+  "providers": [
+    {
+      "name": "Z.AI",
+      "available": true,
+      "latency_ms": 156.0,
+      "status_code": 404
+    },
+    {
+      "name": "Ollama Cloud",
+      "available": true,
+      "latency_ms": 305.0,
+      "model_count": 35
+    },
+    {
+      "name": "Ollama Local",
+      "available": true,
+      "latency_ms": 8.0
+    }
+  ],
+  "actions": {
+    "generated_at": "2026-06-30T10:10:18.170732+00:00",
+    "overall_score": 90.6,
+    "overall_tier": "healthy",
+    "actions": [
+      {
+        "type": "archive_candidate",
+        "target": "fleet-autoreason",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "9 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-autoreason"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-janitor",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-janitor"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-operations",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "15 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "hermes-agent",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "7 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/hermes-agent"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "meta-agent-orchestrator",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "14 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/meta-agent-orchestrator"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "ollama-local-inference",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/ollama-local-inference"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "passive-income-generator",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/passive-income-generator"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "signal-conflict-resolver",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "6 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/signal-conflict-resolver"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "wiki-accumulation",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "8 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-accumulation"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "wiki-compaction",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "5 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-compaction"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "x-scanner",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "16 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "baoyu-article-illustrator",
+        "category": "creative",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/creative/baoyu-article-illustrator"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "manim-video",
+        "category": "creative",
+        "severity": "info",
+        "reason": "3 broken ref(s); may reference old Hermes version",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/creative/manim-video"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "p5js",
+        "category": "creative",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/creative/p5js"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "crypto-scanner-ops",
+        "category": "crypto",
+        "severity": "info",
+        "reason": "10 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "jupyter-live-kernel",
+        "category": "data-science",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/data-science/jupyter-live-kernel"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "api-model-health-check",
+        "category": "devops",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/api-model-health-check"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "cron-operations",
+        "category": "devops",
+        "severity": "info",
+        "reason": "8 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/cron-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-daily-review",
+        "category": "devops",
+        "severity": "info",
+        "reason": "20 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/fleet-daily-review"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-research-agent",
+        "category": "devops",
+        "severity": "info",
+        "reason": "4 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/fleet-research-agent"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "llm-resource-forensics",
+        "category": "devops",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/llm-resource-forensics"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "ollama-code-generation",
+        "category": "devops",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/ollama-code-generation"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "static-site-deployment",
+        "category": "devops",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/static-site-deployment"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "zai-glm-provider-routing",
+        "category": "devops",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/zai-glm-provider-routing"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "powerpoint",
+        "category": "productivity",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/productivity/powerpoint"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "crypto-intel-scanner",
+        "category": "research",
+        "severity": "info",
+        "reason": "13 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/research/crypto-intel-scanner"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "news-agent",
+        "category": "research",
+        "severity": "info",
+        "reason": "12 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/research/news-agent"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "research-paper-writing",
+        "category": "research",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/research/research-paper-writing"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "x-operations",
+        "category": "social-media",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/social-media/x-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "crypto-operations",
+        "category": "trading",
+        "severity": "info",
+        "reason": "5 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/crypto-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "outcome-mm-bot",
+        "category": "trading",
+        "severity": "info",
+        "reason": "15 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/outcome-mm-bot"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "trading-strategy-review",
+        "category": "trading",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/trading-strategy-review"
+      },
+      {
+        "type": "summary",
+        "target": "skills",
+        "severity": "info",
+        "reason": "32 archive candidates, 0 review items",
+        "action": "manual"
+      },
+      {
+        "type": "review",
+        "target": "memory",
+        "severity": "warning",
+        "reason": "2 facts with similar content \u2014 merge candidate",
+        "action": "manual",
+        "detail": "Fact IDs: 135,134"
+      }
+    ],
+    "summary": {
+      "total": 34,
+      "auto_executed": 0,
+      "manual_required": 34,
+      "critical": 0,
+      "warnings": 1,
+      "info": 33
+    },
+    "auto_actions": [],
+    "manual_review": [
+      {
+        "type": "archive_candidate",
+        "target": "fleet-autoreason",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "9 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-autoreason"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-janitor",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-janitor"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-operations",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "15 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "hermes-agent",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "7 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/hermes-agent"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "meta-agent-orchestrator",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "14 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/meta-agent-orchestrator"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "ollama-local-inference",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/ollama-local-inference"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "passive-income-generator",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/passive-income-generator"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "signal-conflict-resolver",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "6 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/signal-conflict-resolver"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "wiki-accumulation",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "8 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-accumulation"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "wiki-compaction",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "5 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-compaction"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "x-scanner",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "16 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "baoyu-article-illustrator",
+        "category": "creative",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/creative/baoyu-article-illustrator"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "manim-video",
+        "category": "creative",
+        "severity": "info",
+        "reason": "3 broken ref(s); may reference old Hermes version",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/creative/manim-video"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "p5js",
+        "category": "creative",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/creative/p5js"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "crypto-scanner-ops",
+        "category": "crypto",
+        "severity": "info",
+        "reason": "10 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "jupyter-live-kernel",
+        "category": "data-science",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/data-science/jupyter-live-kernel"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "api-model-health-check",
+        "category": "devops",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/api-model-health-check"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "cron-operations",
+        "category": "devops",
+        "severity": "info",
+        "reason": "8 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/cron-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-daily-review",
+        "category": "devops",
+        "severity": "info",
+        "reason": "20 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/fleet-daily-review"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-research-agent",
+        "category": "devops",
+        "severity": "info",
+        "reason": "4 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/fleet-research-agent"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "llm-resource-forensics",
+        "category": "devops",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/llm-resource-forensics"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "ollama-code-generation",
+        "category": "devops",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/ollama-code-generation"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "static-site-deployment",
+        "category": "devops",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/static-site-deployment"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "zai-glm-provider-routing",
+        "category": "devops",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/zai-glm-provider-routing"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "powerpoint",
+        "category": "productivity",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/productivity/powerpoint"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "crypto-intel-scanner",
+        "category": "research",
+        "severity": "info",
+        "reason": "13 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/research/crypto-intel-scanner"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "news-agent",
+        "category": "research",
+        "severity": "info",
+        "reason": "12 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/research/news-agent"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "research-paper-writing",
+        "category": "research",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/research/research-paper-writing"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "x-operations",
+        "category": "social-media",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/social-media/x-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "crypto-operations",
+        "category": "trading",
+        "severity": "info",
+        "reason": "5 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/crypto-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "outcome-mm-bot",
+        "category": "trading",
+        "severity": "info",
+        "reason": "15 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/outcome-mm-bot"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "trading-strategy-review",
+        "category": "trading",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/trading-strategy-review"
+      },
+      {
+        "type": "summary",
+        "target": "skills",
+        "severity": "info",
+        "reason": "32 archive candidates, 0 review items",
+        "action": "manual"
+      },
+      {
+        "type": "review",
+        "target": "memory",
+        "severity": "warning",
+        "reason": "2 facts with similar content \u2014 merge candidate",
+        "action": "manual",
+        "detail": "Fact IDs: 135,134"
+      }
+    ]
+  }
+}
