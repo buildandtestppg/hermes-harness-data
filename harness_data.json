@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T10:10:18.170743+00:00",
+    "generated_at": "2026-06-30T12:16:26.054650+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
   "overall": {
-    "score": 90.6,
+    "score": 90.5,
     "tier": "healthy",
     "weights": {
       "cron": 35,
@@ -15,7 +15,7 @@
     },
     "component_scores": {
       "cron": 100.0,
-      "skills": 90.4,
+      "skills": 90.1,
       "memory": 65,
       "providers": 100
     },
@@ -38,13 +38,13 @@
       "issues": []
     },
     "skills": {
-      "score": 90.4,
+      "score": 90.1,
       "tier": "healthy",
       "breakdown": {
         "total": 110,
-        "valid": 78,
+        "valid": 77,
         "functional": 110,
-        "has_stale_refs": 32,
+        "has_stale_refs": 33,
         "broken": 0,
         "functional_rate": 100.0
       },
@@ -92,8 +92,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T17:50:29",
-      "output_count_24h": 21,
+      "last_run_time": "2026-06-30T19:45:04",
+      "output_count_24h": 20,
       "potentially_silent": false
     },
     {
@@ -103,7 +103,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T17:26:03",
+      "last_run_time": "2026-06-30T19:25:14",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -125,7 +125,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:02:03",
+      "last_run_time": "2026-06-30T20:02:16",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -136,7 +136,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:09:20",
+      "last_run_time": "2026-06-30T20:08:55",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -158,7 +158,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:04:15",
+      "last_run_time": "2026-06-30T20:03:22",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -235,7 +235,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T16:31:45",
+      "last_run_time": "2026-06-30T18:32:04",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -246,7 +246,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T12:21:06",
+      "last_run_time": "2026-06-30T18:24:54",
       "output_count_24h": 4,
       "potentially_silent": false
     },
@@ -268,7 +268,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:08:08",
+      "last_run_time": "2026-06-30T20:14:18",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -279,7 +279,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:09:18",
+      "last_run_time": "2026-06-30T20:15:29",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -301,7 +301,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:00:51",
+      "last_run_time": "2026-06-30T20:00:05",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -323,7 +323,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T14:10:24",
+      "last_run_time": "2026-06-30T20:10:06",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -356,7 +356,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:05:57",
+      "last_run_time": "2026-06-30T20:15:12",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -367,7 +367,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T18:01:00",
+      "last_run_time": "2026-06-30T20:00:13",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -378,7 +378,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T17:21:17",
+      "last_run_time": "2026-06-30T19:26:58",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -407,8 +407,8 @@
   ],
   "skills": {
     "total": 110,
-    "valid": 78,
-    "broken": 32,
+    "valid": 77,
+    "broken": 33,
     "items": [
       {
         "name": "apple-apps",
@@ -834,11 +834,11 @@
         "name": "hermes-system-harness",
         "category": "devops",
         "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness",
-        "valid": true,
-        "error": null,
-        "size_bytes": 7613,
+        "valid": false,
+        "error": "3 broken ref(s)",
+        "size_bytes": 10409,
         "file_count": 3,
-        "line_count": 170
+        "line_count": 225
       },
       {
         "name": "hermes-workspace-dev",
@@ -942,24 +942,24 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 156.0,
+      "latency_ms": 303.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 305.0,
+      "latency_ms": 300.0,
       "model_count": 35
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 8.0
+      "latency_ms": 13.0
     }
   ],
   "actions": {
-    "generated_at": "2026-06-30T10:10:18.170732+00:00",
-    "overall_score": 90.6,
+    "generated_at": "2026-06-30T12:16:26.054639+00:00",
+    "overall_score": 90.5,
     "overall_tier": "healthy",
     "actions": [
       {
@@ -1144,6 +1144,15 @@
       },
       {
         "type": "archive_candidate",
+        "target": "hermes-system-harness",
+        "category": "devops",
+        "severity": "info",
+        "reason": "3 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness"
+      },
+      {
+        "type": "archive_candidate",
         "target": "llm-resource-forensics",
         "category": "devops",
         "severity": "info",
@@ -1254,7 +1263,7 @@
         "type": "summary",
         "target": "skills",
         "severity": "info",
-        "reason": "32 archive candidates, 0 review items",
+        "reason": "33 archive candidates, 0 review items",
         "action": "manual"
       },
       {
@@ -1267,12 +1276,12 @@
       }
     ],
     "summary": {
-      "total": 34,
+      "total": 35,
       "auto_executed": 0,
-      "manual_required": 34,
+      "manual_required": 35,
       "critical": 0,
       "warnings": 1,
-      "info": 33
+      "info": 34
     },
     "auto_actions": [],
     "manual_review": [
@@ -1458,6 +1467,15 @@
       },
       {
         "type": "archive_candidate",
+        "target": "hermes-system-harness",
+        "category": "devops",
+        "severity": "info",
+        "reason": "3 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness"
+      },
+      {
+        "type": "archive_candidate",
         "target": "llm-resource-forensics",
         "category": "devops",
         "severity": "info",
@@ -1568,7 +1586,7 @@
         "type": "summary",
         "target": "skills",
         "severity": "info",
-        "reason": "32 archive candidates, 0 review items",
+        "reason": "33 archive candidates, 0 review items",
         "action": "manual"
       },
       {
