@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T12:27:57.674918+00:00",
+    "generated_at": "2026-06-30T12:31:14.744328+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -356,7 +356,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T19:26:58",
+      "last_run_time": "2026-06-30T20:29:01",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -920,23 +920,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 273.0,
+      "latency_ms": 347.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 372.0,
+      "latency_ms": 302.0,
       "model_count": 35
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 18.0
+      "latency_ms": 13.0
     }
   ],
   "actions": {
-    "generated_at": "2026-06-30T12:27:57.003730+00:00",
+    "generated_at": "2026-06-30T12:29:17.045881+00:00",
     "overall_score": 90.5,
     "overall_tier": "healthy",
     "actions": [
@@ -1581,33 +1581,33 @@
     "model_health": {
       "fast": {
         "model": "deepseek-v4-flash:cloud",
-        "available": false,
-        "error": "HTTP Error 403: Forbidden"
+        "available": true,
+        "latency_s": 4.1
       },
       "review": {
         "model": "minimax-m3:cloud",
-        "available": false,
-        "error": "HTTP Error 403: Forbidden"
+        "available": true,
+        "latency_s": 1.6
       },
       "reasoning": {
         "model": "deepseek-v4-pro:cloud",
-        "available": false,
-        "error": "HTTP Error 403: Forbidden"
+        "available": true,
+        "latency_s": 2.2
       },
       "deep": {
         "model": "kimi-k2.7-code:cloud",
         "available": false,
-        "error": "HTTP Error 403: Forbidden"
+        "error": "The read operation timed out"
       }
     },
     "cron_quality": {},
     "skill_freshness": {
-      "apple-apps": {},
-      "macos-computer-use": {},
-      "autonomous-research": {},
-      "code-delegation": {},
-      "skills-hub-research": {},
-      "thoth-agent": {}
+      "apple-apps": "```json\n{\n  \"freshness\": \"current\",\n  \"confidence\": 0.55,\n  \"issues\": [\n    \"Content truncated at 800 chars \u2014 cannot verify specific URLs, brew formulae, or version-pinned commands that may be stale\",\n    \"No specific macOS version targeted \u2014 AppleScript dictionaries and permission panels (Automation, Full Disk Access, Accessibility) change between macOS Ventura/Sonoma/Sequoia releases, and the doc doesn't clarify which it's tested against\",\n    \"Third-party CLIs (memo, remindctl, imsg) are small community projects with variable maintenance status \u2014 none have verifiable last-commit dates from the visible content\",\n    \"Find My automation via AppleScript is inherently fragile \u2014 Apple periodically changes the AppleScript dictionary and Find My's UI/state model, and the doc gives no warning about this\",\n    \"No mention of macOS Sequoia (15) permission changes, particularly for iMessage and Reminders access, which have been tightening\",\n    \"No installation/verification commands visible in the truncated portion, so cannot assess whether the documented install steps match current Homebrew formulae names\"\n  ]\n}\n```\n\n**Note on confidence:** The truncated payload prevents verification of the highest-risk freshness signals (dead brew formulae, dead GitHub URLs, version-pinned install snippets). The tool names themselves (`memo`, `remindctl`, `imsg`) correspond to real projects, and the general pattern (Homebrew + Automation permissions + AppleScript fallback) is still the correct approach for macOS automation as of early 2026. If you can share the remainder of the file, I can re-evaluate with much higher confidence \u2014 particularly checking for specific GitHub URLs, brew tap names, and any sandbox/Mac App Store restrictions that may have changed.",
+      "macos-computer-use": "```json\n{\n  \"freshness\": \"current\",\n  \"confidence\": 0.78,\n  \"issues\": [\n    \"Content is truncated at 800 chars \u2014 full review limited (e.g., 'pyautogui-s' is cut off, so specific version/pattern references cannot be fully verified)\",\n    \"Version pinned at 1.0.0 with no indication of recent updates or changelog; no freshness signal from version bumps\",\n    \"References the `computer_use` tool generically \u2014 depends on host framework's tool naming; not necessarily outdated but tightly coupled to an external tool contract not described in the excerpt\",\n    \"No visible links to verify (URLs, docs) \u2014 cannot rule out dead links beyond the truncated portion\",\n    \"hermes metadata format and skill-loading trigger pattern ('Load this skill whenever...') are consistent with current conventions\",\n    \"pyautogui reference (the de facto Python GUI automation baseline) is still maintained, so the contrast framing is not outdated\"\n  ]\n}\n```",
+      "autonomous-research": "```json\n{\n  \"freshness\": \"stale\",\n  \"confidence\": 0.55,\n  \"issues\": [\n    \"Content is truncated at the 'Subsystem Reference Map' section, making it impossible to evaluate the actual referenced tools, links, or patterns\",\n    \"'Self-building cron pipelines' is a questionable pattern \u2014 self-modifying infrastructure/schedules is widely considered an anti-pattern in modern systems; most platforms now favor declarative scheduling (e.g., Airflow DAGs, Kubernetes CronJobs, Temporal workflows) over self-building cron entries\",\n    \"Bare 'cron' reference suggests legacy Unix-era tooling context rather than modern orchestration primitives (workflow schedulers, event-driven triggers)\",\n    \"The 'umbrella skill' pattern plus `hermes` metadata namespace indicates this is tied to a specific/custom framework \u2014 the framework's current maintenance status and adoption cannot be verified from the provided content\",\n    \"Version pinned at 1.0.0 with no update history visible; given the framing around autonomous agents (a fast-moving space), version 1.0.0 may signal staleness relative to current agentic frameworks (LangGraph, CrewAI, AutoGen patterns from 2024-2026)\",\n    \"No concrete tool versions, library names, or link targets are visible in the provided excerpt to validate against current ecosystems\"\n  ]\n}\n```\n\n**Note on confidence**: The assessment is limited because only the first 800 characters were provided, and the actual substantive content (subsystem map, tool references, code examples) lives below the cutoff. If the full document contains references to specific tools/links, the verdict could shift to `\"outdated\"` (if dead links/deprecated tools appear) or back to `\"current\"` (if the patterns are well-supported with modern equivalents). To finalize, I'd want to see: the subsystem map entries, any URL references, code snippets, and the tools/CLIs/APIs it instructs the agent to invoke.",
+      "code-delegation": "```json\n{\n  \"freshness\": \"stale\",\n  \"confidence\": 0.55,\n  \"issues\": [\n    \"Document is severely truncated \u2014 only front matter and stub content visible; actual content cannot be fully evaluated\",\n    \"Referenced 'Subsystem Reference Map' is empty/missing, so referenced tools and patterns cannot be verified\",\n    \"'OpenAI Codex' naming is ambiguous and potentially outdated: the original Codex model was deprecated by OpenAI in March 2023, while the newer Codex CLI (released 2025) is a distinct product \u2014 unclear which is intended\",\n    \"'OpenCode CLI' status is unclear \u2014 no verifiable evidence this is an actively maintained tool, raising risk of referencing a dead/abandoned project\",\n    \"Umbrella skill pattern with subsystem maps is an older organizational style; current best practice favors flatter, more directly discoverable skill structures\",\n    \"No version pinning, changelog, or last-updated date beyond the 1.0.0 version stamp, making freshness drift undetectable\",\n    \"Tag 'autonomous-ai-agents' is a 2024-2025 buzzword that may already be considered deprecated terminology in favor of more specific framing (e.g., 'coding-agents', 'cli-codegen')\",\n    \"No links provided in the visible content to verify \u2014 cannot confirm any URLs are live\"\n  ]\n}\n```\n\n**Summary:** The skill is **stale** with moderate confidence. The primary concerns are: (1) the documentation is a stub with an empty subsystem reference map making full evaluation impossible, (2) the \"OpenAI Codex\" reference carries legacy ambiguity risk (the original Codex was deprecated in 2023), and (3) \"OpenCode CLI\" cannot be confirmed as an actively maintained tool. The Claude Code reference is current. The structural pattern (umbrella skill + subsystem map) is functional but somewhat dated. To make a stronger assessment, the full content of the Subsystem Reference Map would be needed.",
+      "skills-hub-research": "```json\n{\n  \"freshness\": \"stale\",\n  \"confidence\": 0.62,\n  \"issues\": [\n    \"References 'ClawHub' (clawhub.ai) and 'OpenClaw' as backing entity \u2014 neither service is verifiable as a recognized, established skill registry; appears to be a niche or possibly fabricated hub\",\n    \"References 'Hermes Agent' with a custom `hermes skills install` CLI command \u2014 not a widely known agent framework; ecosystem may be defunct or extremely niche\",\n    \"Content is truncated at 800 chars so installation workflow, security criteria, and relevance scoring methodology cannot be assessed for current best practices\",\n    \"Skills.sh reference (Vercel) and `npx skills add` pattern are consistent with current ecosystem, but the '91K+ total installs' and '20+ agents' stats are unverifiable snapshot numbers that may be outdated\",\n    \"No version date, last-updated timestamp, or revision history provided to assess when the skill itself was last validated\"\n  ]\n}\n```",
+      "thoth-agent": "```json\n{\n  \"freshness\": \"current\",\n  \"confidence\": 0.72,\n  \"issues\": [\n    \"Only 800 chars of content reviewed \u2014 full doc may contain stale references not visible here\",\n    \"Version 1.0 with no last-updated date; freshness is inferential based on tech stack only\",\n    \"'CustomAdapter' pattern in models/adapters.py is not detailed \u2014 common area for drift in agent frameworks\",\n    \"'306 passing tests' / '35 modules' is a point-in-time snapshot that will go stale\",\n    \"No external links visible to check for 404s; verify any docs/URLs in the rest of the file\",\n    \"Think\u2192Act\u2192Observe loop is still valid (ReAct-style) but newer patterns (ReWOO, Plan-and-Execute, tool-use function calling) have emerged \u2014 not necessarily outdated but worth noting\",\n    \"Ollama + OpenAI backends are current; no deprecated SDK references visible\",\n    \"Hyperliquid SDK is active but moves fast \u2014 confirm connector is pinned to a current API version\"\n  ]\n}\n```\n\n**Reasoning summary:**\n\nThe visible 800 chars describe a Python agent framework using a **Think\u2192Act\u2192Observe** loop with **Ollama** and **OpenAI** adapters, a tool registry, permission system, and **Hyperliquid** integration. All of these are still actively maintained as of early 2026:\n\n- \u2705 **Ollama** \u2014 active, local LLM runtime\n- \u2705 **OpenAI** \u2014 active, function-calling/tool-use APIs current\n- \u2705 **Think\u2192Act\u2192Observe** \u2014 still a valid ReAct-style pattern\n- \u2705 **Hyperliquid** \u2014 still operational, though its API has evolved\n- \u2705 **Python** + pluggable adapter/router pattern \u2014 standard, not deprecated\n\n**Confidence is 0.72 rather than higher** because I can only see the first 800 chars. The rest of the file (runtime, CLI, connectors, permissions, workspace isolation) could contain:\n\n1. Pinned dependency versions that are now outdated\n2. Dead links to external docs/repos\n3. Deprecated API patterns (e.g., older OpenAI `Completion` endpoints, old Hyperliquid SDK methods)\n4. References to libraries that have been superseded\n\n**Recommendation:** Provide the full skill file (or at least the imports/dependencies section, CLI reference, and any external links) for a more confident review. The architecture-as-described is sound and current."
     }
   }
 }
