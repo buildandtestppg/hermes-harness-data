@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T12:42:33.897485+00:00",
+    "generated_at": "2026-06-30T13:06:48.842205+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -92,7 +92,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T20:20:08",
+      "last_run_time": "2026-06-30T20:52:09",
       "output_count_24h": 19,
       "potentially_silent": false
     },
@@ -110,7 +110,7 @@
     {
       "id": "46929a249347",
       "name": "trading-strategy-review",
-      "schedule": "2 0,6,12,18 * * *",
+      "schedule": "2 0,12 * * *",
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
@@ -125,7 +125,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T20:21:05",
+      "last_run_time": "2026-06-30T21:01:28",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -136,7 +136,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T20:39:38",
+      "last_run_time": "2026-06-30T20:54:59",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -158,7 +158,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T20:33:50",
+      "last_run_time": "2026-06-30T21:03:30",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -180,7 +180,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T15:03:41",
+      "last_run_time": "2026-06-30T21:03:43",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -290,7 +290,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T15:02:29",
+      "last_run_time": "2026-06-30T21:02:12",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -334,7 +334,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T20:40:14",
+      "last_run_time": "2026-06-30T21:00:18",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -345,7 +345,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-06-30T20:30:16",
+      "last_run_time": "2026-06-30T21:00:20",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -414,9 +414,9 @@
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/autonomous-research",
         "valid": true,
         "error": null,
-        "size_bytes": 470,
+        "size_bytes": 1537,
         "file_count": 4,
-        "line_count": 20
+        "line_count": 32
       },
       {
         "name": "code-delegation",
@@ -424,9 +424,9 @@
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/code-delegation",
         "valid": true,
         "error": null,
-        "size_bytes": 492,
+        "size_bytes": 1391,
         "file_count": 5,
-        "line_count": 20
+        "line_count": 31
       },
       {
         "name": "fleet-autoreason",
@@ -553,10 +553,10 @@
         "category": "autonomous-ai-agents",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner",
         "valid": false,
-        "error": "16 broken ref(s)",
-        "size_bytes": 29722,
+        "error": "17 broken ref(s)",
+        "size_bytes": 32735,
         "file_count": 2,
-        "line_count": 540
+        "line_count": 567
       },
       {
         "name": "ai-music",
@@ -893,11 +893,11 @@
   "memory": {
     "total_facts": 119,
     "total_entities": 118,
-    "avg_trust": 0.5,
+    "avg_trust": 0.818,
     "trust_distribution": {
-      "low (<0.3)": 0,
-      "medium (0.3-0.7)": 119,
-      "high (>0.7)": 0
+      "low (<0.3)": 5,
+      "medium (0.3-0.7)": 13,
+      "high (>0.7)": 101
     },
     "categories": {
       "general": 57,
@@ -920,23 +920,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 283.0,
+      "latency_ms": 233.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 306.0,
+      "latency_ms": 1183.0,
       "model_count": 35
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 11.0
+      "latency_ms": 15.0
     }
   ],
   "actions": {
-    "generated_at": "2026-06-30T12:40:58.087062+00:00",
+    "generated_at": "2026-06-30T13:05:05.537575+00:00",
     "overall_score": 90.5,
     "overall_tier": "healthy",
     "actions": [
@@ -1035,7 +1035,7 @@
         "target": "x-scanner",
         "category": "autonomous-ai-agents",
         "severity": "info",
-        "reason": "16 broken ref(s)",
+        "reason": "17 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner"
       },
@@ -1251,14 +1251,28 @@
         "reason": "2 facts with similar content \u2014 merge candidate",
         "action": "manual",
         "detail": "Fact IDs: 135,134"
+      },
+      {
+        "type": "review",
+        "target": "memory",
+        "severity": "warning",
+        "reason": "6 facts never retrieved, low trust, 30+ days old",
+        "action": "manual",
+        "detail": [
+          "#124: Outcome MM Bot v6 has a `paper_mode` AttributeError bug in `handle_settlement()`...",
+          "#128: Fleet Research Agent (May 19 cycle): Produced combined stop-loss + hold-duration...",
+          "#82: DS V4 Pro (via Ollama cloud) stalls on complex multi-part prompts expecting >10K...",
+          "#121: When doing outcome-mm-bot health checks, I violated the reporter-first rule twic...",
+          "#125: signal_conflict_resolver.py was fixed 2026-05-16: model changed from glm-5-turbo..."
+        ]
       }
     ],
     "summary": {
-      "total": 35,
+      "total": 36,
       "auto_executed": 0,
-      "manual_required": 35,
+      "manual_required": 36,
       "critical": 0,
-      "warnings": 1,
+      "warnings": 2,
       "info": 34
     },
     "auto_actions": [],
@@ -1358,7 +1372,7 @@
         "target": "x-scanner",
         "category": "autonomous-ai-agents",
         "severity": "info",
-        "reason": "16 broken ref(s)",
+        "reason": "17 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner"
       },
@@ -1574,6 +1588,20 @@
         "reason": "2 facts with similar content \u2014 merge candidate",
         "action": "manual",
         "detail": "Fact IDs: 135,134"
+      },
+      {
+        "type": "review",
+        "target": "memory",
+        "severity": "warning",
+        "reason": "6 facts never retrieved, low trust, 30+ days old",
+        "action": "manual",
+        "detail": [
+          "#124: Outcome MM Bot v6 has a `paper_mode` AttributeError bug in `handle_settlement()`...",
+          "#128: Fleet Research Agent (May 19 cycle): Produced combined stop-loss + hold-duration...",
+          "#82: DS V4 Pro (via Ollama cloud) stalls on complex multi-part prompts expecting >10K...",
+          "#121: When doing outcome-mm-bot health checks, I violated the reporter-first rule twic...",
+          "#125: signal_conflict_resolver.py was fixed 2026-05-16: model changed from glm-5-turbo..."
+        ]
       }
     ]
   },
@@ -1582,22 +1610,22 @@
       "fast": {
         "model": "deepseek-v4-flash:cloud",
         "available": true,
-        "latency_s": 2.0
+        "latency_s": 1.1
       },
       "review": {
         "model": "minimax-m3:cloud",
         "available": true,
-        "latency_s": 1.7
+        "latency_s": 2.1
       },
       "reasoning": {
         "model": "deepseek-v4-pro:cloud",
         "available": true,
-        "latency_s": 1.9
+        "latency_s": 1.2
       },
       "deep": {
         "model": "kimi-k2.7-code:cloud",
         "available": true,
-        "latency_s": 2.4
+        "latency_s": 3.2
       }
     },
     "cron_quality": {
@@ -1605,79 +1633,92 @@
         "name": "X Crypto Scanner",
         "quality": {
           "quality": "medium",
-          "score": 65,
-          "reason": "The output provides specific crypto signals with engagement metrics and scores, but relies on a single Twitter source and fails to scrape Reddit, limiting its actionability."
+          "score": 60,
+          "reason": "Provides specific ETF flow data with sources, but output is truncated and lacks full context for actionable trading decisions."
         }
       },
       "46929a249347": {
         "name": "trading-strategy-review",
         "quality": {
           "quality": "low",
-          "score": 30,
-          "reason": "The output is well-structured but based on only 2 days of trading, making it statistically insignificant and thus noise rather than actionable signal."
+          "score": 40,
+          "reason": "The output is truncated and lacks complete metrics (e.g., win rate), making it only partially actionable without full context or comparison."
         }
       }
     },
     "skill_freshness": {
       "apple-apps": {
         "freshness": "current",
-        "confidence": 0.65,
+        "confidence": 0.72,
         "issues": [
-          "Content truncated at 800 chars - cannot verify full tool references, version pins, or any specific command examples",
-          "AppleScript for Find My may have limitations (e.g., scripting Find My is more restricted than Notes/Reminders on recent macOS versions); needs verification",
-          "Tool names (memo, remindctl, imsg) match known active projects but specific versions/URLs not visible to confirm maintenance status",
-          "Cannot verify absence of dead links, deprecated command flags, or outdated Homebrew tap names in the full content"
-        ],
-        "notes": "Based on visible portion: the tooling names (memo, remindctl, imsg) correspond to known, actively-maintained macOS CLIs. The privacy/permission model described (System Settings \u2192 Privacy & Security \u2192 Automation / Full Disk Access) reflects current macOS nomenclature. Homebrew-based installation is standard. Version 1.0.0 suggests initial release, not stale iteration. However, a full review requires seeing the complete skill content including all install commands, tap references, and any API/permission edge cases."
+          "Content is truncated at 800 chars; full skill could not be evaluated for dead links or deprecated API references",
+          "AppleScript reliance (for Find My) is increasingly legacy; Apple has progressively tightened JXA/AppleScript automation capabilities in recent macOS versions",
+          "Version 1.0.0 suggests a newly published skill with no history of maintenance; no update timestamp or last-verified date provided",
+          "No specific macOS version compatibility range declared \u2014 automation permission UI and entitlements have shifted significantly across Ventura, Sonoma, and Sequoia",
+          "Tools mentioned (memo, remindctl, imsg) are third-party CLIs not maintained by Apple; skill depends on their continued maintenance but no fallback or pinning strategy is indicated in the visible content",
+          "The 'Hermes Agent' author/platform is not a widely recognized framework; cannot verify documentation against an established ecosystem to catch drift"
+        ]
       },
       "macos-computer-use": {
         "freshness": "current",
-        "confidence": 0.85,
-        "issues": []
+        "confidence": 0.78,
+        "issues": [
+          "Content is truncated at 800 chars \u2014 cannot verify full skill body, only the frontmatter and opening paragraph",
+          "pyautogui is mentioned as a contrast point; pyautogui itself is still maintained but considered legacy/foreground-focused \u2014 acceptable as a comparison, not a dependency",
+          "No visible dead links, deprecated tool names, or EOL API references in the visible portion",
+          "The 'computer_use' tool is referenced generically \u2014 the specific underlying implementation (e.g., Anthropic's built-in computer_use, OS-level accessibility APIs, or a custom wrapper) is not disclosed, making the skill's applicability ambiguous",
+          "Version 1.0.0 is initial release \u2014 no signal of staleness from version alone, but no changelog or last-updated date is present in the visible frontmatter",
+          "Claim that actions do not move the user's cursor or steal focus relies on macOS accessibility/private APIs; this is technically feasible but worth verifying against current macOS versions and entitlements"
+        ]
       },
       "autonomous-research": {
-        "freshness": "stale",
-        "confidence": 0.45,
+        "freshness": "current",
+        "confidence": 0.6,
         "issues": [
-          "Subsystem Reference Map section is empty/truncated \u2014 the 'umbrella skill' is an unpopulated stub with no actual subsystem content",
-          "No specific tool versions, package names, or links are present in the visible content, making concrete staleness checks impossible",
-          "'Cron pipelines' terminology is dated for AI agent orchestration; modern systems typically use Airflow, Prefect, Dagster, or cloud-native schedulers (Cloud Scheduler, EventBridge) rather than raw cron",
-          "'Self-building' pipeline pattern lacks defined meaning here \u2014 risks being an undocumented custom convention rather than a recognized current pattern",
-          "Version 1.0.0 with effectively no body suggests an abandoned placeholder or never-completed skill, not an actively maintained one",
-          "Truncation at 800 chars prevents review of the full subsystem map where actual tool references likely live"
+          "Content is truncated at 800 characters \u2014 full skill body not provided, limiting assessment",
+          "No specific tool versions, package names, or external links visible to verify against current ecosystem",
+          "The 'plan \u2192 eval \u2192 learn \u2192 repeat' loop pattern is current and aligns with modern agentic research frameworks (e.g., DSPy, AutoResearch patterns)",
+          "Self-building cron pipelines as a concept is current but worth verifying against the implementation references for security/best-practice concerns",
+          "Hermes metadata tag namespace is unusual \u2014 should verify this is still a supported tagging scheme in the current skill platform",
+          "Umbrella skill pattern with 'references/' subsystem map is a current and recommended organizational pattern",
+          "No deprecated API patterns or end-of-life tools detected in the visible portion"
         ]
       },
       "code-delegation": {
-        "freshness": "stale",
-        "confidence": 0.62,
+        "freshness": "current",
+        "confidence": 0.75,
         "issues": [
-          "References 'OpenAI Codex' ambiguously \u2014 the original Codex model/API was deprecated by OpenAI in March 2023; current offering is 'Codex CLI' (relaunched 2025) or the Codex agent. Should disambiguate to avoid pointing users at a deprecated product name.",
-          "Content shown is essentially a stub \u2014 YAML frontmatter, a one-line description, a 'When to Use' line, and an empty 'Subsystem Reference Map' heading with no actual patterns, commands, or workflow content. Cannot verify whether the underlying patterns are current because the body is missing.",
-          "No version anchor or last-updated date in the visible metadata (only version: 1.0.0), so freshness cannot be self-verified by readers.",
-          "Skill claims to cover three CLI tools (Claude Code, OpenAI Codex, OpenCode CLI) but provides no concrete patterns, invocation examples, or PR workflow steps \u2014 a reader cannot act on this document as written.",
-          "The 'umbrella skill' terminology and 'hermes' metadata tag reference a specific framework; not an issue per se, but worth confirming the framework itself is still maintained so the umbrella pattern remains meaningful."
+          "Content is truncated; cannot verify full reference map for deprecated patterns",
+          "Cannot confirm whether the referenced files in references/ directory are actively maintained without access to them",
+          "OpenCode CLI is relatively niche \u2014 unclear if it remains actively developed (worth verifying release cadence)",
+          "No date metadata in frontmatter (created/updated fields) to confirm recency",
+          "Skill structure is an umbrella pointing to subsystems; freshness depends on those child references which aren't visible"
         ]
       },
       "skills-hub-research": {
-        "freshness": "current",
-        "confidence": 0.55,
+        "freshness": "stale",
+        "confidence": 0.65,
         "issues": [
-          "ClawHub (clawhub.ai) and OpenClaw are not widely recognized platforms \u2014 cannot verify they are still active or were ever publicly established; may be fictional or internal-only references",
-          "Hardcoded stat '91K+ total installs' for Skills.sh will become stale quickly as install counts grow",
-          "'Cross-platform (20+ agents)' is a specific count claim that will drift over time",
-          "Cannot verify the Hermes-specific `hermes skills install <slug>` CLI command syntax is current without access to Hermes Agent documentation",
-          "Skills.sh `npx skills add <owner/repo>` syntax appears accurate, but the command surface area on Skills.sh has evolved \u2014 worth verifying against current docs",
-          "No version/date metadata visible in the excerpt to assess when the skill was last updated"
+          "ClawHub (clawhub.ai) and its backing entity 'OpenClaw' are not recognizable as established platforms \u2014 appears to be hallucinated or unverifiable, undermining the skill's credibility",
+          "Skills.sh reference is legitimate (Vercel-backed), but the '91K+ total installs' stat is a point-in-time figure that will become outdated",
+          "The `hermes skills install <slug>` command syntax cannot be verified against a known Hermes Agent CLI \u2014 appears to be invented or aspirational",
+          "Documentation is content-truncated at 800 chars, making full freshness assessment impossible, but the frontmatter already shows reliance on speculative integrations",
+          "No version date or last-updated timestamp visible, so the skill has no freshness metadata",
+          "The '20+ agents' cross-platform claim for Skills.sh is a moving target and should be treated as ephemeral"
         ]
       },
       "thoth-agent": {
         "freshness": "current",
-        "confidence": 0.72,
+        "confidence": 0.45,
         "issues": [
-          "No last-updated or last-reviewed timestamp visible in the provided excerpt",
-          "Version pinned at 1.0 with no indication of release date or revision history",
-          "Limited excerpt (800 chars) prevents full audit of tool references, links, or deprecated patterns further in the document",
-          "Cannot verify whether referenced runtime (Ollama, OpenAI SDK versions, Hyperliquid SDK/API) reflects current API surfaces without seeing dependency manifests or linked code"
+          "Only first 800 chars provided - cannot assess full document for dead links or outdated patterns beyond the visible section",
+          "No external links visible in excerpt to evaluate for 404/dead status",
+          "Stack components referenced (Ollama, OpenAI, Python, ReAct-style agent loop, tool registries) are all current as of knowledge cutoff",
+          "Cannot verify claimed metrics (35 modules, 306 passing tests) - no way to confirm these are still accurate",
+          "Project location '~/Projects/thoth/' suggests local codebase - no way to verify the file structure (config/schema.py, models/adapters.py, etc.) still exists",
+          "Hyperliquid integration claim (mentioned in description) references a real but fast-moving crypto protocol - integration patterns may shift",
+          "Version 1.0 is unversioned relative to time - no date or last-updated marker visible in excerpt",
+          "No dependency list (pyproject.toml, requirements.txt contents) visible to assess for deprecated packages"
         ]
       }
     }
