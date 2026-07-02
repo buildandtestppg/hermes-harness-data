@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-07-02T04:03:39.118625+00:00",
+    "generated_at": "2026-07-02T10:03:40.721797+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
   "overall": {
-    "score": 90.2,
+    "score": 89.3,
     "tier": "healthy",
     "weights": {
       "cron": 35,
@@ -14,8 +14,8 @@
       "providers": 20
     },
     "component_scores": {
-      "cron": 100.0,
-      "skills": 94.3,
+      "cron": 97.8,
+      "skills": 94.0,
       "memory": 91.3,
       "providers": 66.7
     },
@@ -25,24 +25,24 @@
   },
   "scores": {
     "cron": {
-      "score": 100.0,
+      "score": 97.8,
       "tier": "healthy",
       "breakdown": {
-        "total": 29,
-        "ok": 29,
+        "total": 27,
+        "ok": 26,
         "silent": 0,
-        "success_rate": 100.0
+        "success_rate": 96.3
       },
       "issues": []
     },
     "skills": {
-      "score": 94.3,
+      "score": 94.0,
       "tier": "healthy",
       "breakdown": {
         "total": 106,
-        "valid": 89,
+        "valid": 88,
         "functional": 105,
-        "has_stale_refs": 16,
+        "has_stale_refs": 17,
         "broken": 1,
         "functional_rate": 99.1
       },
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T11:48:28",
-      "output_count_24h": 18,
+      "last_run_time": "2026-07-02T17:46:51",
+      "output_count_24h": 20,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T11:26:08",
+      "last_run_time": "2026-07-02T17:26:00",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -110,7 +110,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T00:03:19",
+      "last_run_time": "2026-07-02T12:03:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T11:41:58",
+      "last_run_time": "2026-07-02T17:41:25",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T11:54:00",
+      "last_run_time": "2026-07-02T17:54:24",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,18 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T11:49:30",
-      "output_count_24h": 1,
-      "potentially_silent": false
-    },
-    {
-      "id": "652fe2a9c9ca",
-      "name": "arXiv Research Scanner",
-      "schedule": "2 10 * * *",
-      "status": "active",
-      "last_run_ok": true,
-      "never_run": false,
-      "last_run_time": "2026-07-02T10:06:46",
+      "last_run_time": "2026-07-02T17:49:05",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -176,7 +165,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T09:09:40",
+      "last_run_time": "2026-07-02T15:05:24",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +176,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T09:28:34",
+      "last_run_time": "2026-07-02T17:24:14",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -203,17 +192,6 @@
       "potentially_silent": false
     },
     {
-      "id": "14fd127d289c",
-      "name": "AutoReason Signal Weights",
-      "schedule": "0 4 * * *",
-      "status": "active",
-      "last_run_ok": true,
-      "never_run": false,
-      "last_run_time": "2026-07-02T04:01:44",
-      "output_count_24h": 1,
-      "potentially_silent": false
-    },
-    {
       "id": "7c57a0c4cff1",
       "name": "Wiki Compactor",
       "schedule": "0 2 * * 0",
@@ -225,24 +203,13 @@
       "potentially_silent": false
     },
     {
-      "id": "ccddd0e232cc",
-      "name": "\ud83d\udcca Daily Chart Digest",
-      "schedule": "30 */2 * * *",
-      "status": "active",
-      "last_run_ok": true,
-      "never_run": false,
-      "last_run_time": "2026-07-02T10:32:35",
-      "output_count_24h": 1,
-      "potentially_silent": false
-    },
-    {
       "id": "7f41b1d5bd77",
       "name": "\u2696\ufe0f Signal Conflict Resolver",
       "schedule": "15 0,6,12,18 * * *",
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T06:18:57",
+      "last_run_time": "2026-07-02T12:20:39",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -275,7 +242,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T12:00:55",
+      "last_run_time": "2026-07-02T18:00:40",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -286,7 +253,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T09:02:34",
+      "last_run_time": "2026-07-02T15:02:16",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +264,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T08:10:28",
+      "last_run_time": "2026-07-02T14:10:10",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -308,7 +275,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T09:06:28",
+      "last_run_time": "2026-07-02T15:06:57",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T12:00:55",
+      "last_run_time": "2026-07-02T18:00:40",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T12:00:59",
+      "last_run_time": "2026-07-02T18:00:44",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -341,7 +308,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T11:09:08",
+      "last_run_time": "2026-07-02T17:26:38",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -363,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-02T06:04:01",
+      "last_run_time": "2026-07-02T12:05:20",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -399,12 +366,23 @@
       "last_run_time": null,
       "output_count_24h": 0,
       "potentially_silent": false
+    },
+    {
+      "id": "f03d1289fee6",
+      "name": "\ud83e\udee7 Fleet Dashboard Updater",
+      "schedule": "*/10 * * * *",
+      "status": "active",
+      "last_run_ok": false,
+      "never_run": false,
+      "last_run_time": "2026-07-02T18:00:44",
+      "output_count_24h": 1,
+      "potentially_silent": false
     }
   ],
   "skills": {
     "total": 106,
-    "valid": 89,
-    "broken": 17,
+    "valid": 88,
+    "broken": 18,
     "items": [
       {
         "name": "apple-apps",
@@ -502,9 +480,9 @@
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/signal-conflict-resolver",
         "valid": false,
         "error": "4 broken ref(s)",
-        "size_bytes": 7758,
+        "size_bytes": 9042,
         "file_count": 2,
-        "line_count": 155
+        "line_count": 169
       },
       {
         "name": "skills-hub-research",
@@ -791,10 +769,10 @@
         "category": "devops",
         "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness",
         "valid": false,
-        "error": "7 broken ref(s)",
-        "size_bytes": 21558,
+        "error": "8 broken ref(s)",
+        "size_bytes": 22421,
         "file_count": 3,
-        "line_count": 402
+        "line_count": 409
       },
       {
         "name": "hermes-workspace-dev",
@@ -880,11 +858,11 @@
         "name": "static-site-deployment",
         "category": "devops",
         "path": "/Users/mojoai/.hermes/skills/devops/static-site-deployment",
-        "valid": true,
-        "error": null,
-        "size_bytes": 37725,
-        "file_count": 15,
-        "line_count": 695
+        "valid": false,
+        "error": "1 broken ref(s)",
+        "size_bytes": 44384,
+        "file_count": 16,
+        "line_count": 821
       },
       {
         "name": "stuck-agent-hardening",
@@ -902,9 +880,9 @@
         "path": "/Users/mojoai/.hermes/skills/devops/terminal-python-script-pattern",
         "valid": true,
         "error": null,
-        "size_bytes": 12548,
+        "size_bytes": 15381,
         "file_count": 1,
-        "line_count": 231
+        "line_count": 287
       }
     ]
   },
@@ -927,7 +905,7 @@
     },
     "never_retrieved": 103,
     "stale_14d": 0,
-    "old_60d": 42,
+    "old_60d": 43,
     "helpful_count": 0,
     "duplicate_prefixes": 0,
     "orphans": []
@@ -936,26 +914,35 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 295.0,
+      "latency_ms": 152.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 345.0,
+      "latency_ms": 392.0,
       "model_count": 34
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 10.0
+      "latency_ms": 18.0
     }
   ],
   "actions": {
-    "generated_at": "2026-07-02T04:01:32.979442+00:00",
-    "overall_score": 90.2,
+    "generated_at": "2026-07-02T10:00:53.106131+00:00",
+    "overall_score": 89.3,
     "overall_tier": "healthy",
     "actions": [
+      {
+        "type": "alert",
+        "target": "\ud83e\udee7 Fleet Dashboard Updater",
+        "target_id": "f03d1289fee6",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log f03d1289fee6"
+      },
       {
         "type": "archive_candidate",
         "target": "hermes-agent",
@@ -1060,7 +1047,7 @@
         "target": "hermes-system-harness",
         "category": "devops",
         "severity": "info",
-        "reason": "7 broken ref(s)",
+        "reason": "8 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness"
       },
@@ -1081,6 +1068,15 @@
         "reason": "1 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/ollama-code-generation"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "static-site-deployment",
+        "category": "devops",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/static-site-deployment"
       },
       {
         "type": "archive_candidate",
@@ -1113,7 +1109,7 @@
         "type": "summary",
         "target": "skills",
         "severity": "info",
-        "reason": "16 archive candidates, 1 review items",
+        "reason": "17 archive candidates, 1 review items",
         "action": "manual"
       },
       {
@@ -1139,15 +1135,24 @@
       }
     ],
     "summary": {
-      "total": 20,
+      "total": 22,
       "auto_executed": 0,
-      "manual_required": 20,
-      "critical": 1,
+      "manual_required": 22,
+      "critical": 2,
       "warnings": 1,
-      "info": 18
+      "info": 19
     },
     "auto_actions": [],
     "manual_review": [
+      {
+        "type": "alert",
+        "target": "\ud83e\udee7 Fleet Dashboard Updater",
+        "target_id": "f03d1289fee6",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log f03d1289fee6"
+      },
       {
         "type": "archive_candidate",
         "target": "hermes-agent",
@@ -1252,7 +1257,7 @@
         "target": "hermes-system-harness",
         "category": "devops",
         "severity": "info",
-        "reason": "7 broken ref(s)",
+        "reason": "8 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness"
       },
@@ -1273,6 +1278,15 @@
         "reason": "1 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/ollama-code-generation"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "static-site-deployment",
+        "category": "devops",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/devops/static-site-deployment"
       },
       {
         "type": "archive_candidate",
@@ -1305,7 +1319,7 @@
         "type": "summary",
         "target": "skills",
         "severity": "info",
-        "reason": "16 archive candidates, 1 review items",
+        "reason": "17 archive candidates, 1 review items",
         "action": "manual"
       },
       {
@@ -1336,22 +1350,22 @@
       "fast": {
         "model": "deepseek-v4-flash:cloud",
         "available": true,
-        "latency_s": 1.1
+        "latency_s": 1.3
       },
       "review": {
         "model": "minimax-m3:cloud",
         "available": true,
-        "latency_s": 3.1
+        "latency_s": 1.8
       },
       "reasoning": {
         "model": "deepseek-v4-pro:cloud",
         "available": true,
-        "latency_s": 1.4
+        "latency_s": 1.6
       },
       "deep": {
         "model": "kimi-k2.7-code:cloud",
         "available": true,
-        "latency_s": 1.4
+        "latency_s": 1.6
       }
     },
     "cron_quality": {
@@ -1360,124 +1374,134 @@
         "quality": {
           "quality": "medium",
           "score": 65,
-          "reason": "Output provides specific crypto signals with engagement metrics but is incomplete due to Reddit failure and lacks context on scoring methodology."
+          "reason": "The output provides structured, scored signals with context and engagement metrics, but the scores are moderate and the content is niche, making it potentially actionable for targeted traders yet not universally high-signal."
         }
       },
       "46929a249347": {
         "name": "trading-strategy-review",
         "quality": {
-          "quality": "high",
-          "score": 85,
-          "reason": "Provides clear, structured performance metrics (P&L, win rate) that are directly actionable for strategy evaluation, though lack of historical comparison and truncated win rate slightly limit depth."
+          "quality": "low",
+          "score": 30,
+          "reason": "Output is incomplete (win rate cut off) and covers only 2 days of trading, making it too noisy for actionable decisions."
+        }
+      },
+      "d6cc11071af7": {
+        "name": "Daily Market Analysis",
+        "quality": {
+          "quality": "low",
+          "score": 30,
+          "reason": "Output is truncated and incomplete, missing the full analysis and actionable insights, making it unreliable for decision-making."
         }
       }
     },
     "skill_freshness": {
       "apple-apps": {
         "freshness": "current",
-        "confidence": 0.72,
+        "confidence": 0.6,
         "issues": [
-          "Content is truncated (only first 800 chars visible) \u2014 cannot fully evaluate all referenced tools and patterns",
-          "AppleScript reference for Find My is functional but Apple has been de-emphasizing AppleScript in favor of Shortcuts/Swift; not deprecated but considered legacy",
-          "No version pinning or last-updated date visible, making long-term freshness harder to assess",
-          "Cannot verify if specific CLIs (memo, remindctl, imsg) are still actively maintained without seeing the full tool list and links"
+          "Find My via AppleScript is a known weak point \u2014 Find My has very limited AppleScript support on recent macOS versions and many 'control Find My' scripts are unreliable or non-functional",
+          "Content truncated at 800 chars \u2014 cannot verify actual tool install paths, version pins, or whether CLIs (memo, remindctl, imsg) are still actively maintained",
+          "No explicit minimum macOS version declared \u2014 relevant because Apple has progressively tightened automation entitlements (e.g., TCC, Accessibility, Full Disk Access) in Sonoma/Sequoia",
+          "Hermes Agent authorship and v1.0.0 suggest recent creation, but no last-updated date or changelog to confirm recency",
+          "Permission grant flow ('System Settings \u2192 Privacy \u2192 Automation / Full Disk Access') is correct as of macOS 15 but should note that Sequoia added per-app automation toggles that can break generic instructions"
         ]
       },
       "macos-computer-use": {
         "freshness": "current",
-        "confidence": 0.82,
+        "confidence": 0.6,
         "issues": [
-          "Content truncated at 800 chars \u2014 cannot verify absence of dead links in remainder of document",
-          "References a generic 'computer_use' tool name without specifying a specific SDK/provider, which could become ambiguous as the ecosystem evolves",
-          "pyautogui comparison is still valid (still maintained), so not a concern now but worth monitoring",
-          "No explicit version pinning or API contract documented, which could mask future deprecation"
+          "Content is truncated at 800 chars \u2014 full review impossible without remainder of file",
+          "References a platform-specific 'computer_use' tool whose availability and naming depends on the host runtime (Hermes); could become stale if renamed or deprecated upstream",
+          "Compares itself to pyautogui \u2014 pyautogui itself is still maintained but is foreground-only; the contrast framing is still valid in 2026",
+          "Version pinned at 1.0.0 with no changelog visible \u2014 no evidence of staleness, but also no evidence of active maintenance",
+          "No URLs or external links present in the visible portion, so dead-link check is n/a for the shown content",
+          "macOS background automation via accessibility APIs is still the current approach; no deprecated APIs referenced in visible text"
         ]
       },
       "autonomous-research": {
         "freshness": "current",
-        "confidence": 0.55,
+        "confidence": 0.65,
         "issues": [
-          "Content is truncated (only first 800 chars provided), limiting full assessment of all references",
-          "Cannot verify if the referenced files (e.g., references/autoresearch.md) still exist or are maintained",
-          "No version pinning or last-updated date on referenced subsystems, making staleness undetectable",
-          "'Self-building cron pipelines' is somewhat dated terminology \u2014 modern AI orchestration typically uses tools like Airflow, Dagster, Prefect, Temporal, or LangGraph rather than raw cron; worth verifying this is intentional or updated",
-          "No external URLs present in the visible content to check for dead links, but the absence of any links is itself a concern for a reference/umbrella skill",
-          "Skills format uses hermes metadata block which appears to be a custom convention \u2014 confirm this is still the supported schema"
+          "Content truncated at 800 chars \u2014 full subsystem map and reference links cannot be evaluated for dead links or deprecated patterns",
+          "No external URLs visible in the provided snippet, so link rot cannot be assessed",
+          "Version pinned at 1.0.0 with no changelog or last-updated date \u2014 freshness relative to ecosystem is unverifiable",
+          "Concepts (LLM-driven parameter optimization, plan\u2192eval\u2192learn loops, cron pipelines) are current and not deprecated, but the umbrella pattern itself is not yet a widely established convention \u2014 risk of being a bespoke format that ages quickly",
+          "No named tools, libraries, or API versions cited in the visible content, so no specific deprecation flags can be raised",
+          "Tag 'autonomous-ai-agents' is a rapidly evolving category \u2014 terminology may shift (e.g., 'agentic systems' vs 'autonomous agents')"
         ]
       },
       "code-delegation": {
         "freshness": "current",
-        "confidence": 0.65,
+        "confidence": 0.78,
         "issues": [
-          "Content is truncated at 800 characters; full subsystem reference map and individual reference files could not be evaluated for dead links or deprecated patterns",
-          "OpenCode CLI is not a widely recognized tool \u2014 its current status, maintenance, and package availability could not be independently verified",
-          "No version date or last-updated timestamp is present in the visible YAML frontmatter, making freshness impossible to verify from metadata alone",
-          "@openai/codex package is a relatively new (2025) reintroduction of OpenAI's coding CLI; mention is current but ecosystem around it is still maturing, so patterns documented may shift quickly",
-          "Claude Code 'print mode + intera...' is truncated \u2014 cannot confirm whether it references the now-deprecated --print flag (renamed/restructured in some recent Claude Code releases) or current invocation patterns"
+          "Content truncated at 800 chars; full reference map and patterns not verifiable (e.g., the cut-off 'print mode + intera...' likely refers to interactive mode, worth confirming the described usage still matches each tool's current CLI flags).",
+          "OpenAI Codex CLI (@openai/codex) is the newer 2025 successor to the deprecated 2021 Codex; worth adding a note that this is NOT the original Codex model/IDE, to prevent confusion for users who remember the older product.",
+          "Claude Code was GA in 2025; if the reference predates any breaking CLI flag changes (e.g., around --print mode, --output-format), the references/claude-code.md subfile should be re-checked against the current docs.",
+          "OpenCode CLI is a fast-moving open-source project; pinning a specific version or noting last-verified date in the reference subfile would help detect drift.",
+          "No dead links visible in the shown excerpt, but external links to Anthropic/OpenAI/OpenCode docs should be re-validated \u2014 these vendors reorganize docs frequently.",
+          "Version 1.0.0 with no 'last_reviewed' or 'last_verified' metadata field makes it impossible to know how stale the underlying references are without opening them."
         ]
       },
       "fleet-janitor": {
         "freshness": "current",
-        "confidence": 0.85,
+        "confidence": 0.72,
         "issues": [
-          "Cannot fully assess \u2014 content truncated at 800 chars; remaining sections (retention policies, pruning logic, intel generation) not visible",
-          "No external tool/library versions or API references visible to verify for deprecation",
-          "Internal paths (~/wiki/queries, agents.db) and cron ID (c67b5b611845) are opaque \u2014 cannot validate they still exist",
-          "Created date (2026-04-23) is recent, which is a positive signal but unverifiable",
-          "No URLs present in visible content, so no dead link risk in this section"
+          "Creation date '2026-04-23' is a future date \u2014 suggests synthetic/fictional metadata or a date typo, but doesn't indicate stale content",
+          "Content is truncated at 800 chars \u2014 cannot verify full skill body for deprecated patterns, dead links, or outdated tooling references",
+          "No external URLs, library references, or third-party tool mentions visible in the provided snippet, so no dead-link concerns to flag",
+          "Referenced technologies (cron, SQLite, markdown, file-based archives) are all stable, long-lived technologies with no known deprecation trajectory",
+          "Cannot assess whether internal retention policy syntax, table names in 'DB_RETENTION', or downstream tooling have been superseded without seeing the full skill body",
+          "The 3AM SGT cron schedule and internal path conventions (~/wiki/queries, agents.db) appear to be project-specific and not subject to external ecosystem drift"
         ]
       },
       "skills-hub-research": {
         "freshness": "stale",
-        "confidence": 0.72,
+        "confidence": 0.55,
         "issues": [
-          "Specific install count '91K+ total installs' for Skills.sh is a hardcoded number that will quickly become outdated",
-          "'Cross-platform (20+ agents)' claim for Skills.sh is a point-in-time metric likely to drift as the ecosystem grows",
-          "ClawHub backing by 'OpenClaw' is unverified \u2014 unclear if this is a current organization or fictional/renamed entity",
-          "ClawHub domain (clawhub.ai) not verified as currently active; 'vector searchable' and 'security-scanned' features are dated claims without timestamp",
-          "Hermes install command syntax (`hermes skills install <slug>`) cannot be verified against current CLI from truncated content",
-          "Content is truncated at 800 chars, so the installation workflow and security evaluation methodology cannot be fully reviewed for outdated patterns",
-          "No 'last updated' or version metadata visible in the frontmatter to assess when this was last validated"
+          "ClawHub (clawhub.ai) and OpenClaw are not widely recognized/established services \u2014 unverifiable claims of being 'versioned, security-scanned, vector searchable'",
+          "The specific install count for Skills.sh (91K+) is a point-in-time metric likely already outdated",
+          "Cannot verify if clawhub.ai and skills.sh URLs are still active or have been redirected/renamed",
+          "Command patterns like 'hermes skills install <slug>' and 'npx skills add <owner/repo>' may have evolved or been deprecated since documentation was written",
+          "Documentation is truncated \u2014 cannot assess full scope of outdated patterns, deprecated security evaluation criteria, or stale search methodology",
+          "No date/version metadata visible, making freshness impossible to determine without context",
+          "Skills.sh and Vercel attribution is current, but the surrounding ecosystem claims (OpenClaw backing, Hermes integration) cannot be independently corroborated"
         ]
       },
       "thoth-agent": {
         "freshness": "current",
-        "confidence": 0.75,
+        "confidence": 0.45,
         "issues": [
-          "No last-updated date or timestamp visible \u2014 version 1.0 could be either recent or stagnant",
-          "Localized to personal project path (~/Projects/thoth/) \u2014 suggests internal/hobby project rather than a widely maintained framework, raising questions about long-term maintenance",
-          "Test count and module count (35 modules, 306 tests) are point-in-time snapshots with no indication of CI status or recent activity",
-          "Only 800 chars provided \u2014 full doc not reviewed, so dead links or deprecated patterns in later sections cannot be assessed",
-          "No URLs visible in the excerpt, so dead link check is inconclusive"
+          "Insufficient content to fully assess \u2014 only first 800 chars provided; cannot evaluate full document for dead links, deprecated API references, or stale patterns",
+          "Project-local path (~/Projects/thoth/) suggests internal/personal project rather than widely-distributed skill, limiting relevance assessment",
+          "Version pinned at 1.0 with no date/timestamp \u2014 cannot determine age or maintenance status",
+          "No URLs visible in truncated content, so dead link check not possible",
+          "Referenced technologies (Ollama, OpenAI, Python agent loop pattern) are currently relevant, but specific adapter implementations cannot be verified without seeing models/adapters.py and related code",
+          "Hyperliquid integration is a niche DeFi dependency \u2014 relevance depends on whether the integration is still maintained, which cannot be verified",
+          "Cannot verify if '306 passing tests' claim matches current state, which is a freshness red flag for any test-count metric in docs"
         ],
-        "positives": [
-          "Referenced tools (Ollama, OpenAI) are currently active and maintained",
-          "Architecture patterns (Think\u2192Act\u2192Observe loop, tool registry, permission system) are established and not deprecated",
-          "Python-based with no obviously legacy syntax or patterns in the visible content"
-        ]
+        "notes": "Recommendation: provide the full document (or at least the tools/integrations section and any external links) for a more accurate review. The visible architecture description follows a sensible, current pattern (pluggable LLM adapters, router, tool contracts) consistent with modern agent frameworks, but truncation prevents a definitive verdict."
       },
       "wiki-compaction": {
         "freshness": "current",
-        "confidence": 0.65,
+        "confidence": 0.55,
         "issues": [
-          "Skill creation date is 2026-04-16, which is a future date \u2014 cannot verify against current knowledge baseline",
-          "Only first 800 chars provided, so assessment is limited to visible content (cron syntax, paths, file naming)",
-          "No external URLs, API references, or third-party tool dependencies are visible in the excerpt to validate",
-          "Cron expression (0 2 * * 0) and Unix-style paths (~/wiki/queries/) use current/correct syntax",
-          "Skill appears highly bespoke/personal (trading-log, news-timeline) \u2014 freshness is tied to user's environment, not ecosystem evolution"
+          "Created date is 2026-04-16 \u2014 a future date, likely a typo or placeholder; makes true age ambiguous",
+          "Content is truncated at 800 chars, so deeper patterns, links, and tool references beyond the cron expression and path conventions cannot be assessed",
+          "Skill is highly specific to an internal wiki layout (~/wiki/queries/*.md, trading-log.md, news-timeline.md) \u2014 freshness depends on whether that pipeline is still maintained, which cannot be verified from the excerpt",
+          "No external URLs, package names, or CLI tools are visible to check for dead links or deprecated commands; the cron syntax (0 2 * * 0) and markdown table format are current standards"
         ]
       },
       "x-scanner": {
         "freshness": "stale",
-        "confidence": 0.68,
+        "confidence": 0.78,
         "issues": [
-          "Web scraping X/Twitter via Chrome CDP is inherently fragile and high-maintenance; X has been actively deploying anti-scraping measures, DOM changes, and login walls that routinely break CDP-based scrapers. An official API (paid tier) or third-party compliant service would be more sustainable.",
-          "References 'GLM-5-turbo' as the model for cron execution \u2014 model identity/availability for this specific task should be verified; the skill is implicitly coupled to that model's API and pricing.",
-          "The cron ID '43ba1d393c5a' is presented as the single canonical identifier for a 'combined X + Reddit scanner', but the skill itself is named 'x-scanner' \u2014 scope/name mismatch suggests this doc is either stale or was forked from a broader fleet-scanner doc.",
-          "Database schema details (`x_tweets`, `x_scans`, `signals`, `reddit_posts`) are tightly coupled to a specific local file path (`/Users/mojoai/.hermes/swarm/data/agents.db`) and a hardcoded `fleet_config.FLEET_DB` reference \u2014 not portable and will rot if the schema or path changes upstream.",
-          "No version, last-updated, or last-verified date is shown in the visible portion, making it impossible to judge how recent the scraping logic, selectors, or Discord channel references are.",
-          "Discord channel reference (`#scout-alpha`) is environment-specific and may be dead/renamed; no webhook ID or fallback is documented.",
-          "Deduplication strategy is mentioned but not documented in the visible excerpt \u2014 without seeing the actual dedupe logic, it's unclear whether it handles X's edit/delete/repost semantics, which is a common source of stale-data bugs."
+          "References 'GLM-5-turbo' \u2014 no such model exists in the Zhipu/THUDM GLM lineup (current releases are GLM-4 family: GLM-4, GLM-4-Plus, GLM-4-Air, etc.). Likely a hallucinated, typo'd, or non-standard model name.",
+          "Chrome CDP scraping of X/Twitter is a deprecated/broken approach \u2014 X has aggressively rolled out anti-bot measures (TLS fingerprinting, login walls, JS challenges) that make headless Chrome scraping unreliable since 2023+. Modern alternatives would use the official X API (paid) or third-party APIs.",
+          "Hardcoded user-specific path `/Users/mojoai/.hermes/swarm/data/agents.db` indicates documentation tied to a single developer's machine \u2014 not portable and likely stale if that environment is inactive.",
+          "Specific cron ID `43ba1d393c5a` is an instance identifier that becomes invalid whenever the cron job is recreated, migrated, or restarted \u2014 high chance this is already dead.",
+          "Hardcoded Discord channel `#scout-alpha` without channel ID assumes the channel still exists in the same form, which is fragile for any team workspace that has been reorganized.",
+          "Schema notes (x_tweets vs signals vs reddit_posts) are presented without version or migration info \u2014 if the DB schema has evolved, this guidance will mislead.",
+          "No date, version, or 'last verified' marker in the visible content \u2014 makes freshness impossible to audit."
         ]
       }
     }
