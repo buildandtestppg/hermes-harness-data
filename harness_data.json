@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T16:04:21.516444+00:00",
+    "generated_at": "2026-08-12T22:02:39.109486+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
   "overall": {
-    "score": 82.0,
+    "score": 84.5,
     "tier": "healthy",
     "weights": {
       "cron": 35,
@@ -14,7 +14,7 @@
       "providers": 20
     },
     "component_scores": {
-      "cron": 80.5,
+      "cron": 87.7,
       "skills": 90.5,
       "memory": 89.4,
       "providers": 66.7
@@ -25,13 +25,13 @@
   },
   "scores": {
     "cron": {
-      "score": 80.5,
+      "score": 87.7,
       "tier": "healthy",
       "breakdown": {
         "total": 39,
-        "ok": 27,
-        "silent": 1,
-        "success_rate": 69.2
+        "ok": 31,
+        "silent": 0,
+        "success_rate": 79.5
       },
       "issues": []
     },
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T23:46:59",
-      "output_count_24h": 10,
+      "last_run_time": "2026-08-13T05:43:39",
+      "output_count_24h": 12,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T23:25:53",
+      "last_run_time": "2026-08-13T05:25:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -108,9 +108,9 @@
       "name": "trading-strategy-review",
       "schedule": "2 0,12 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T12:06:21",
+      "last_run_time": "2026-08-13T00:04:27",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T23:41:54",
+      "last_run_time": "2026-08-13T05:41:30",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T23:54:25",
+      "last_run_time": "2026-08-13T05:53:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T23:48:56",
+      "last_run_time": "2026-08-13T05:48:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -176,7 +176,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T21:04:05",
+      "last_run_time": "2026-08-13T03:04:45",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T21:23:31",
+      "last_run_time": "2026-08-13T05:23:29",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -207,9 +207,9 @@
       "name": "AutoReason Signal Weights",
       "schedule": "0 4 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T04:04:09",
+      "last_run_time": "2026-08-13T04:12:00",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -221,8 +221,8 @@
       "last_run_ok": false,
       "never_run": false,
       "last_run_time": "2026-08-09T02:03:12",
-      "output_count_24h": 0,
-      "potentially_silent": true
+      "output_count_24h": 1,
+      "potentially_silent": false
     },
     {
       "id": "ccddd0e232cc",
@@ -231,7 +231,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T22:32:40",
+      "last_run_time": "2026-08-13T04:32:36",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -242,7 +242,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:23:08",
+      "last_run_time": "2026-08-13T00:18:07",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -251,9 +251,9 @@
       "name": "\ud83e\uddf9 Fleet Janitor",
       "schedule": "0 3 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T03:03:54",
+      "last_run_time": "2026-08-13T03:01:07",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -265,7 +265,7 @@
       "last_run_ok": false,
       "never_run": false,
       "last_run_time": "2026-08-10T09:03:51",
-      "output_count_24h": 0,
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -275,8 +275,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:00:49",
-      "output_count_24h": 3,
+      "last_run_time": "2026-08-13T06:00:50",
+      "output_count_24h": 5,
       "potentially_silent": false
     },
     {
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T21:02:19",
+      "last_run_time": "2026-08-13T03:02:19",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T20:10:11",
+      "last_run_time": "2026-08-13T02:10:11",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:01:00",
+      "last_run_time": "2026-08-13T06:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:00:51",
+      "last_run_time": "2026-08-13T06:00:51",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -341,7 +341,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:00:59",
+      "last_run_time": "2026-08-13T05:27:34",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -353,7 +353,7 @@
       "last_run_ok": false,
       "never_run": false,
       "last_run_time": "2026-08-09T06:03:49",
-      "output_count_24h": 0,
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -363,8 +363,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:10:43",
-      "output_count_24h": 1,
+      "last_run_time": "2026-08-13T00:05:36",
+      "output_count_24h": 2,
       "potentially_silent": false
     },
     {
@@ -372,9 +372,9 @@
       "name": "\ud83e\udde0 Daily Memory Manager",
       "schedule": "30 4 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T04:34:12",
+      "last_run_time": "2026-08-13T04:36:04",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -397,7 +397,7 @@
       "last_run_ok": false,
       "never_run": false,
       "last_run_time": "2026-08-09T09:03:28",
-      "output_count_24h": 0,
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:01:03",
+      "last_run_time": "2026-08-13T06:00:51",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,7 +418,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T23:46:01",
+      "last_run_time": "2026-08-13T05:45:56",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -429,7 +429,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T22:00:57",
+      "last_run_time": "2026-08-13T04:00:35",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -440,7 +440,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:01:06",
+      "last_run_time": "2026-08-13T06:00:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -451,7 +451,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T03:30:45",
+      "last_run_time": "2026-08-13T03:30:27",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -462,7 +462,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:00:49",
+      "last_run_time": "2026-08-13T06:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -473,7 +473,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:00:48",
+      "last_run_time": "2026-08-13T06:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -484,7 +484,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:00:48",
+      "last_run_time": "2026-08-13T06:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -495,7 +495,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:00:48",
+      "last_run_time": "2026-08-13T06:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -506,7 +506,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T23:48:27",
+      "last_run_time": "2026-08-13T05:48:59",
       "output_count_24h": 2,
       "potentially_silent": false
     }
@@ -1020,7 +1020,7 @@
   },
   "memory": {
     "total_facts": 17,
-    "total_entities": 23,
+    "total_entities": 0,
     "avg_trust": 0.818,
     "trust_distribution": {
       "low (<0.3)": 0,
@@ -1044,35 +1044,26 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 156.0,
+      "latency_ms": 226.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 336.0,
+      "latency_ms": 420.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 18.0
+      "latency_ms": 53.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-12T16:01:28.404507+00:00",
-    "overall_score": 82.0,
+    "generated_at": "2026-08-12T22:00:59.630718+00:00",
+    "overall_score": 84.5,
     "overall_tier": "healthy",
     "actions": [
-      {
-        "type": "alert",
-        "target": "trading-strategy-review",
-        "target_id": "46929a249347",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 46929a249347"
-      },
       {
         "type": "alert",
         "target": "\u23f0 Daily Review",
@@ -1102,39 +1093,12 @@
       },
       {
         "type": "alert",
-        "target": "AutoReason Signal Weights",
-        "target_id": "14fd127d289c",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 14fd127d289c"
-      },
-      {
-        "type": "investigate",
-        "target": "Wiki Compactor",
-        "target_id": "7c57a0c4cff1",
-        "severity": "warning",
-        "reason": "No output in 24h \u2014 possible silent failure",
-        "action": "manual",
-        "suggestion": "Run: hermes cron run 7c57a0c4cff1 --dry-run"
-      },
-      {
-        "type": "alert",
         "target": "Wiki Compactor",
         "target_id": "7c57a0c4cff1",
         "severity": "critical",
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 7c57a0c4cff1"
-      },
-      {
-        "type": "alert",
-        "target": "\ud83e\uddf9 Fleet Janitor",
-        "target_id": "c67b5b611845",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log c67b5b611845"
       },
       {
         "type": "alert",
@@ -1153,15 +1117,6 @@
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 81a00f55a695"
-      },
-      {
-        "type": "alert",
-        "target": "\ud83e\udde0 Daily Memory Manager",
-        "target_id": "a370de1c776c",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log a370de1c776c"
       },
       {
         "type": "alert",
@@ -1468,24 +1423,15 @@
       }
     ],
     "summary": {
-      "total": 45,
+      "total": 40,
       "auto_executed": 0,
-      "manual_required": 45,
-      "critical": 13,
-      "warnings": 1,
+      "manual_required": 40,
+      "critical": 9,
+      "warnings": 0,
       "info": 31
     },
     "auto_actions": [],
     "manual_review": [
-      {
-        "type": "alert",
-        "target": "trading-strategy-review",
-        "target_id": "46929a249347",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 46929a249347"
-      },
       {
         "type": "alert",
         "target": "\u23f0 Daily Review",
@@ -1515,39 +1461,12 @@
       },
       {
         "type": "alert",
-        "target": "AutoReason Signal Weights",
-        "target_id": "14fd127d289c",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 14fd127d289c"
-      },
-      {
-        "type": "investigate",
-        "target": "Wiki Compactor",
-        "target_id": "7c57a0c4cff1",
-        "severity": "warning",
-        "reason": "No output in 24h \u2014 possible silent failure",
-        "action": "manual",
-        "suggestion": "Run: hermes cron run 7c57a0c4cff1 --dry-run"
-      },
-      {
-        "type": "alert",
         "target": "Wiki Compactor",
         "target_id": "7c57a0c4cff1",
         "severity": "critical",
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 7c57a0c4cff1"
-      },
-      {
-        "type": "alert",
-        "target": "\ud83e\uddf9 Fleet Janitor",
-        "target_id": "c67b5b611845",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log c67b5b611845"
       },
       {
         "type": "alert",
@@ -1566,15 +1485,6 @@
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 81a00f55a695"
-      },
-      {
-        "type": "alert",
-        "target": "\ud83e\udde0 Daily Memory Manager",
-        "target_id": "a370de1c776c",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log a370de1c776c"
       },
       {
         "type": "alert",
@@ -1886,56 +1796,52 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.7
+        "latency_s": 2.3
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.1
+        "latency_s": 2.2
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 7.0
+        "latency_s": 2.5
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.9
+        "latency_s": 2.3
       }
     },
     "cron_quality": {
       "43ba1d393c5a": {
         "name": "X Crypto Scanner",
-        "quality": ""
-      },
-      "66a98cf277aa": {
-        "name": "\ud83d\udc0b Whale Monitor",
-        "quality": {
-          "quality": "noise",
-          "score": 10,
-          "reason": "The output indicates a catastrophic path loop error with deeply nested 'queries/' directories and contains zero actual monitoring data."
-        }
-      },
-      "652fe2a9c9ca": {
-        "name": "arXiv Research Scanner",
         "quality": {
           "quality": "high",
-          "score": 95,
-          "reason": "The output is highly structured, clearly indicates where the data is saved, and successfully filters a large volume of papers into a concise, actionable digest."
+          "score": 90,
+          "reason": "Well-structured, actionable output with relevant crypto signals, specific price targets, and clear credibility metrics."
         }
       }
     },
     "skill_freshness": {
-      "apple-apps": "",
+      "apple-apps": {
+        "freshness": "current",
+        "confidence": 0.95,
+        "issues": []
+      },
       "macos-computer-use": "",
       "autonomous-research": {
         "freshness": "current",
-        "confidence": 0.9,
+        "confidence": 0.8,
         "issues": []
       },
-      "code-delegation": "",
-      "computer-use": "",
+      "code-delegation": {
+        "freshness": "current",
+        "confidence": 0.95,
+        "issues": []
+      },
+      "computer-use": "{\n  \"freshness\": \"current\",\n  \"confidence\": 0",
       "merge-reconciler": {
         "freshness": "current",
         "confidence": 0.95,
