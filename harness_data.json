@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-04T10:02:42.392160+00:00",
+    "generated_at": "2026-08-12T10:08:21.105310+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
   "overall": {
-    "score": 88.6,
-    "tier": "healthy",
+    "score": 78.3,
+    "tier": "degraded",
     "weights": {
       "cron": 35,
       "skills": 25,
@@ -14,9 +14,9 @@
       "providers": 20
     },
     "component_scores": {
-      "cron": 100.0,
-      "skills": 93.7,
-      "memory": 84.4,
+      "cron": 69.7,
+      "skills": 90.8,
+      "memory": 89.4,
       "providers": 66.7
     },
     "issues": [
@@ -25,44 +25,44 @@
   },
   "scores": {
     "cron": {
-      "score": 100.0,
-      "tier": "healthy",
+      "score": 69.7,
+      "tier": "degraded",
       "breakdown": {
-        "total": 31,
-        "ok": 31,
-        "silent": 0,
-        "success_rate": 100.0
+        "total": 39,
+        "ok": 20,
+        "silent": 1,
+        "success_rate": 51.3
       },
       "issues": []
     },
     "skills": {
-      "score": 93.7,
+      "score": 90.8,
       "tier": "healthy",
       "breakdown": {
-        "total": 106,
-        "valid": 87,
-        "functional": 105,
-        "has_stale_refs": 18,
+        "total": 127,
+        "valid": 98,
+        "functional": 126,
+        "has_stale_refs": 28,
         "broken": 1,
-        "functional_rate": 99.1
+        "functional_rate": 99.2
       },
       "issues": [],
       "broken_details": [
+        "  fleet-autoreason: 7 broken ref(s)",
+        "  fleet-janitor: 4 broken ref(s)",
         "  hermes-agent: 1 broken ref(s)",
-        "  meta-agent-orchestrator: 1 broken ref(s)",
-        "  ollama-local-inference: 1 broken ref(s)",
-        "  passive-income-generator: 1 broken ref(s)",
-        "  signal-conflict-resolver: 4 broken ref(s)"
+        "  meta-agent-orchestrator: 5 broken ref(s)",
+        "  ollama-local-inference: 1 broken ref(s)"
       ]
     },
     "memory": {
-      "score": 84.4,
+      "score": 89.4,
       "tier": "healthy",
       "breakdown": {
-        "total": 73,
+        "total": 17,
         "stale": 0,
         "duplicates": 0,
-        "never_retrieved": 73,
+        "never_retrieved": 17,
         "helpful": 0,
         "stale_rate": 0.0
       },
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T17:46:54",
-      "output_count_24h": 31,
+      "last_run_time": "2026-08-12T17:48:51",
+      "output_count_24h": 3,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T17:25:42",
+      "last_run_time": "2026-08-12T17:26:41",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -108,9 +108,9 @@
       "name": "trading-strategy-review",
       "schedule": "2 0,12 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T12:03:21",
+      "last_run_time": "2026-08-12T12:06:21",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T17:42:04",
+      "last_run_time": "2026-08-12T18:02:13",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T17:53:13",
+      "last_run_time": "2026-08-12T17:39:27",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -141,9 +141,9 @@
       "name": "\u23f0 Daily Review",
       "schedule": "2 9 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T09:07:26",
+      "last_run_time": "2026-08-12T09:05:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T17:48:42",
+      "last_run_time": "2026-08-12T18:04:03",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -163,10 +163,10 @@
       "name": "arXiv Research Scanner",
       "schedule": "2 10 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T10:06:29",
-      "output_count_24h": 2,
+      "last_run_time": "2026-08-12T10:06:05",
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -174,9 +174,9 @@
       "name": "Polymarket Sentiment Scanner",
       "schedule": "2 3,9,15,21 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T15:04:44",
+      "last_run_time": "2026-08-12T15:05:42",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T17:23:37",
+      "last_run_time": "2026-08-12T17:26:06",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -196,10 +196,10 @@
       "name": "Daily Market Analysis",
       "schedule": "0 9 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T09:02:01",
-      "output_count_24h": 2,
+      "last_run_time": "2026-08-12T09:03:56",
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -207,9 +207,9 @@
       "name": "AutoReason Signal Weights",
       "schedule": "0 4 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T04:01:14",
+      "last_run_time": "2026-08-12T04:04:09",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -218,20 +218,20 @@
       "name": "Wiki Compactor",
       "schedule": "0 2 * * 0",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-06-28T02:01:04",
+      "last_run_time": "2026-08-09T02:03:12",
       "output_count_24h": 0,
-      "potentially_silent": false
+      "potentially_silent": true
     },
     {
       "id": "ccddd0e232cc",
       "name": "\ud83d\udcca Daily Chart Digest",
       "schedule": "30 */2 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T16:32:29",
+      "last_run_time": "2026-08-12T16:33:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -240,10 +240,10 @@
       "name": "\u2696\ufe0f Signal Conflict Resolver",
       "schedule": "15 0,6,12,18 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T12:18:23",
-      "output_count_24h": 2,
+      "last_run_time": "2026-08-12T12:18:27",
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -251,9 +251,9 @@
       "name": "\ud83e\uddf9 Fleet Janitor",
       "schedule": "0 3 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T03:01:16",
+      "last_run_time": "2026-08-12T03:03:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -262,9 +262,9 @@
       "name": "\ud83d\udcf8 Weekly Fitness Check-in",
       "schedule": "0 9 * * 1",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-06-29T09:01:16",
+      "last_run_time": "2026-08-10T09:03:51",
       "output_count_24h": 0,
       "potentially_silent": false
     },
@@ -275,7 +275,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T18:00:22",
+      "last_run_time": "2026-08-12T18:00:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T15:02:02",
+      "last_run_time": "2026-08-12T15:02:23",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T14:10:57",
+      "last_run_time": "2026-08-12T14:10:15",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -306,9 +306,9 @@
       "name": "\ud83e\udde0 Intelligence Synthesizer",
       "schedule": "5 9,15,21 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T15:06:36",
+      "last_run_time": "2026-08-12T15:08:40",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T18:00:23",
+      "last_run_time": "2026-08-12T18:00:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T18:00:26",
+      "last_run_time": "2026-08-12T18:00:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -339,9 +339,9 @@
       "name": "HL Strategy Lab \u2014 Full Harness",
       "schedule": "every 60m",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T17:36:40",
+      "last_run_time": "2026-08-12T16:44:03",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -351,8 +351,8 @@
       "schedule": "0 6 * * 0",
       "status": "active",
       "last_run_ok": false,
-      "never_run": true,
-      "last_run_time": null,
+      "never_run": false,
+      "last_run_time": "2026-08-09T06:03:49",
       "output_count_24h": 0,
       "potentially_silent": false
     },
@@ -361,9 +361,9 @@
       "name": "Hermes Health Harness",
       "schedule": "0 */6 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T12:04:01",
+      "last_run_time": "2026-08-12T12:04:16",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -372,9 +372,9 @@
       "name": "\ud83e\udde0 Daily Memory Manager",
       "schedule": "30 4 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-04T04:36:51",
+      "last_run_time": "2026-08-12T04:34:12",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -383,10 +383,10 @@
       "name": "Workspace Health Monitor",
       "schedule": "0 9 * * 1,3,5",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-07-03T09:00:34",
-      "output_count_24h": 0,
+      "last_run_time": "2026-08-12T09:00:33",
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -395,8 +395,8 @@
       "schedule": "0 9 * * 0",
       "status": "active",
       "last_run_ok": false,
-      "never_run": true,
-      "last_run_time": null,
+      "never_run": false,
+      "last_run_time": "2026-08-09T09:03:28",
       "output_count_24h": 0,
       "potentially_silent": false
     },
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T18:00:25",
+      "last_run_time": "2026-08-12T18:00:58",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,15 +418,103 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-07-04T17:45:53",
+      "last_run_time": "2026-08-12T18:01:14",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "28ecc728b07c",
+      "name": "\ud83d\udcda Trade Review & Lesson Extraction",
+      "schedule": "0 */2 * * *",
+      "status": "active",
+      "last_run_ok": false,
+      "never_run": false,
+      "last_run_time": "2026-08-12T16:04:00",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "44d816c96346",
+      "name": "\ud83d\udcca Dashboard Auto-Deploy",
+      "schedule": "*/10 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-08-12T18:01:21",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "f89df8b07912",
+      "name": "\ud83e\uddf9 Fleet Log Rotator",
+      "schedule": "30 3 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-08-12T03:30:45",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "e3da6cc1a77b",
+      "name": "\ud83e\udee7 Command Center Data Builder",
+      "schedule": "*/10 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-08-12T18:00:53",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "946cab1935ae",
+      "name": "\ud83d\udee1\ufe0f Circuit Breaker Monitor",
+      "schedule": "*/5 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-08-12T18:00:51",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "1e8a80d03607",
+      "name": "\ud83d\udd04 Strategy Adjuster (Loop Closure)",
+      "schedule": "0 */6 * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-08-12T18:00:51",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "91d95c0872db",
+      "name": "\ud83d\udef0\ufe0f Fleet Supervisor",
+      "schedule": "*/15 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-08-12T18:00:51",
+      "output_count_24h": 1,
+      "potentially_silent": false
+    },
+    {
+      "id": "a435700c7b58",
+      "name": "\ud83d\udea8 Crypto Exploit Scanner",
+      "schedule": "*/15 * * * *",
+      "status": "active",
+      "last_run_ok": true,
+      "never_run": false,
+      "last_run_time": "2026-08-12T18:05:01",
       "output_count_24h": 1,
       "potentially_silent": false
     }
   ],
   "skills": {
-    "total": 106,
-    "valid": 87,
-    "broken": 19,
+    "total": 127,
+    "valid": 98,
+    "broken": 29,
     "items": [
       {
         "name": "apple-apps",
@@ -454,9 +542,9 @@
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/autonomous-research",
         "valid": true,
         "error": null,
-        "size_bytes": 1820,
-        "file_count": 5,
-        "line_count": 33
+        "size_bytes": 2644,
+        "file_count": 7,
+        "line_count": 35
       },
       {
         "name": "code-delegation",
@@ -469,14 +557,34 @@
         "line_count": 31
       },
       {
+        "name": "computer-use",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/computer-use",
+        "valid": true,
+        "error": null,
+        "size_bytes": 16461,
+        "file_count": 1,
+        "line_count": 353
+      },
+      {
+        "name": "fleet-autoreason",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-autoreason",
+        "valid": false,
+        "error": "7 broken ref(s)",
+        "size_bytes": 26938,
+        "file_count": 5,
+        "line_count": 251
+      },
+      {
         "name": "fleet-janitor",
         "category": "autonomous-ai-agents",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-janitor",
-        "valid": true,
-        "error": null,
-        "size_bytes": 6200,
-        "file_count": 1,
-        "line_count": 149
+        "valid": false,
+        "error": "4 broken ref(s)",
+        "size_bytes": 7783,
+        "file_count": 4,
+        "line_count": 165
       },
       {
         "name": "hermes-agent",
@@ -489,14 +597,24 @@
         "line_count": 1007
       },
       {
+        "name": "merge-reconciler",
+        "category": "autonomous-ai-agents",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/merge-reconciler",
+        "valid": true,
+        "error": null,
+        "size_bytes": 7606,
+        "file_count": 1,
+        "line_count": 158
+      },
+      {
         "name": "meta-agent-orchestrator",
         "category": "autonomous-ai-agents",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/meta-agent-orchestrator",
         "valid": false,
-        "error": "1 broken ref(s)",
-        "size_bytes": 81779,
-        "file_count": 9,
-        "line_count": 1275
+        "error": "5 broken ref(s)",
+        "size_bytes": 101259,
+        "file_count": 18,
+        "line_count": 1459
       },
       {
         "name": "ollama-local-inference",
@@ -523,10 +641,10 @@
         "category": "autonomous-ai-agents",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/signal-conflict-resolver",
         "valid": false,
-        "error": "4 broken ref(s)",
-        "size_bytes": 9106,
-        "file_count": 2,
-        "line_count": 172
+        "error": "3 broken ref(s)",
+        "size_bytes": 17373,
+        "file_count": 3,
+        "line_count": 296
       },
       {
         "name": "skills-hub-research",
@@ -553,10 +671,10 @@
         "category": "autonomous-ai-agents",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-accumulation",
         "valid": false,
-        "error": "1 broken ref(s)",
-        "size_bytes": 13619,
+        "error": "2 broken ref(s)",
+        "size_bytes": 17999,
         "file_count": 2,
-        "line_count": 289
+        "line_count": 344
       },
       {
         "name": "wiki-compaction",
@@ -564,19 +682,19 @@
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-compaction",
         "valid": true,
         "error": null,
-        "size_bytes": 4139,
+        "size_bytes": 5691,
         "file_count": 1,
-        "line_count": 106
+        "line_count": 131
       },
       {
         "name": "x-scanner",
         "category": "autonomous-ai-agents",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner",
-        "valid": true,
-        "error": null,
-        "size_bytes": 30713,
+        "valid": false,
+        "error": "1 broken ref(s)",
+        "size_bytes": 32544,
         "file_count": 2,
-        "line_count": 548
+        "line_count": 575
       },
       {
         "name": "ai-music",
@@ -634,7 +752,7 @@
         "path": "/Users/mojoai/.hermes/skills/creative/comfyui",
         "valid": true,
         "error": null,
-        "size_bytes": 24287,
+        "size_bytes": 24096,
         "file_count": 37,
         "line_count": 612
       },
@@ -664,9 +782,9 @@
         "path": "/Users/mojoai/.hermes/skills/creative/humanizer",
         "valid": true,
         "error": null,
-        "size_bytes": 30025,
+        "size_bytes": 34463,
         "file_count": 2,
-        "line_count": 578
+        "line_count": 647
       },
       {
         "name": "manim-video",
@@ -684,9 +802,9 @@
         "path": "/Users/mojoai/.hermes/skills/creative/p5js",
         "valid": false,
         "error": "1 broken ref(s)",
-        "size_bytes": 27494,
+        "size_bytes": 27536,
         "file_count": 20,
-        "line_count": 556
+        "line_count": 558
       },
       {
         "name": "pixel-art",
@@ -704,7 +822,7 @@
         "path": "/Users/mojoai/.hermes/skills/creative/pretext",
         "valid": true,
         "error": null,
-        "size_bytes": 14168,
+        "size_bytes": 13962,
         "file_count": 6,
         "line_count": 220
       },
@@ -714,7 +832,7 @@
         "path": "/Users/mojoai/.hermes/skills/creative/touchdesigner-mcp",
         "valid": true,
         "error": null,
-        "size_bytes": 15429,
+        "size_bytes": 15269,
         "file_count": 25,
         "line_count": 356
       },
@@ -724,19 +842,29 @@
         "path": "/Users/mojoai/.hermes/skills/creative/web-design",
         "valid": true,
         "error": null,
-        "size_bytes": 5803,
-        "file_count": 62,
-        "line_count": 129
+        "size_bytes": 10189,
+        "file_count": 65,
+        "line_count": 177
       },
       {
         "name": "crypto-scanner-ops",
         "category": "crypto",
         "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops",
         "valid": false,
-        "error": "1 broken ref(s)",
-        "size_bytes": 100838,
-        "file_count": 45,
-        "line_count": 627
+        "error": "8 broken ref(s)",
+        "size_bytes": 75919,
+        "file_count": 75,
+        "line_count": 598
+      },
+      {
+        "name": "exploit-scanner",
+        "category": "crypto",
+        "path": "/Users/mojoai/.hermes/skills/crypto/exploit-scanner",
+        "valid": false,
+        "error": "4 broken ref(s)",
+        "size_bytes": 5244,
+        "file_count": 1,
+        "line_count": 115
       },
       {
         "name": "chrome-cdp-operations",
@@ -783,10 +911,20 @@
         "category": "devops",
         "path": "/Users/mojoai/.hermes/skills/devops/cron-operations",
         "valid": false,
-        "error": "1 broken ref(s)",
-        "size_bytes": 23065,
-        "file_count": 13,
-        "line_count": 424
+        "error": "5 broken ref(s)",
+        "size_bytes": 27517,
+        "file_count": 16,
+        "line_count": 489
+      },
+      {
+        "name": "cron-validation-harness",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/cron-validation-harness",
+        "valid": true,
+        "error": null,
+        "size_bytes": 4246,
+        "file_count": 1,
+        "line_count": 82
       },
       {
         "name": "discord-operations",
@@ -813,10 +951,10 @@
         "category": "devops",
         "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness",
         "valid": false,
-        "error": "8 broken ref(s)",
-        "size_bytes": 23144,
-        "file_count": 4,
-        "line_count": 416
+        "error": "9 broken ref(s)",
+        "size_bytes": 29590,
+        "file_count": 7,
+        "line_count": 476
       },
       {
         "name": "hermes-workspace-dev",
@@ -877,79 +1015,27 @@
         "size_bytes": 478,
         "file_count": 4,
         "line_count": 20
-      },
-      {
-        "name": "ollama-code-generation",
-        "category": "devops",
-        "path": "/Users/mojoai/.hermes/skills/devops/ollama-code-generation",
-        "valid": false,
-        "error": "1 broken ref(s)",
-        "size_bytes": 6940,
-        "file_count": 1,
-        "line_count": 196
-      },
-      {
-        "name": "ollama-devops",
-        "category": "devops",
-        "path": "/Users/mojoai/.hermes/skills/devops/ollama-devops",
-        "valid": true,
-        "error": null,
-        "size_bytes": 1048,
-        "file_count": 7,
-        "line_count": 24
-      },
-      {
-        "name": "static-site-deployment",
-        "category": "devops",
-        "path": "/Users/mojoai/.hermes/skills/devops/static-site-deployment",
-        "valid": false,
-        "error": "2 broken ref(s)",
-        "size_bytes": 47330,
-        "file_count": 16,
-        "line_count": 869
-      },
-      {
-        "name": "stuck-agent-hardening",
-        "category": "devops",
-        "path": "/Users/mojoai/.hermes/skills/devops/stuck-agent-hardening",
-        "valid": true,
-        "error": null,
-        "size_bytes": 2531,
-        "file_count": 1,
-        "line_count": 56
-      },
-      {
-        "name": "terminal-python-script-pattern",
-        "category": "devops",
-        "path": "/Users/mojoai/.hermes/skills/devops/terminal-python-script-pattern",
-        "valid": true,
-        "error": null,
-        "size_bytes": 15381,
-        "file_count": 1,
-        "line_count": 287
       }
     ]
   },
   "memory": {
-    "total_facts": 73,
-    "total_entities": 78,
-    "avg_trust": 0.784,
+    "total_facts": 17,
+    "total_entities": 23,
+    "avg_trust": 0.818,
     "trust_distribution": {
       "low (<0.3)": 0,
-      "medium (0.3-0.7)": 19,
-      "high (>0.7)": 54
+      "medium (0.3-0.7)": 3,
+      "high (>0.7)": 14
     },
     "categories": {
-      "general": 33,
-      "project": 17,
-      "user_pref": 16,
-      "tool": 5,
-      "crypto": 1,
-      "tools": 1
+      "user_pref": 7,
+      "general": 4,
+      "project": 4,
+      "tool": 2
     },
-    "never_retrieved": 73,
+    "never_retrieved": 17,
     "stale_14d": 0,
-    "old_60d": 45,
+    "old_60d": 12,
     "helpful_count": 0,
     "duplicate_prefixes": 0,
     "orphans": []
@@ -958,26 +1044,224 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 658.0,
+      "latency_ms": 1208.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 328.0,
-      "model_count": 34
+      "latency_ms": 531.0,
+      "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 20.0
+      "latency_ms": 12.0
     }
   ],
   "actions": {
-    "generated_at": "2026-07-04T10:00:36.980422+00:00",
-    "overall_score": 88.6,
-    "overall_tier": "healthy",
+    "generated_at": "2026-08-12T10:05:35.392391+00:00",
+    "overall_score": 78.3,
+    "overall_tier": "degraded",
     "actions": [
+      {
+        "type": "alert",
+        "target": "trading-strategy-review",
+        "target_id": "46929a249347",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 46929a249347"
+      },
+      {
+        "type": "alert",
+        "target": "\u23f0 Daily Review",
+        "target_id": "4a4564fc946b",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 4a4564fc946b"
+      },
+      {
+        "type": "alert",
+        "target": "arXiv Research Scanner",
+        "target_id": "652fe2a9c9ca",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 652fe2a9c9ca"
+      },
+      {
+        "type": "alert",
+        "target": "Polymarket Sentiment Scanner",
+        "target_id": "3876dd862ca1",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 3876dd862ca1"
+      },
+      {
+        "type": "alert",
+        "target": "Daily Market Analysis",
+        "target_id": "d6cc11071af7",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log d6cc11071af7"
+      },
+      {
+        "type": "alert",
+        "target": "AutoReason Signal Weights",
+        "target_id": "14fd127d289c",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 14fd127d289c"
+      },
+      {
+        "type": "investigate",
+        "target": "Wiki Compactor",
+        "target_id": "7c57a0c4cff1",
+        "severity": "warning",
+        "reason": "No output in 24h \u2014 possible silent failure",
+        "action": "manual",
+        "suggestion": "Run: hermes cron run 7c57a0c4cff1 --dry-run"
+      },
+      {
+        "type": "alert",
+        "target": "Wiki Compactor",
+        "target_id": "7c57a0c4cff1",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 7c57a0c4cff1"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83d\udcca Daily Chart Digest",
+        "target_id": "ccddd0e232cc",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log ccddd0e232cc"
+      },
+      {
+        "type": "alert",
+        "target": "\u2696\ufe0f Signal Conflict Resolver",
+        "target_id": "7f41b1d5bd77",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 7f41b1d5bd77"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83e\uddf9 Fleet Janitor",
+        "target_id": "c67b5b611845",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log c67b5b611845"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83d\udcf8 Weekly Fitness Check-in",
+        "target_id": "7d8920b2c397",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 7d8920b2c397"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83e\udde0 Intelligence Synthesizer",
+        "target_id": "75c3948a260e",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 75c3948a260e"
+      },
+      {
+        "type": "alert",
+        "target": "HL Strategy Lab \u2014 Full Harness",
+        "target_id": "410fb2ac468e",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 410fb2ac468e"
+      },
+      {
+        "type": "alert",
+        "target": "HL Strategy Lab \u2014 Weekly Deep Eval",
+        "target_id": "81a00f55a695",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 81a00f55a695"
+      },
+      {
+        "type": "alert",
+        "target": "Hermes Health Harness",
+        "target_id": "3c2578a553f3",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 3c2578a553f3"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83e\udde0 Daily Memory Manager",
+        "target_id": "a370de1c776c",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log a370de1c776c"
+      },
+      {
+        "type": "alert",
+        "target": "Workspace Health Monitor",
+        "target_id": "7abc6750c24a",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 7abc6750c24a"
+      },
+      {
+        "type": "alert",
+        "target": "Workspace Stale Reporter",
+        "target_id": "74dfa88cea60",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 74dfa88cea60"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83d\udcda Trade Review & Lesson Extraction",
+        "target_id": "28ecc728b07c",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 28ecc728b07c"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-autoreason",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "7 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-autoreason"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-janitor",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "4 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-janitor"
+      },
       {
         "type": "archive_candidate",
         "target": "hermes-agent",
@@ -992,7 +1276,7 @@
         "target": "meta-agent-orchestrator",
         "category": "autonomous-ai-agents",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "5 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/meta-agent-orchestrator"
       },
@@ -1019,7 +1303,7 @@
         "target": "signal-conflict-resolver",
         "category": "autonomous-ai-agents",
         "severity": "info",
-        "reason": "4 broken ref(s)",
+        "reason": "3 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/signal-conflict-resolver"
       },
@@ -1028,9 +1312,18 @@
         "target": "wiki-accumulation",
         "category": "autonomous-ai-agents",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "2 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-accumulation"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "x-scanner",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner"
       },
       {
         "type": "archive_candidate",
@@ -1064,16 +1357,25 @@
         "target": "crypto-scanner-ops",
         "category": "crypto",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "8 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "exploit-scanner",
+        "category": "crypto",
+        "severity": "info",
+        "reason": "4 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/crypto/exploit-scanner"
       },
       {
         "type": "archive_candidate",
         "target": "cron-operations",
         "category": "devops",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "5 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/cron-operations"
       },
@@ -1082,7 +1384,7 @@
         "target": "hermes-system-harness",
         "category": "devops",
         "severity": "info",
-        "reason": "8 broken ref(s)",
+        "reason": "9 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness"
       },
@@ -1109,9 +1411,27 @@
         "target": "static-site-deployment",
         "category": "devops",
         "severity": "info",
-        "reason": "2 broken ref(s)",
+        "reason": "4 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/static-site-deployment"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "multi-model-review",
+        "category": "mlops",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/mlops/multi-model-review"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "meeting-action-items",
+        "category": "productivity",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/productivity/meeting-action-items"
       },
       {
         "type": "archive_candidate",
@@ -1133,38 +1453,64 @@
       },
       {
         "type": "archive_candidate",
+        "target": "inspecting-hermes-desktop-dom",
+        "category": "software-development",
+        "severity": "info",
+        "reason": "5 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/software-development/inspecting-hermes-desktop-dom"
+      },
+      {
+        "type": "archive_candidate",
         "target": "crypto-operations",
         "category": "trading",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "4 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/trading/crypto-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "hl-mm-fleet",
+        "category": "trading",
+        "severity": "info",
+        "reason": "4 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/hl-mm-fleet"
       },
       {
         "type": "archive_candidate",
         "target": "hl-strategy-lab-ops",
         "category": "trading",
         "severity": "info",
-        "reason": "2 broken ref(s)",
+        "reason": "11 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/trading/hl-strategy-lab-ops"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "hyperliquid-mm-fleet",
+        "category": "trading",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/hyperliquid-mm-fleet"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "trading-strategy-review",
+        "category": "trading",
+        "severity": "info",
+        "reason": "6 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/trading-strategy-review"
       },
       {
         "type": "summary",
         "target": "skills",
         "severity": "info",
-        "reason": "18 archive candidates, 1 review items",
+        "reason": "28 archive candidates, 1 review items",
         "action": "manual"
-      },
-      {
-        "type": "review",
-        "target": "memory",
-        "severity": "warning",
-        "reason": "1 facts never retrieved, low trust, 30+ days old",
-        "action": "manual",
-        "detail": [
-          "#112: On this system, the `read_file` tool resolves `~` to `/root/` instead of the act..."
-        ]
       },
       {
         "type": "alert",
@@ -1176,15 +1522,213 @@
       }
     ],
     "summary": {
-      "total": 22,
+      "total": 51,
       "auto_executed": 0,
-      "manual_required": 22,
-      "critical": 1,
+      "manual_required": 51,
+      "critical": 20,
       "warnings": 1,
-      "info": 20
+      "info": 30
     },
     "auto_actions": [],
     "manual_review": [
+      {
+        "type": "alert",
+        "target": "trading-strategy-review",
+        "target_id": "46929a249347",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 46929a249347"
+      },
+      {
+        "type": "alert",
+        "target": "\u23f0 Daily Review",
+        "target_id": "4a4564fc946b",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 4a4564fc946b"
+      },
+      {
+        "type": "alert",
+        "target": "arXiv Research Scanner",
+        "target_id": "652fe2a9c9ca",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 652fe2a9c9ca"
+      },
+      {
+        "type": "alert",
+        "target": "Polymarket Sentiment Scanner",
+        "target_id": "3876dd862ca1",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 3876dd862ca1"
+      },
+      {
+        "type": "alert",
+        "target": "Daily Market Analysis",
+        "target_id": "d6cc11071af7",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log d6cc11071af7"
+      },
+      {
+        "type": "alert",
+        "target": "AutoReason Signal Weights",
+        "target_id": "14fd127d289c",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 14fd127d289c"
+      },
+      {
+        "type": "investigate",
+        "target": "Wiki Compactor",
+        "target_id": "7c57a0c4cff1",
+        "severity": "warning",
+        "reason": "No output in 24h \u2014 possible silent failure",
+        "action": "manual",
+        "suggestion": "Run: hermes cron run 7c57a0c4cff1 --dry-run"
+      },
+      {
+        "type": "alert",
+        "target": "Wiki Compactor",
+        "target_id": "7c57a0c4cff1",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 7c57a0c4cff1"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83d\udcca Daily Chart Digest",
+        "target_id": "ccddd0e232cc",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log ccddd0e232cc"
+      },
+      {
+        "type": "alert",
+        "target": "\u2696\ufe0f Signal Conflict Resolver",
+        "target_id": "7f41b1d5bd77",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 7f41b1d5bd77"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83e\uddf9 Fleet Janitor",
+        "target_id": "c67b5b611845",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log c67b5b611845"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83d\udcf8 Weekly Fitness Check-in",
+        "target_id": "7d8920b2c397",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 7d8920b2c397"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83e\udde0 Intelligence Synthesizer",
+        "target_id": "75c3948a260e",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 75c3948a260e"
+      },
+      {
+        "type": "alert",
+        "target": "HL Strategy Lab \u2014 Full Harness",
+        "target_id": "410fb2ac468e",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 410fb2ac468e"
+      },
+      {
+        "type": "alert",
+        "target": "HL Strategy Lab \u2014 Weekly Deep Eval",
+        "target_id": "81a00f55a695",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 81a00f55a695"
+      },
+      {
+        "type": "alert",
+        "target": "Hermes Health Harness",
+        "target_id": "3c2578a553f3",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 3c2578a553f3"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83e\udde0 Daily Memory Manager",
+        "target_id": "a370de1c776c",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log a370de1c776c"
+      },
+      {
+        "type": "alert",
+        "target": "Workspace Health Monitor",
+        "target_id": "7abc6750c24a",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 7abc6750c24a"
+      },
+      {
+        "type": "alert",
+        "target": "Workspace Stale Reporter",
+        "target_id": "74dfa88cea60",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 74dfa88cea60"
+      },
+      {
+        "type": "alert",
+        "target": "\ud83d\udcda Trade Review & Lesson Extraction",
+        "target_id": "28ecc728b07c",
+        "severity": "critical",
+        "reason": "Last run failed",
+        "action": "manual",
+        "suggestion": "Check: hermes cron log 28ecc728b07c"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-autoreason",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "7 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-autoreason"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "fleet-janitor",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "4 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/fleet-janitor"
+      },
       {
         "type": "archive_candidate",
         "target": "hermes-agent",
@@ -1199,7 +1743,7 @@
         "target": "meta-agent-orchestrator",
         "category": "autonomous-ai-agents",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "5 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/meta-agent-orchestrator"
       },
@@ -1226,7 +1770,7 @@
         "target": "signal-conflict-resolver",
         "category": "autonomous-ai-agents",
         "severity": "info",
-        "reason": "4 broken ref(s)",
+        "reason": "3 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/signal-conflict-resolver"
       },
@@ -1235,9 +1779,18 @@
         "target": "wiki-accumulation",
         "category": "autonomous-ai-agents",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "2 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/wiki-accumulation"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "x-scanner",
+        "category": "autonomous-ai-agents",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/autonomous-ai-agents/x-scanner"
       },
       {
         "type": "archive_candidate",
@@ -1271,16 +1824,25 @@
         "target": "crypto-scanner-ops",
         "category": "crypto",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "8 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "exploit-scanner",
+        "category": "crypto",
+        "severity": "info",
+        "reason": "4 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/crypto/exploit-scanner"
       },
       {
         "type": "archive_candidate",
         "target": "cron-operations",
         "category": "devops",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "5 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/cron-operations"
       },
@@ -1289,7 +1851,7 @@
         "target": "hermes-system-harness",
         "category": "devops",
         "severity": "info",
-        "reason": "8 broken ref(s)",
+        "reason": "9 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness"
       },
@@ -1316,9 +1878,27 @@
         "target": "static-site-deployment",
         "category": "devops",
         "severity": "info",
-        "reason": "2 broken ref(s)",
+        "reason": "4 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/devops/static-site-deployment"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "multi-model-review",
+        "category": "mlops",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/mlops/multi-model-review"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "meeting-action-items",
+        "category": "productivity",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/productivity/meeting-action-items"
       },
       {
         "type": "archive_candidate",
@@ -1340,38 +1920,64 @@
       },
       {
         "type": "archive_candidate",
+        "target": "inspecting-hermes-desktop-dom",
+        "category": "software-development",
+        "severity": "info",
+        "reason": "5 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/software-development/inspecting-hermes-desktop-dom"
+      },
+      {
+        "type": "archive_candidate",
         "target": "crypto-operations",
         "category": "trading",
         "severity": "info",
-        "reason": "1 broken ref(s)",
+        "reason": "4 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/trading/crypto-operations"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "hl-mm-fleet",
+        "category": "trading",
+        "severity": "info",
+        "reason": "4 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/hl-mm-fleet"
       },
       {
         "type": "archive_candidate",
         "target": "hl-strategy-lab-ops",
         "category": "trading",
         "severity": "info",
-        "reason": "2 broken ref(s)",
+        "reason": "11 broken ref(s)",
         "action": "manual",
         "path": "/Users/mojoai/.hermes/skills/trading/hl-strategy-lab-ops"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "hyperliquid-mm-fleet",
+        "category": "trading",
+        "severity": "info",
+        "reason": "2 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/hyperliquid-mm-fleet"
+      },
+      {
+        "type": "archive_candidate",
+        "target": "trading-strategy-review",
+        "category": "trading",
+        "severity": "info",
+        "reason": "6 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/trading/trading-strategy-review"
       },
       {
         "type": "summary",
         "target": "skills",
         "severity": "info",
-        "reason": "18 archive candidates, 1 review items",
+        "reason": "28 archive candidates, 1 review items",
         "action": "manual"
-      },
-      {
-        "type": "review",
-        "target": "memory",
-        "severity": "warning",
-        "reason": "1 facts never retrieved, low trust, 30+ days old",
-        "action": "manual",
-        "detail": [
-          "#112: On this system, the `read_file` tool resolves `~` to `/root/` instead of the act..."
-        ]
       },
       {
         "type": "alert",
@@ -1386,159 +1992,81 @@
   "llm": {
     "model_health": {
       "fast": {
-        "model": "deepseek-v4-flash:cloud",
+        "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.4
+        "latency_s": 2.6
       },
       "review": {
-        "model": "minimax-m3:cloud",
+        "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.7
+        "latency_s": 4.2
       },
       "reasoning": {
-        "model": "deepseek-v4-pro:cloud",
+        "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.2
+        "latency_s": 3.1
       },
       "deep": {
-        "model": "kimi-k2.7-code:cloud",
+        "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.4
+        "latency_s": 4.3
       }
     },
     "cron_quality": {
       "43ba1d393c5a": {
         "name": "X Crypto Scanner",
         "quality": {
-          "quality": "low",
-          "score": 30,
-          "reason": "The output is incomplete, shows a single low-engagement tweet from a blocked source, and lacks context or analysis, making it unreliable as actionable signal."
+          "quality": "high",
+          "score": 85,
+          "reason": "Provides well-formatted, actionable crypto signals including whale movements and price action, though it contains minor LLM meta-text artifacts."
+        }
+      },
+      "66a98cf277aa": {
+        "name": "\ud83d\udc0b Whale Monitor",
+        "quality": {
+          "quality": "noise",
+          "score": 5,
+          "reason": "The output shows a severely broken recursive file path error rather than any actual whale monitoring data."
         }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
         "quality": {
           "quality": "high",
-          "score": 90,
-          "reason": "Provides a specific, relevant paper with direct links to PDF and code, directly actionable for research in crypto trading and AI agents."
+          "score": 92,
+          "reason": "The output is highly structured, saves the digest to a clear file path, and provides actionable metadata before presenting curated, highly relevant research papers."
         }
       }
     },
     "skill_freshness": {
       "apple-apps": {
         "freshness": "current",
-        "confidence": 0.75,
-        "issues": [
-          "Content truncated at 800 chars \u2014 cannot assess remaining tools, links, or patterns",
-          "Third-party CLIs (memo, remindctl, imsg) are community-maintained; recommend verifying they are still actively maintained and not abandoned",
-          "No visible links to verify, but recommend checking any Homebrew formula URLs and GitHub repos in the full document for dead links",
-          "Version pinned at 1.0.0 \u2014 consider whether the tool set has changed since initial release (new Apple app CLIs, deprecated ones)",
-          "AppleScript for Find My is a reasonable fallback, but note that Apple has been progressively restricting AppleScript automation in recent macOS versions (e.g., Sonoma/Sequoia TCC changes) \u2014 worth verifying the Find My workflow still functions"
-        ]
+        "confidence": 0.85,
+        "issues": []
       },
       "macos-computer-use": {
         "freshness": "current",
-        "confidence": 0.75,
-        "issues": [
-          "Content is truncated at 800 chars \u2014 the full skill body (including the pyautogui comparison and implementation details) is not visible, limiting assessment",
-          "References pyautogui as a contrast point (cut off as 'pyautogui-s') \u2014 pyautogui is still maintained but is increasingly considered legacy for macOS-native automation; native alternatives (AppleScript, Accessibility API, CoreGraphics via PyObjC) are now preferred for new projects",
-          "No external links visible in the provided excerpt, so dead-link check could not be performed",
-          "Version 1.0.0 indicates a recent release \u2014 no version-bump signals suggesting abandonment or drift",
-          "The 'computer_use' tool abstraction is generic/agnostic, which is good for longevity, but the skill depends on a runtime-provided tool name \u2014 verify the Hermes/hermes-agent environment still exposes a tool by that exact name (recent agents have used names like 'computer', 'sandbox_computer', or 'cua')"
-        ],
-        "notes": "The core concept (background-mode desktop control without focus theft/Space switching) is timely and not outdated \u2014 it directly addresses a known limitation of mainstream computer-use APIs. The skill appears well-positioned. Recommend re-reviewing once the full body is visible, and confirming the tool-name contract with the current agent runtime."
+        "confidence": 0.95,
+        "issues": []
       },
       "autonomous-research": {
         "freshness": "current",
-        "confidence": 0.7,
-        "issues": [
-          "Cannot verify if referenced file 'references/autoresearch.md' exists or is up-to-date (dead link risk \u2014 umbrella skills depend on child files being present)",
-          "Content truncated at 800 chars \u2014 full subsystem map and remaining sections not reviewed",
-          "Version pinned at 1.0.0 with no changelog or last-updated metadata, making it impossible to gauge true age",
-          "Term 'cron pipelines' is dated vocabulary; modern alternatives (GitHub Actions, Airflow, Prefect, Dagster) may be more relevant depending on context \u2014 needs verification against rest of doc",
-          "No explicit last-reviewed or freshness date in metadata to anchor the assessment"
-        ]
+        "confidence": 0.95,
+        "issues": []
       },
       "code-delegation": {
         "freshness": "current",
-        "confidence": 0.65,
-        "issues": [
-          "Cannot fully verify the linked reference files (references/claude-code.md and others) for dead links or stale patterns from the truncated content",
-          "OpenAI Codex CLI (@openai/codex) has a confusing history \u2014 OpenAI deprecated the original Codex model in March 2023 and the CLI has been rebuilt/renamed multiple times; the @openai/codex package is current but worth double-checking version pinning and feature assumptions",
-          "OpenCode CLI is a less mainstream tool with a smaller community; verify it is still actively maintained and not superseded",
-          "Skill is version 1.0.0 with no update history \u2014 no indication of when the references were last validated against current CLI versions",
-          "Claude Code has been evolving rapidly (frequent new flags, modes, and subcommands); references/ may be stale on specifics like --print vs new flags, MCP integration patterns, or permission modes",
-          "No explicit 'last reviewed' date or freshness metadata in the frontmatter"
-        ]
+        "confidence": 0.95,
+        "issues": []
       },
-      "fleet-janitor": {
+      "computer-use": "",
+      "merge-reconciler": {
         "freshness": "current",
-        "confidence": 0.72,
-        "issues": [
-          "Creation date '2026-04-23' is a future date relative to typical documentation timelines \u2014 likely a typo or placeholder, suggests metadata not yet validated",
-          "Content is truncated at 800 chars; full link inventory and remaining tool references cannot be assessed for dead links or deprecated patterns",
-          "Cron reference uses opaque ID format ('c67b5b611845') without specifying the platform (GitHub Actions, internal scheduler, etc.) \u2014 if tied to an external SaaS, the ID itself could become stale or unverifiable",
-          "No version pinning visible for dependencies (SQLite version, any CLI tools implied by 'pruning pipeline') \u2014 retention logic correctness may drift as underlying tools update",
-          "SGT timezone hardcoded \u2014 if this skill is replicated across regions or the host timezone changes, the 3AM schedule will silently shift without an obvious indicator in the doc",
-          "Archive naming pattern 'archive-YYYY-MM.db' assumes monthly granularity is permanent; no mention of compaction, schema migration, or what happens if the month-rollover logic breaks",
-          "No 'last reviewed' or freshness timestamp distinct from 'created' \u2014 reader cannot tell whether this doc has been kept current or merely exists"
-        ]
+        "confidence": 0.95,
+        "issues": []
       },
-      "skills-hub-research": {
-        "freshness": "current",
-        "confidence": 0.72,
-        "issues": [
-          "Hard-coded statistic '91K+ total installs' for Skills.sh will become outdated as the platform grows; should be replaced with a live source or dated snapshot",
-          "Static claim 'Cross-platform (20+ agents)' will drift; the supported agent count is a moving target and needs periodic refresh",
-          "ClawHub listed as 'Backed by OpenClaw' is a relatively new/emerging hub \u2014 URL `clawhub.ai` and organizational backing should be re-verified, as emerging hubs frequently rebrand or shut down",
-          "Content is truncated at 800 chars; full skill body could not be audited for additional dead links, deprecated CLI flags, or outdated security evaluation criteria",
-          "No explicit version/last-updated date on the skill metadata, making freshness assessment dependent on external service state rather than self-reported recency",
-          "Install command `hermes skills install <slug>` assumes a specific Hermes CLI subcommand shape; if Hermes has renamed/removed this subcommand, the workflow is broken"
-        ]
-      },
-      "thoth-agent": {
-        "freshness": "current",
-        "confidence": 0.72,
-        "issues": [
-          "No explicit last-updated date or timestamp on the skill metadata \u2014 freshness cannot be verified from version '1.0' alone",
-          "Hardcoded local path '~/Projects/thoth/' suggests single-developer project status; may not be relevant if repo was relocated or restructured",
-          "Test count '306 passing tests' and module count '35 modules' are point-in-time snapshots that will go stale quickly without a CI badge or auto-generated note",
-          "Hyperliquid reference is niche (crypto perpetuals) \u2014 verify the integration is still maintained, as DeFi projects frequently change APIs or sunset integrations",
-          "Cannot verify external links from the truncated 800-char sample; full doc should be scanned for any URLs that may have rotted",
-          "'CustomAdapter' is generic enough to be evergreen, but the Ollama/OpenAI API surface changes frequently \u2014 adapter implementations likely need versioning notes"
-        ],
-        "observations": [
-          "Core patterns referenced (Think\u2192Act\u2192Observe loop, pluggable LLM backends, tool registry, permission system, workspace isolation) are all current 2024\u20132025 agent framework conventions \u2014 not deprecated",
-          "Ollama as a local LLM backend is actively maintained and increasingly standard",
-          "Architecture style (config/schema.py, models/adapters.py, models/routing.py, models/live.py, tools/contract.py) reflects current Python agent framework design \u2014 no obsolete patterns detected",
-          "No references found to deprecated tools (no mention of discontinued libs, old agent frameworks like early LangChain chains, or sunset APIs)"
-        ],
-        "recommendation": "Skill appears current based on patterns and tool references visible. To improve confidence above 0.85, add: (1) a 'last_verified' date in frontmatter, (2) a 'compatibility' section listing tested Ollama/OpenAI versions, and (3) remove or update the hardcoded local path and test count, which will rot fastest."
-      },
-      "wiki-compaction": {
-        "freshness": "current",
-        "confidence": 0.55,
-        "issues": [
-          "Creation date (2026-04-16) is after my knowledge cutoff (January 2026), so I cannot fully verify temporal context or confirm whether listed patterns reflect current best practices",
-          "Content truncated at 800 chars \u2014 cannot inspect remainder of document for dead links, deprecated tool references, or legacy patterns that may appear in the full file",
-          "No external tool names, package references, or URLs visible in the shown excerpt to cross-check for deprecation",
-          "Self-contained internal skill (wiki file compaction) with no obvious dependency on third-party services that could become stale",
-          "Cron expression and timezone notation are standard and current"
-        ]
-      },
-      "x-scanner": {
-        "freshness": "outdated",
-        "confidence": 0.78,
-        "issues": [
-          "Chrome CDP scraping of X/Twitter is largely defunct \u2014 X has implemented aggressive anti-bot protections (login walls, JavaScript challenges, rate limiting) that make headless Chrome scraping unreliable since ~2023",
-          "No mention of official X API alternatives, which became the only stable access method after the 2023 API pricing overhaul ($100/mo Basic, $5000/mo Pro tiers)",
-          "GLM-5-turbo model reference is unrecognizable \u2014 Zhipu's known lineup is GLM-4 / GLM-4.5; this appears to be a typo, hallucination, or fictional model identifier",
-          "Local hardcoded DB path (/Users/mojoai/.hermes/swarm/data/agents.db) indicates environment-coupled design that won't translate to other setups",
-          "Documentation predates X rebrand implications fully \u2014 while 'X/Twitter' is used, no guidance on handling the post-rebrand domain/API changes (x.com, updated endpoints)",
-          "Cron job pattern for every-30-min scraping is unsustainable against modern X rate limits; no mention of backoff or quota management",
-          "No references to current compliance considerations (X ToS explicitly prohibits scraping; legal landscape has shifted with hiQ v. LinkedIn aftermath and subsequent rulings)"
-        ]
-      }
+      "skills-hub-research": "",
+      "thoth-agent": ""
     }
   }
 }
