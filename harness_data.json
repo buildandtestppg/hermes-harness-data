@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T10:08:21.105310+00:00",
+    "generated_at": "2026-08-12T16:04:21.516444+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
   "overall": {
-    "score": 78.3,
-    "tier": "degraded",
+    "score": 82.0,
+    "tier": "healthy",
     "weights": {
       "cron": 35,
       "skills": 25,
@@ -14,8 +14,8 @@
       "providers": 20
     },
     "component_scores": {
-      "cron": 69.7,
-      "skills": 90.8,
+      "cron": 80.5,
+      "skills": 90.5,
       "memory": 89.4,
       "providers": 66.7
     },
@@ -25,24 +25,24 @@
   },
   "scores": {
     "cron": {
-      "score": 69.7,
-      "tier": "degraded",
+      "score": 80.5,
+      "tier": "healthy",
       "breakdown": {
         "total": 39,
-        "ok": 20,
+        "ok": 27,
         "silent": 1,
-        "success_rate": 51.3
+        "success_rate": 69.2
       },
       "issues": []
     },
     "skills": {
-      "score": 90.8,
+      "score": 90.5,
       "tier": "healthy",
       "breakdown": {
-        "total": 127,
-        "valid": 98,
-        "functional": 126,
-        "has_stale_refs": 28,
+        "total": 130,
+        "valid": 100,
+        "functional": 129,
+        "has_stale_refs": 29,
         "broken": 1,
         "functional_rate": 99.2
       },
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T17:48:51",
-      "output_count_24h": 3,
+      "last_run_time": "2026-08-12T23:46:59",
+      "output_count_24h": 10,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T17:26:41",
+      "last_run_time": "2026-08-12T23:25:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:02:13",
+      "last_run_time": "2026-08-12T23:41:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T17:39:27",
+      "last_run_time": "2026-08-12T23:54:25",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:04:03",
+      "last_run_time": "2026-08-12T23:48:56",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -174,9 +174,9 @@
       "name": "Polymarket Sentiment Scanner",
       "schedule": "2 3,9,15,21 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T15:05:42",
+      "last_run_time": "2026-08-12T21:04:05",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T17:26:06",
+      "last_run_time": "2026-08-12T21:23:31",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -229,9 +229,9 @@
       "name": "\ud83d\udcca Daily Chart Digest",
       "schedule": "30 */2 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T16:33:52",
+      "last_run_time": "2026-08-12T22:32:40",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -240,9 +240,9 @@
       "name": "\u2696\ufe0f Signal Conflict Resolver",
       "schedule": "15 0,6,12,18 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T12:18:27",
+      "last_run_time": "2026-08-12T18:23:08",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -275,8 +275,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:00:53",
-      "output_count_24h": 1,
+      "last_run_time": "2026-08-13T00:00:49",
+      "output_count_24h": 3,
       "potentially_silent": false
     },
     {
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T15:02:23",
+      "last_run_time": "2026-08-12T21:02:19",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T14:10:15",
+      "last_run_time": "2026-08-12T20:10:11",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -306,9 +306,9 @@
       "name": "\ud83e\udde0 Intelligence Synthesizer",
       "schedule": "5 9,15,21 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T15:08:40",
+      "last_run_time": "2026-08-12T21:06:19",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:00:53",
+      "last_run_time": "2026-08-13T00:01:00",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:00:53",
+      "last_run_time": "2026-08-13T00:00:51",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -339,9 +339,9 @@
       "name": "HL Strategy Lab \u2014 Full Harness",
       "schedule": "every 60m",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T16:44:03",
+      "last_run_time": "2026-08-13T00:00:59",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -361,9 +361,9 @@
       "name": "Hermes Health Harness",
       "schedule": "0 */6 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T12:04:16",
+      "last_run_time": "2026-08-12T18:10:43",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:00:58",
+      "last_run_time": "2026-08-13T00:01:03",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,7 +418,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:01:14",
+      "last_run_time": "2026-08-12T23:46:01",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -427,9 +427,9 @@
       "name": "\ud83d\udcda Trade Review & Lesson Extraction",
       "schedule": "0 */2 * * *",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T16:04:00",
+      "last_run_time": "2026-08-12T22:00:57",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -440,7 +440,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:01:21",
+      "last_run_time": "2026-08-13T00:01:06",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -462,7 +462,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:00:53",
+      "last_run_time": "2026-08-13T00:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -473,7 +473,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:00:51",
+      "last_run_time": "2026-08-13T00:00:48",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -484,7 +484,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:00:51",
+      "last_run_time": "2026-08-13T00:00:48",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -495,7 +495,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:00:51",
+      "last_run_time": "2026-08-13T00:00:48",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -506,15 +506,15 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-12T18:05:01",
-      "output_count_24h": 1,
+      "last_run_time": "2026-08-12T23:48:27",
+      "output_count_24h": 2,
       "potentially_silent": false
     }
   ],
   "skills": {
-    "total": 127,
-    "valid": 98,
-    "broken": 29,
+    "total": 130,
+    "valid": 100,
+    "broken": 30,
     "items": [
       {
         "name": "apple-apps",
@@ -847,6 +847,16 @@
         "line_count": 177
       },
       {
+        "name": "web3-product-research",
+        "category": "creative",
+        "path": "/Users/mojoai/.hermes/skills/creative/web3-product-research",
+        "valid": true,
+        "error": null,
+        "size_bytes": 18124,
+        "file_count": 4,
+        "line_count": 282
+      },
+      {
         "name": "crypto-scanner-ops",
         "category": "crypto",
         "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops",
@@ -1005,16 +1015,6 @@
         "size_bytes": 11096,
         "file_count": 1,
         "line_count": 228
-      },
-      {
-        "name": "mobile-devops",
-        "category": "devops",
-        "path": "/Users/mojoai/.hermes/skills/devops/mobile-devops",
-        "valid": true,
-        "error": null,
-        "size_bytes": 478,
-        "file_count": 4,
-        "line_count": 20
       }
     ]
   },
@@ -1044,25 +1044,25 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 1208.0,
+      "latency_ms": 156.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 531.0,
+      "latency_ms": 336.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 12.0
+      "latency_ms": 18.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-12T10:05:35.392391+00:00",
-    "overall_score": 78.3,
-    "overall_tier": "degraded",
+    "generated_at": "2026-08-12T16:01:28.404507+00:00",
+    "overall_score": 82.0,
+    "overall_tier": "healthy",
     "actions": [
       {
         "type": "alert",
@@ -1090,15 +1090,6 @@
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 652fe2a9c9ca"
-      },
-      {
-        "type": "alert",
-        "target": "Polymarket Sentiment Scanner",
-        "target_id": "3876dd862ca1",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 3876dd862ca1"
       },
       {
         "type": "alert",
@@ -1138,24 +1129,6 @@
       },
       {
         "type": "alert",
-        "target": "\ud83d\udcca Daily Chart Digest",
-        "target_id": "ccddd0e232cc",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log ccddd0e232cc"
-      },
-      {
-        "type": "alert",
-        "target": "\u2696\ufe0f Signal Conflict Resolver",
-        "target_id": "7f41b1d5bd77",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 7f41b1d5bd77"
-      },
-      {
-        "type": "alert",
         "target": "\ud83e\uddf9 Fleet Janitor",
         "target_id": "c67b5b611845",
         "severity": "critical",
@@ -1174,39 +1147,12 @@
       },
       {
         "type": "alert",
-        "target": "\ud83e\udde0 Intelligence Synthesizer",
-        "target_id": "75c3948a260e",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 75c3948a260e"
-      },
-      {
-        "type": "alert",
-        "target": "HL Strategy Lab \u2014 Full Harness",
-        "target_id": "410fb2ac468e",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 410fb2ac468e"
-      },
-      {
-        "type": "alert",
         "target": "HL Strategy Lab \u2014 Weekly Deep Eval",
         "target_id": "81a00f55a695",
         "severity": "critical",
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 81a00f55a695"
-      },
-      {
-        "type": "alert",
-        "target": "Hermes Health Harness",
-        "target_id": "3c2578a553f3",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 3c2578a553f3"
       },
       {
         "type": "alert",
@@ -1234,15 +1180,6 @@
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 74dfa88cea60"
-      },
-      {
-        "type": "alert",
-        "target": "\ud83d\udcda Trade Review & Lesson Extraction",
-        "target_id": "28ecc728b07c",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 28ecc728b07c"
       },
       {
         "type": "archive_candidate",
@@ -1453,6 +1390,15 @@
       },
       {
         "type": "archive_candidate",
+        "target": "smart-contract-research",
+        "category": "research",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/research/smart-contract-research"
+      },
+      {
+        "type": "archive_candidate",
         "target": "inspecting-hermes-desktop-dom",
         "category": "software-development",
         "severity": "info",
@@ -1509,7 +1455,7 @@
         "type": "summary",
         "target": "skills",
         "severity": "info",
-        "reason": "28 archive candidates, 1 review items",
+        "reason": "29 archive candidates, 1 review items",
         "action": "manual"
       },
       {
@@ -1522,12 +1468,12 @@
       }
     ],
     "summary": {
-      "total": 51,
+      "total": 45,
       "auto_executed": 0,
-      "manual_required": 51,
-      "critical": 20,
+      "manual_required": 45,
+      "critical": 13,
       "warnings": 1,
-      "info": 30
+      "info": 31
     },
     "auto_actions": [],
     "manual_review": [
@@ -1560,15 +1506,6 @@
       },
       {
         "type": "alert",
-        "target": "Polymarket Sentiment Scanner",
-        "target_id": "3876dd862ca1",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 3876dd862ca1"
-      },
-      {
-        "type": "alert",
         "target": "Daily Market Analysis",
         "target_id": "d6cc11071af7",
         "severity": "critical",
@@ -1605,24 +1542,6 @@
       },
       {
         "type": "alert",
-        "target": "\ud83d\udcca Daily Chart Digest",
-        "target_id": "ccddd0e232cc",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log ccddd0e232cc"
-      },
-      {
-        "type": "alert",
-        "target": "\u2696\ufe0f Signal Conflict Resolver",
-        "target_id": "7f41b1d5bd77",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 7f41b1d5bd77"
-      },
-      {
-        "type": "alert",
         "target": "\ud83e\uddf9 Fleet Janitor",
         "target_id": "c67b5b611845",
         "severity": "critical",
@@ -1641,39 +1560,12 @@
       },
       {
         "type": "alert",
-        "target": "\ud83e\udde0 Intelligence Synthesizer",
-        "target_id": "75c3948a260e",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 75c3948a260e"
-      },
-      {
-        "type": "alert",
-        "target": "HL Strategy Lab \u2014 Full Harness",
-        "target_id": "410fb2ac468e",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 410fb2ac468e"
-      },
-      {
-        "type": "alert",
         "target": "HL Strategy Lab \u2014 Weekly Deep Eval",
         "target_id": "81a00f55a695",
         "severity": "critical",
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 81a00f55a695"
-      },
-      {
-        "type": "alert",
-        "target": "Hermes Health Harness",
-        "target_id": "3c2578a553f3",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 3c2578a553f3"
       },
       {
         "type": "alert",
@@ -1701,15 +1593,6 @@
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 74dfa88cea60"
-      },
-      {
-        "type": "alert",
-        "target": "\ud83d\udcda Trade Review & Lesson Extraction",
-        "target_id": "28ecc728b07c",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 28ecc728b07c"
       },
       {
         "type": "archive_candidate",
@@ -1920,6 +1803,15 @@
       },
       {
         "type": "archive_candidate",
+        "target": "smart-contract-research",
+        "category": "research",
+        "severity": "info",
+        "reason": "1 broken ref(s)",
+        "action": "manual",
+        "path": "/Users/mojoai/.hermes/skills/research/smart-contract-research"
+      },
+      {
+        "type": "archive_candidate",
         "target": "inspecting-hermes-desktop-dom",
         "category": "software-development",
         "severity": "info",
@@ -1976,7 +1868,7 @@
         "type": "summary",
         "target": "skills",
         "severity": "info",
-        "reason": "28 archive candidates, 1 review items",
+        "reason": "29 archive candidates, 1 review items",
         "action": "manual"
       },
       {
@@ -1994,71 +1886,55 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.6
+        "latency_s": 5.7
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.2
+        "latency_s": 5.1
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 3.1
+        "latency_s": 7.0
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.3
+        "latency_s": 2.9
       }
     },
     "cron_quality": {
       "43ba1d393c5a": {
         "name": "X Crypto Scanner",
-        "quality": {
-          "quality": "high",
-          "score": 85,
-          "reason": "Provides well-formatted, actionable crypto signals including whale movements and price action, though it contains minor LLM meta-text artifacts."
-        }
+        "quality": ""
       },
       "66a98cf277aa": {
         "name": "\ud83d\udc0b Whale Monitor",
         "quality": {
           "quality": "noise",
-          "score": 5,
-          "reason": "The output shows a severely broken recursive file path error rather than any actual whale monitoring data."
+          "score": 10,
+          "reason": "The output indicates a catastrophic path loop error with deeply nested 'queries/' directories and contains zero actual monitoring data."
         }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
         "quality": {
           "quality": "high",
-          "score": 92,
-          "reason": "The output is highly structured, saves the digest to a clear file path, and provides actionable metadata before presenting curated, highly relevant research papers."
+          "score": 95,
+          "reason": "The output is highly structured, clearly indicates where the data is saved, and successfully filters a large volume of papers into a concise, actionable digest."
         }
       }
     },
     "skill_freshness": {
-      "apple-apps": {
-        "freshness": "current",
-        "confidence": 0.85,
-        "issues": []
-      },
-      "macos-computer-use": {
-        "freshness": "current",
-        "confidence": 0.95,
-        "issues": []
-      },
+      "apple-apps": "",
+      "macos-computer-use": "",
       "autonomous-research": {
         "freshness": "current",
-        "confidence": 0.95,
+        "confidence": 0.9,
         "issues": []
       },
-      "code-delegation": {
-        "freshness": "current",
-        "confidence": 0.95,
-        "issues": []
-      },
+      "code-delegation": "",
       "computer-use": "",
       "merge-reconciler": {
         "freshness": "current",
