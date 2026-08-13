@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-13T10:06:12.150164+00:00",
+    "generated_at": "2026-08-13T16:05:00.456403+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T17:47:54",
-      "output_count_24h": 20,
+      "last_run_time": "2026-08-13T23:47:18",
+      "output_count_24h": 23,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T17:25:53",
+      "last_run_time": "2026-08-13T23:26:24",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:01:54",
+      "last_run_time": "2026-08-13T23:41:59",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T17:53:21",
+      "last_run_time": "2026-08-13T23:54:01",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T17:48:52",
+      "last_run_time": "2026-08-13T23:48:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -176,7 +176,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T15:03:53",
+      "last_run_time": "2026-08-13T21:04:40",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T17:28:30",
+      "last_run_time": "2026-08-13T21:25:01",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -231,7 +231,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T16:34:21",
+      "last_run_time": "2026-08-13T22:32:07",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -242,7 +242,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:18:27",
+      "last_run_time": "2026-08-13T18:32:57",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -275,8 +275,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:49",
-      "output_count_24h": 5,
+      "last_run_time": "2026-08-14T00:00:51",
+      "output_count_24h": 4,
       "potentially_silent": false
     },
     {
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T15:02:19",
+      "last_run_time": "2026-08-13T21:02:18",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T14:10:11",
+      "last_run_time": "2026-08-13T20:10:10",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -308,7 +308,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T15:06:00",
+      "last_run_time": "2026-08-13T21:05:42",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:48",
+      "last_run_time": "2026-08-14T00:00:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:50",
+      "last_run_time": "2026-08-14T00:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -341,7 +341,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T17:08:01",
+      "last_run_time": "2026-08-13T23:58:51",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -363,7 +363,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:05:41",
+      "last_run_time": "2026-08-13T18:08:15",
       "output_count_24h": 2,
       "potentially_silent": false
     },
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:50",
+      "last_run_time": "2026-08-14T00:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,7 +418,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:01:03",
+      "last_run_time": "2026-08-14T00:00:57",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -429,7 +429,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:01:02",
+      "last_run_time": "2026-08-14T00:01:07",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -440,7 +440,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:53",
+      "last_run_time": "2026-08-14T00:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -462,7 +462,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:48",
+      "last_run_time": "2026-08-14T00:00:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -473,7 +473,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:48",
+      "last_run_time": "2026-08-14T00:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -484,7 +484,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:48",
+      "last_run_time": "2026-08-14T00:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -495,7 +495,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T18:00:48",
+      "last_run_time": "2026-08-14T00:00:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -506,8 +506,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T17:45:56",
-      "output_count_24h": 2,
+      "last_run_time": "2026-08-13T23:49:27",
+      "output_count_24h": 1,
       "potentially_silent": false
     }
   ],
@@ -852,9 +852,9 @@
         "path": "/Users/mojoai/.hermes/skills/creative/web3-product-research",
         "valid": true,
         "error": null,
-        "size_bytes": 22414,
-        "file_count": 5,
-        "line_count": 313
+        "size_bytes": 23974,
+        "file_count": 6,
+        "line_count": 329
       },
       {
         "name": "crypto-scanner-ops",
@@ -862,9 +862,9 @@
         "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops",
         "valid": false,
         "error": "8 broken ref(s)",
-        "size_bytes": 75919,
+        "size_bytes": 76935,
         "file_count": 75,
-        "line_count": 598
+        "line_count": 599
       },
       {
         "name": "exploit-scanner",
@@ -982,9 +982,9 @@
         "path": "/Users/mojoai/.hermes/skills/devops/hyperevm-ecosystem",
         "valid": true,
         "error": null,
-        "size_bytes": 6938,
-        "file_count": 3,
-        "line_count": 143
+        "size_bytes": 10184,
+        "file_count": 5,
+        "line_count": 159
       },
       {
         "name": "hyperevm-payments",
@@ -1044,23 +1044,23 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 214.0,
+      "latency_ms": 129.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 466.0,
+      "latency_ms": 366.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 17.0
+      "latency_ms": 18.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-13T10:02:11.091975+00:00",
+    "generated_at": "2026-08-13T16:01:32.572988+00:00",
     "overall_score": 86.2,
     "overall_tier": "healthy",
     "actions": [
@@ -1742,12 +1742,12 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.0
+        "latency_s": 6.5
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 10.1
+        "latency_s": 7.9
       },
       "reasoning": {
         "model": "glm-5.2",
@@ -1757,7 +1757,7 @@
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.4
+        "latency_s": 3.4
       }
     },
     "cron_quality": {
@@ -1765,8 +1765,8 @@
         "name": "X Crypto Scanner",
         "quality": {
           "quality": "high",
-          "score": 85,
-          "reason": "The output is well-structured, concise, and provides actionable metrics alongside direct source links, successfully filtering out pure social media noise."
+          "score": 88,
+          "reason": "The output is well-structured, concise, and surfaces actionable market context (institutional staking and whale positions) with clear metrics, tickers, and source links."
         }
       },
       "652fe2a9c9ca": {
@@ -1774,24 +1774,24 @@
         "quality": {
           "quality": "high",
           "score": 85,
-          "reason": "The output is well-structured and transparent about its resilient methodology, successfully adapting to API rate-limits while providing a clear, categorized digest."
+          "reason": "Well-structured and transparent output that clearly explains its methodology and fallback mechanisms, indicating high-quality actionable signal."
         }
       }
     },
     "skill_freshness": {
       "apple-apps": "",
-      "macos-computer-use": "",
-      "autonomous-research": {
-        "freshness": "current",
-        "confidence": 0.85,
-        "issues": []
-      },
-      "code-delegation": {
+      "macos-computer-use": {
         "freshness": "current",
         "confidence": 0.95,
         "issues": []
       },
-      "computer-use": "{\"freshness\": \"current\", \"confidence\": 0.9, \"issues\": [\"The documentation accurately reflects the modern, current paradigm of VM or API-based desktop automation (popularized by Anthropic's computer use and projects like trycua",
+      "autonomous-research": {
+        "freshness": "current",
+        "confidence": 0.9,
+        "issues": []
+      },
+      "code-delegation": "",
+      "computer-use": "",
       "merge-reconciler": {
         "freshness": "current",
         "confidence": 0.95,
