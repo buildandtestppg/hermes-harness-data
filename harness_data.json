@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-13T04:04:50.361639+00:00",
+    "generated_at": "2026-08-13T10:06:12.150164+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -39,9 +39,9 @@
       "score": 90.5,
       "tier": "healthy",
       "breakdown": {
-        "total": 130,
-        "valid": 100,
-        "functional": 129,
+        "total": 132,
+        "valid": 102,
+        "functional": 131,
         "has_stale_refs": 29,
         "broken": 1,
         "functional_rate": 99.2
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T11:50:47",
-      "output_count_24h": 16,
+      "last_run_time": "2026-08-13T17:47:54",
+      "output_count_24h": 20,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T11:26:11",
+      "last_run_time": "2026-08-13T17:25:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -110,7 +110,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T00:04:27",
+      "last_run_time": "2026-08-13T12:03:15",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T11:42:16",
+      "last_run_time": "2026-08-13T18:01:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T11:53:51",
+      "last_run_time": "2026-08-13T17:53:21",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T11:49:03",
+      "last_run_time": "2026-08-13T17:48:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -176,7 +176,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T09:03:51",
+      "last_run_time": "2026-08-13T15:03:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T09:26:25",
+      "last_run_time": "2026-08-13T17:28:30",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -231,7 +231,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T10:34:53",
+      "last_run_time": "2026-08-13T16:34:21",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -242,7 +242,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T06:20:14",
+      "last_run_time": "2026-08-13T12:18:27",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -275,7 +275,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:50",
+      "last_run_time": "2026-08-13T18:00:49",
       "output_count_24h": 5,
       "potentially_silent": false
     },
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T09:02:19",
+      "last_run_time": "2026-08-13T15:02:19",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T08:10:11",
+      "last_run_time": "2026-08-13T14:10:11",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -308,7 +308,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T09:06:47",
+      "last_run_time": "2026-08-13T15:06:00",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:49",
+      "last_run_time": "2026-08-13T18:00:48",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:51",
+      "last_run_time": "2026-08-13T18:00:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -341,7 +341,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T11:55:46",
+      "last_run_time": "2026-08-13T17:08:01",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -363,7 +363,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T06:03:25",
+      "last_run_time": "2026-08-13T12:05:41",
       "output_count_24h": 2,
       "potentially_silent": false
     },
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:51",
+      "last_run_time": "2026-08-13T18:00:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,7 +418,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:56",
+      "last_run_time": "2026-08-13T18:01:03",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -429,7 +429,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:01:03",
+      "last_run_time": "2026-08-13T18:01:02",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -440,7 +440,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:53",
+      "last_run_time": "2026-08-13T18:00:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -462,7 +462,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:50",
+      "last_run_time": "2026-08-13T18:00:48",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -473,7 +473,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:49",
+      "last_run_time": "2026-08-13T18:00:48",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -484,7 +484,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:49",
+      "last_run_time": "2026-08-13T18:00:48",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -495,7 +495,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T12:00:49",
+      "last_run_time": "2026-08-13T18:00:48",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -506,14 +506,14 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T11:46:12",
+      "last_run_time": "2026-08-13T17:45:56",
       "output_count_24h": 2,
       "potentially_silent": false
     }
   ],
   "skills": {
-    "total": 130,
-    "valid": 100,
+    "total": 132,
+    "valid": 102,
     "broken": 30,
     "items": [
       {
@@ -852,9 +852,9 @@
         "path": "/Users/mojoai/.hermes/skills/creative/web3-product-research",
         "valid": true,
         "error": null,
-        "size_bytes": 18124,
-        "file_count": 4,
-        "line_count": 282
+        "size_bytes": 22414,
+        "file_count": 5,
+        "line_count": 313
       },
       {
         "name": "crypto-scanner-ops",
@@ -977,6 +977,16 @@
         "line_count": 169
       },
       {
+        "name": "hyperevm-ecosystem",
+        "category": "devops",
+        "path": "/Users/mojoai/.hermes/skills/devops/hyperevm-ecosystem",
+        "valid": true,
+        "error": null,
+        "size_bytes": 6938,
+        "file_count": 3,
+        "line_count": 143
+      },
+      {
         "name": "hyperevm-payments",
         "category": "devops",
         "path": "/Users/mojoai/.hermes/skills/devops/hyperevm-payments",
@@ -1005,16 +1015,6 @@
         "size_bytes": 6077,
         "file_count": 5,
         "line_count": 159
-      },
-      {
-        "name": "magic-sdk-vanilla-auth",
-        "category": "devops",
-        "path": "/Users/mojoai/.hermes/skills/devops/magic-sdk-vanilla-auth",
-        "valid": true,
-        "error": null,
-        "size_bytes": 11096,
-        "file_count": 1,
-        "line_count": 228
       }
     ]
   },
@@ -1044,23 +1044,23 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 221.0,
+      "latency_ms": 214.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 306.0,
+      "latency_ms": 466.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 14.0
+      "latency_ms": 17.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-13T04:02:08.241614+00:00",
+    "generated_at": "2026-08-13T10:02:11.091975+00:00",
     "overall_score": 86.2,
     "overall_tier": "healthy",
     "actions": [
@@ -1742,22 +1742,22 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 3.5
+        "latency_s": 4.0
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 3.0
+        "latency_s": 10.1
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.5
+        "latency_s": 3.9
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 3.1
+        "latency_s": 5.4
       }
     },
     "cron_quality": {
@@ -1766,7 +1766,7 @@
         "quality": {
           "quality": "high",
           "score": 85,
-          "reason": "The output is well-structured, cleanly formatted for Discord, and provides highly actionable signals with relevant tickers, engagement metrics, AI scores, and source links."
+          "reason": "The output is well-structured, concise, and provides actionable metrics alongside direct source links, successfully filtering out pure social media noise."
         }
       },
       "652fe2a9c9ca": {
@@ -1774,28 +1774,24 @@
         "quality": {
           "quality": "high",
           "score": 85,
-          "reason": "The output is well-structured and transparent about its methodology, demonstrating clear value and resilience despite encountering API rate limits."
+          "reason": "The output is well-structured and transparent about its resilient methodology, successfully adapting to API rate-limits while providing a clear, categorized digest."
         }
       }
     },
     "skill_freshness": {
       "apple-apps": "",
-      "macos-computer-use": {
+      "macos-computer-use": "",
+      "autonomous-research": {
+        "freshness": "current",
+        "confidence": 0.85,
+        "issues": []
+      },
+      "code-delegation": {
         "freshness": "current",
         "confidence": 0.95,
         "issues": []
       },
-      "autonomous-research": {
-        "freshness": "current",
-        "confidence": 0.8,
-        "issues": [
-          "Contains local file references (e.g., `references/autoresearch.md`) which cannot be externally verified for existence or freshness.",
-          "Lacks specific mentions of external frameworks or tools (e.g., AutoGPT, LangChain), making it difficult to assess if the specific implementation patterns are deprecated.",
-          "Relies on internal terminology ('umbrella skill', 'hermes') which may be outdated if the broader system architecture has changed."
-        ]
-      },
-      "code-delegation": "",
-      "computer-use": "",
+      "computer-use": "{\"freshness\": \"current\", \"confidence\": 0.9, \"issues\": [\"The documentation accurately reflects the modern, current paradigm of VM or API-based desktop automation (popularized by Anthropic's computer use and projects like trycua",
       "merge-reconciler": {
         "freshness": "current",
         "confidence": 0.95,
