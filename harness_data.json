@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-14T16:04:38.842789+00:00",
+    "generated_at": "2026-08-14T22:03:23.296511+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T23:48:36",
-      "output_count_24h": 18,
+      "last_run_time": "2026-08-15T05:46:44",
+      "output_count_24h": 21,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T23:28:06",
+      "last_run_time": "2026-08-15T05:26:01",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -110,7 +110,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T12:04:57",
+      "last_run_time": "2026-08-15T00:03:34",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T23:41:53",
+      "last_run_time": "2026-08-15T05:41:23",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T23:54:10",
+      "last_run_time": "2026-08-15T05:53:17",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T23:48:56",
+      "last_run_time": "2026-08-15T05:48:55",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -176,7 +176,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T21:04:05",
+      "last_run_time": "2026-08-15T03:03:19",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T21:27:02",
+      "last_run_time": "2026-08-15T05:23:46",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -209,7 +209,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T04:13:11",
+      "last_run_time": "2026-08-15T04:23:36",
       "output_count_24h": 2,
       "potentially_silent": false
     },
@@ -231,7 +231,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T22:31:43",
+      "last_run_time": "2026-08-15T04:31:45",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -242,7 +242,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:17:47",
+      "last_run_time": "2026-08-15T00:17:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -253,7 +253,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T03:01:13",
+      "last_run_time": "2026-08-15T03:01:43",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -265,7 +265,7 @@
       "last_run_ok": false,
       "never_run": false,
       "last_run_time": "2026-08-10T09:03:51",
-      "output_count_24h": 1,
+      "output_count_24h": 0,
       "potentially_silent": false
     },
     {
@@ -275,7 +275,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:53",
+      "last_run_time": "2026-08-15T06:00:53",
       "output_count_24h": 8,
       "potentially_silent": false
     },
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T21:02:23",
+      "last_run_time": "2026-08-15T03:02:23",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T20:10:15",
+      "last_run_time": "2026-08-15T02:10:14",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:52",
+      "last_run_time": "2026-08-15T06:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:54",
+      "last_run_time": "2026-08-15T06:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -341,7 +341,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T23:27:42",
+      "last_run_time": "2026-08-15T05:00:08",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -363,7 +363,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:05:35",
+      "last_run_time": "2026-08-15T00:07:45",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -374,7 +374,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T04:32:52",
+      "last_run_time": "2026-08-15T04:31:49",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:55",
+      "last_run_time": "2026-08-15T05:50:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,7 +418,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:01:15",
+      "last_run_time": "2026-08-15T06:00:59",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -429,7 +429,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:01:22",
+      "last_run_time": "2026-08-15T06:01:00",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -440,7 +440,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:57",
+      "last_run_time": "2026-08-15T05:50:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -451,7 +451,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T03:30:29",
+      "last_run_time": "2026-08-15T03:30:31",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -462,7 +462,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:52",
+      "last_run_time": "2026-08-15T06:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -473,7 +473,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:52",
+      "last_run_time": "2026-08-15T06:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -484,7 +484,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:52",
+      "last_run_time": "2026-08-15T06:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -495,7 +495,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:00:52",
+      "last_run_time": "2026-08-15T06:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -506,7 +506,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T23:48:55",
+      "last_run_time": "2026-08-15T05:49:05",
       "output_count_24h": 2,
       "potentially_silent": false
     }
@@ -862,9 +862,9 @@
         "path": "/Users/mojoai/.hermes/skills/crypto/crypto-scanner-ops",
         "valid": false,
         "error": "8 broken ref(s)",
-        "size_bytes": 76935,
-        "file_count": 75,
-        "line_count": 599
+        "size_bytes": 78211,
+        "file_count": 76,
+        "line_count": 601
       },
       {
         "name": "exploit-scanner",
@@ -1044,23 +1044,23 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 305.0,
+      "latency_ms": 150.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 378.0,
+      "latency_ms": 332.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 18.0
+      "latency_ms": 14.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-14T16:01:39.898647+00:00",
+    "generated_at": "2026-08-14T22:01:16.169112+00:00",
     "overall_score": 83.9,
     "overall_tier": "healthy",
     "actions": [
@@ -1760,22 +1760,22 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.3
+        "latency_s": 1.1
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.3
+        "latency_s": 7.0
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 7.2
+        "latency_s": 1.9
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 7.9
+        "latency_s": 2.0
       }
     },
     "cron_quality": {
@@ -1784,7 +1784,7 @@
         "quality": {
           "quality": "medium",
           "score": 68,
-          "reason": "Well-structured report with links, engagement metrics, and scores, but the top signal (a perfect 5.0) appears to be promotional/shill-style content rather than genuine actionable alpha, suggesting the scoring may reward engagement farming."
+          "reason": "The actual signal content is well-structured and actionable (specific tickers, price levels, source links, engagement metrics), but the leaked internal reasoning text at the start of the output is a quality defect that should not appear in a final report."
         }
       },
       "652fe2a9c9ca": {
@@ -1792,7 +1792,7 @@
         "quality": {
           "quality": "medium",
           "score": 68,
-          "reason": "Well-structured digest with transparent reporting of API rate-limiting and fallback to web search, but the degraded discovery method introduces reliability concerns for the paper data and the truncated excerpt prevents verifying actual content quality."
+          "reason": "Well-structured digest with transparent error reporting and multi-angle scanning, but the arXiv API block forcing fallback to web search undermines data reliability for a research scanner's core function."
         }
       }
     },
@@ -1802,7 +1802,7 @@
       "autonomous-research": "",
       "code-delegation": "",
       "computer-use": "",
-      "merge-reconciler": "{\"freshness\": \"current\", \"confidence\": 0.7, \"issues\": [\"Content truncated at 800 chars \u2014",
+      "merge-reconciler": "",
       "skills-hub-research": "",
       "thoth-agent": ""
     }
