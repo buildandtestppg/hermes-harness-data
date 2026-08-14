@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-13T22:04:06.954127+00:00",
+    "generated_at": "2026-08-14T04:03:44.685455+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:49:20",
-      "output_count_24h": 24,
+      "last_run_time": "2026-08-14T11:43:56",
+      "output_count_24h": 23,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:25:52",
+      "last_run_time": "2026-08-14T11:25:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:42:12",
+      "last_run_time": "2026-08-14T11:46:08",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:54:42",
+      "last_run_time": "2026-08-14T11:53:15",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -143,7 +143,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T09:08:21",
+      "last_run_time": "2026-08-14T09:04:33",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:48:57",
+      "last_run_time": "2026-08-14T11:48:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -165,7 +165,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T10:12:17",
+      "last_run_time": "2026-08-14T10:07:23",
       "output_count_24h": 2,
       "potentially_silent": false
     },
@@ -176,7 +176,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T03:03:41",
+      "last_run_time": "2026-08-14T09:03:15",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:24:57",
+      "last_run_time": "2026-08-14T09:22:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -198,8 +198,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T09:04:11",
-      "output_count_24h": 2,
+      "last_run_time": "2026-08-14T09:02:06",
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -231,7 +231,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T04:31:32",
+      "last_run_time": "2026-08-14T10:33:19",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -242,7 +242,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T00:17:35",
+      "last_run_time": "2026-08-14T06:18:22",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -275,8 +275,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:50",
-      "output_count_24h": 4,
+      "last_run_time": "2026-08-14T12:00:51",
+      "output_count_24h": 6,
       "potentially_silent": false
     },
     {
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T03:02:19",
+      "last_run_time": "2026-08-14T09:02:20",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T02:10:11",
+      "last_run_time": "2026-08-14T08:10:12",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -308,7 +308,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-13T21:05:42",
+      "last_run_time": "2026-08-14T09:05:38",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:49",
+      "last_run_time": "2026-08-14T12:00:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:52",
+      "last_run_time": "2026-08-14T12:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -341,7 +341,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:20:48",
+      "last_run_time": "2026-08-14T11:45:36",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -363,7 +363,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T00:06:34",
+      "last_run_time": "2026-08-14T06:04:51",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -385,7 +385,7 @@
       "status": "active",
       "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-08-12T09:00:33",
+      "last_run_time": "2026-08-14T09:00:20",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:51",
+      "last_run_time": "2026-08-14T12:00:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,7 +418,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:46:04",
+      "last_run_time": "2026-08-14T12:01:02",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -429,7 +429,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:01:11",
+      "last_run_time": "2026-08-14T12:01:02",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -440,7 +440,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:53",
+      "last_run_time": "2026-08-14T12:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -462,7 +462,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:49",
+      "last_run_time": "2026-08-14T12:00:51",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -473,7 +473,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:49",
+      "last_run_time": "2026-08-14T12:00:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -484,7 +484,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:49",
+      "last_run_time": "2026-08-14T12:00:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -495,7 +495,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T06:00:49",
+      "last_run_time": "2026-08-14T12:00:50",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -506,7 +506,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T05:46:00",
+      "last_run_time": "2026-08-14T11:49:06",
       "output_count_24h": 1,
       "potentially_silent": false
     }
@@ -1044,14 +1044,14 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 155.0,
+      "latency_ms": 218.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 414.0,
-      "model_count": 18
+      "latency_ms": 305.0,
+      "model_count": 19
     },
     {
       "name": "Ollama Local",
@@ -1060,7 +1060,7 @@
     }
   ],
   "actions": {
-    "generated_at": "2026-08-13T22:01:13.452070+00:00",
+    "generated_at": "2026-08-14T04:01:12.958607+00:00",
     "overall_score": 85.8,
     "overall_tier": "healthy",
     "actions": [
@@ -1760,22 +1760,22 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 7.9
+        "latency_s": 6.8
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 8.7
+        "latency_s": 4.6
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.4
+        "latency_s": 4.0
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.7
+        "latency_s": 2.8
       }
     },
     "cron_quality": {
@@ -1783,39 +1783,41 @@
         "name": "X Crypto Scanner",
         "quality": {
           "quality": "high",
-          "score": 85,
-          "reason": "Provides actionable and well-formatted crypto signals, although it contains some internal system log leakage at the beginning."
+          "score": 88,
+          "reason": "The output is well-structured, provides clear actionable trading signals with relevant metrics and direct links, and is ready for Discord despite a minor preamble leak."
         }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
         "quality": {
           "quality": "high",
-          "score": 85,
-          "reason": "The output is well-structured and transparent, successfully detailing its methodology and demonstrating robust fallback mechanisms after encountering API rate limits."
+          "score": 88,
+          "reason": "The output is highly structured, provides clear metadata, and transparently handles an API rate limit failure by falling back to an alternative search method."
         }
       }
     },
     "skill_freshness": {
       "apple-apps": "",
-      "macos-computer-use": "",
-      "autonomous-research": {
-        "freshness": "current",
-        "confidence": 0.9,
-        "issues": []
-      },
-      "code-delegation": "",
-      "computer-use": {
+      "macos-computer-use": {
         "freshness": "current",
         "confidence": 0.95,
         "issues": []
       },
+      "autonomous-research": {
+        "freshness": "current",
+        "confidence": 0.8,
+        "issues": [
+          "No outdated tools, dead links, or deprecated patterns detected in the provided excerpt.",
+          "The focus on LLM-driven parameter optimization and autonomous AI agents is highly relevant to current development paradigms.",
+          "Note: Only the first 800 characters were reviewed; dead links or deprecated patterns may exist in the unreferenced remainder of the documentation."
+        ]
+      },
+      "code-delegation": "",
+      "computer-use": "",
       "merge-reconciler": {
         "freshness": "current",
         "confidence": 0.95,
-        "issues": [
-          "No outdated tools, dead links, or deprecated patterns detected in the provided snippet. The multi-agent merge conflict concept is highly relevant to modern AI agent workflows."
-        ]
+        "issues": []
       },
       "skills-hub-research": "",
       "thoth-agent": ""
