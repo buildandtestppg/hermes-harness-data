@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-08-14T10:04:59.969993+00:00",
+    "generated_at": "2026-08-14T16:04:38.842789+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
   "overall": {
-    "score": 84.3,
+    "score": 83.9,
     "tier": "healthy",
     "weights": {
       "cron": 35,
@@ -16,7 +16,7 @@
     "component_scores": {
       "cron": 91.3,
       "skills": 90.5,
-      "memory": 82.0,
+      "memory": 80.0,
       "providers": 66.7
     },
     "issues": [
@@ -56,13 +56,13 @@
       ]
     },
     "memory": {
-      "score": 82.0,
+      "score": 80.0,
       "tier": "healthy",
       "breakdown": {
-        "total": 20,
+        "total": 21,
         "stale": 0,
         "duplicates": 0,
-        "never_retrieved": 20,
+        "never_retrieved": 21,
         "helpful": 0,
         "stale_rate": 0.0
       },
@@ -88,8 +88,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T17:47:53",
-      "output_count_24h": 21,
+      "last_run_time": "2026-08-14T23:48:36",
+      "output_count_24h": 18,
       "potentially_silent": false
     },
     {
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T17:25:55",
+      "last_run_time": "2026-08-14T23:28:06",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T17:43:28",
+      "last_run_time": "2026-08-14T23:41:53",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T17:54:10",
+      "last_run_time": "2026-08-14T23:54:10",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T17:49:19",
+      "last_run_time": "2026-08-14T23:48:56",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -176,7 +176,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T15:05:49",
+      "last_run_time": "2026-08-14T21:04:05",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T17:26:50",
+      "last_run_time": "2026-08-14T21:27:02",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -231,7 +231,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T16:33:25",
+      "last_run_time": "2026-08-14T22:31:43",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -242,7 +242,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T12:17:15",
+      "last_run_time": "2026-08-14T18:17:47",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -275,7 +275,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:54",
+      "last_run_time": "2026-08-15T00:00:53",
       "output_count_24h": 8,
       "potentially_silent": false
     },
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T15:02:22",
+      "last_run_time": "2026-08-14T21:02:23",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T14:10:12",
+      "last_run_time": "2026-08-14T20:10:15",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -308,7 +308,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T15:05:54",
+      "last_run_time": "2026-08-14T21:05:46",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:54",
+      "last_run_time": "2026-08-15T00:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:55",
+      "last_run_time": "2026-08-15T00:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -341,7 +341,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:28",
+      "last_run_time": "2026-08-14T23:27:42",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -363,7 +363,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T12:04:42",
+      "last_run_time": "2026-08-14T18:05:35",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:56",
+      "last_run_time": "2026-08-15T00:00:55",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,7 +418,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:01:18",
+      "last_run_time": "2026-08-15T00:01:15",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -429,7 +429,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:01:15",
+      "last_run_time": "2026-08-15T00:01:22",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -440,7 +440,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:58",
+      "last_run_time": "2026-08-15T00:00:57",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -462,7 +462,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:53",
+      "last_run_time": "2026-08-15T00:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -473,7 +473,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:53",
+      "last_run_time": "2026-08-15T00:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -484,7 +484,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:53",
+      "last_run_time": "2026-08-15T00:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -495,7 +495,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T18:00:53",
+      "last_run_time": "2026-08-15T00:00:52",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -506,8 +506,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T17:46:02",
-      "output_count_24h": 1,
+      "last_run_time": "2026-08-14T23:48:55",
+      "output_count_24h": 2,
       "potentially_silent": false
     }
   ],
@@ -1019,21 +1019,21 @@
     ]
   },
   "memory": {
-    "total_facts": 20,
-    "total_entities": 10,
-    "avg_trust": 0.77,
+    "total_facts": 21,
+    "total_entities": 11,
+    "avg_trust": 0.757,
     "trust_distribution": {
       "low (<0.3)": 0,
-      "medium (0.3-0.7)": 6,
+      "medium (0.3-0.7)": 7,
       "high (>0.7)": 14
     },
     "categories": {
-      "project": 7,
+      "project": 8,
       "user_pref": 7,
       "general": 4,
       "tool": 2
     },
-    "never_retrieved": 20,
+    "never_retrieved": 21,
     "stale_14d": 0,
     "old_60d": 12,
     "helpful_count": 0,
@@ -1044,24 +1044,24 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 243.0,
+      "latency_ms": 305.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 319.0,
+      "latency_ms": 378.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 20.0
+      "latency_ms": 18.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-14T10:01:24.606161+00:00",
-    "overall_score": 84.3,
+    "generated_at": "2026-08-14T16:01:39.898647+00:00",
+    "overall_score": 83.9,
     "overall_tier": "healthy",
     "actions": [
       {
@@ -1760,39 +1760,39 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 7.6
+        "latency_s": 4.3
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 14.6
+        "latency_s": 5.3
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 9.9
+        "latency_s": 7.2
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.2
+        "latency_s": 7.9
       }
     },
     "cron_quality": {
       "43ba1d393c5a": {
         "name": "X Crypto Scanner",
         "quality": {
-          "quality": "high",
-          "score": 81,
-          "reason": "Well-structured output with concrete, actionable whale-transaction data (specific amounts, holdings, source links, engagement metrics, and relevance scores), though the second signal is more speculative."
+          "quality": "medium",
+          "score": 68,
+          "reason": "Well-structured report with links, engagement metrics, and scores, but the top signal (a perfect 5.0) appears to be promotional/shill-style content rather than genuine actionable alpha, suggesting the scoring may reward engagement farming."
         }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
         "quality": {
           "quality": "medium",
-          "score": 65,
-          "reason": "Well-structured digest with transparent disclosure that the arXiv API was rate-limited and fallback web search was used, but the degraded primary data source introduces uncertainty about paper verification and completeness that prevents full confidence."
+          "score": 68,
+          "reason": "Well-structured digest with transparent reporting of API rate-limiting and fallback to web search, but the degraded discovery method introduces reliability concerns for the paper data and the truncated excerpt prevents verifying actual content quality."
         }
       }
     },
@@ -1802,17 +1802,7 @@
       "autonomous-research": "",
       "code-delegation": "",
       "computer-use": "",
-      "merge-reconciler": {
-        "freshness": "current",
-        "confidence": 0.7,
-        "issues": [
-          "Content truncated at 800 chars \u2014 full documentation could not be reviewed for outdated references in later sections",
-          "Related skill reference 'hermes-agent' cannot be verified as existing or maintained from provided content",
-          "No external links present in visible portion, so dead-link verification was not possible",
-          "Version 1.0.0 with no changelog or last-updated date visible, making age impossible to determine",
-          "References niche platform 'Hermes Agent' whose ecosystem status is unverifiable from this content alone"
-        ]
-      },
+      "merge-reconciler": "{\"freshness\": \"current\", \"confidence\": 0.7, \"issues\": [\"Content truncated at 800 chars \u2014",
       "skills-hub-research": "",
       "thoth-agent": ""
     }
