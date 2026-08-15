@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-15T16:23:11.909901+00:00",
+    "generated_at": "2026-08-15T16:28:34.585083+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -84,7 +84,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T23:46:26",
+      "last_run_time": "2026-08-16T00:20:35",
       "output_count_24h": 27,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -120,7 +120,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:01:54",
+      "last_run_time": "2026-08-16T00:21:43",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -156,7 +156,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:04:11",
+      "last_run_time": "2026-08-16T00:19:03",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -348,7 +348,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:15:59",
+      "last_run_time": "2026-08-16T00:21:01",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -432,7 +432,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:10:58",
+      "last_run_time": "2026-08-16T00:21:00",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -468,7 +468,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:11:00",
+      "last_run_time": "2026-08-16T00:21:02",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -492,7 +492,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:10:57",
+      "last_run_time": "2026-08-16T00:20:59",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -504,7 +504,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:15:57",
+      "last_run_time": "2026-08-16T00:20:58",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -1079,23 +1079,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 201.0,
+      "latency_ms": 172.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 1081.0,
+      "latency_ms": 299.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 12.0
+      "latency_ms": 11.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-15T16:17:49.673764+00:00",
+    "generated_at": "2026-08-15T16:23:37.120852+00:00",
     "overall_score": 92.5,
     "overall_tier": "healthy",
     "actions": [
@@ -1707,22 +1707,22 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 3.3
+        "latency_s": 3.0
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.3
+        "latency_s": 4.9
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.2
+        "latency_s": 2.7
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 10.1
+        "latency_s": 5.0
       }
     },
     "cron_quality": {
@@ -1730,17 +1730,13 @@
         "name": "X Crypto Scanner",
         "quality": {
           "quality": "low",
-          "score": 42,
-          "reason": "The visible output contains only job metadata and an echoed prompt with no actual scanning findings or actionable crypto intelligence, suggesting the report is dominated by boilerplate rather than delivered signal."
+          "score": 45,
+          "reason": "The visible output contains only job metadata and an echoed prompt template with no actual crypto scanning findings or actionable signal, making it impossible to verify any real analytical value."
         }
       },
       "a354447653dc": {
         "name": "Fleet Operations Agent",
-        "quality": {
-          "quality": "noise",
-          "score": 12,
-          "reason": "Output contains only job metadata and an echo of the cron prompt template with no actual fleet operations findings, data, or actionable content."
-        }
+        "quality": "{\"quality\":"
       },
       "46929a249347": {
         "name": "trading-strategy-review",
@@ -1748,52 +1744,52 @@
       },
       "66a98cf277aa": {
         "name": "\ud83d\udc0b Whale Monitor",
-        "quality": {
-          "quality": "low",
-          "score": 45,
-          "reason": "The visible output consists only of boilerplate metadata and an echoed system prompt with no actual whale monitoring data, findings, or actionable signal; at best the real content is buried further in, and the prompt-echo header adds noise rather than value."
-        }
+        "quality": ""
       },
       "8bd6a73fc440": {
         "name": "\ud83d\udcf0 News Agent",
-        "quality": "{\"quality\": \"low\", \"score\": 42, \"reason\": \"The output echoes the raw system prompt and metadata instead of leading with"
+        "quality": ""
       },
       "4a4564fc946b": {
         "name": "\u23f0 Daily Review",
-        "quality": {
-          "quality": "low",
-          "score": 45,
-          "reason": "The first 500 characters contain only job metadata and an echoed prompt with no actual review findings or actionable content, suggesting the output is mostly boilerplate noise."
-        }
+        "quality": ""
       },
       "6f7b35ec5e0b": {
         "name": "\ud83d\udc9a Fleet Heartbeat",
         "quality": {
           "quality": "low",
           "score": 45,
-          "reason": "The visible output is entirely job metadata and an echoed prompt \u2014 no actual fleet status or actionable signal appears in the first 500 characters."
+          "reason": "The output is mostly metadata and an echoed prompt template rather than actual fleet heartbeat findings, providing no visible actionable signal or fleet status data."
         }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
-        "quality": ""
+        "quality": "{\"quality\": \"medium\", \"score\": 72, \"reason\": \"Well-structured digest with transparent methodology (search queries, ID extraction, page-scrape verification) and honest disclosure of arXiv API rate-limiting, but the truncated view omits the actual paper summaries and the degraded API access suggests potentially reduced coverage, so core content value cannot be fully"
       },
       "3876dd862ca1": {
         "name": "Polymarket Sentiment Scanner",
-        "quality": ""
+        "quality": {
+          "quality": "low",
+          "score": 45,
+          "reason": "The visible output contains only well-formed job metadata and an echoed skill prompt boilerplate with no actual market data, prices, or sentiment analysis, providing no actionable signal."
+        }
       },
       "0d71774646b8": {
         "name": "Fleet Research Agent",
-        "quality": ""
+        "quality": {
+          "quality": "noise",
+          "score": 15,
+          "reason": "Output contains only job metadata and an echoed prompt template with no actual research findings, signals, or actionable content."
+        }
       }
     },
     "skill_freshness": {
-      "apple-apps": "{\"freshness\": \"current\", \"confidence\": 0.6, \"issues\": [\"Content truncated at 800 chars \u2014 cannot verify links, install commands",
+      "apple-apps": "",
       "macos-computer-use": "",
       "autonomous-research": "",
-      "code-delegation": "{\"freshness\": \"current\", \"confidence\": 0.7, \"issues",
+      "code-delegation": "",
       "computer-use": "",
-      "merge-reconciler": "",
+      "merge-reconciler": "{\"freshness\": \"current\", \"confidence\": 0.65, \"issues\": [\"Content truncated at 800 chars; only partial review possible \u2014 rest of doc may contain unverifiable links or deprecated references\", \"References ecosystem-specific 'hermes-agent' related skill which cannot be verified as existing or maintained\", \"No last-updated or maintenance date in metadata, so actual document age is indeterminable\", \"No external URLs present in visible content; link health cannot be assessed\", \"Multi-agent merge conflict resolution is an emerging pattern with no stable standards yet; approach may become stale if platforms like GitHub merge",
       "skills-hub-research": "",
       "thoth-agent": ""
     }
