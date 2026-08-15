@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-15T16:15:21.181372+00:00",
+    "generated_at": "2026-08-15T16:23:11.909901+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -86,7 +86,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T23:46:26",
       "output_count_24h": 27,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "a354447653dc",
@@ -97,7 +98,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T23:25:54",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "46929a249347",
@@ -108,7 +110,8 @@
       "never_run": false,
       "last_run_time": "2026-08-16T00:05:29",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "66a98cf277aa",
@@ -119,7 +122,8 @@
       "never_run": false,
       "last_run_time": "2026-08-16T00:01:54",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "8bd6a73fc440",
@@ -128,9 +132,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T23:52:12",
+      "last_run_time": "2026-08-16T00:10:03",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "4a4564fc946b",
@@ -141,7 +146,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T09:04:13",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "6f7b35ec5e0b",
@@ -152,7 +158,8 @@
       "never_run": false,
       "last_run_time": "2026-08-16T00:04:11",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "652fe2a9c9ca",
@@ -163,7 +170,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T10:06:41",
       "output_count_24h": 2,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "3876dd862ca1",
@@ -174,7 +182,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T21:03:37",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "0d71774646b8",
@@ -185,7 +194,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T21:28:25",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "d6cc11071af7",
@@ -196,7 +206,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T09:02:09",
       "output_count_24h": 2,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "14fd127d289c",
@@ -207,7 +218,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T04:23:36",
       "output_count_24h": 2,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "7c57a0c4cff1",
@@ -218,7 +230,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T06:04:05",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "ccddd0e232cc",
@@ -229,7 +242,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T22:31:42",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "7f41b1d5bd77",
@@ -238,9 +252,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T18:17:27",
+      "last_run_time": "2026-08-16T00:17:28",
       "output_count_24h": 2,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "c67b5b611845",
@@ -251,7 +266,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T03:01:43",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "7d8920b2c397",
@@ -262,7 +278,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T06:04:57",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "8f99666a8744",
@@ -273,7 +290,8 @@
       "never_run": false,
       "last_run_time": "2026-08-16T00:00:56",
       "output_count_24h": 4,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "19d3cb3ac835",
@@ -284,7 +302,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T21:02:24",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "cdfa4ef4a5c0",
@@ -295,7 +314,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T20:10:15",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "75c3948a260e",
@@ -306,7 +326,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T21:06:05",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "472ce4aec60d",
@@ -317,7 +338,8 @@
       "never_run": false,
       "last_run_time": "2026-08-16T00:00:55",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "39999f004261",
@@ -326,9 +348,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:05:58",
+      "last_run_time": "2026-08-16T00:15:59",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "410fb2ac468e",
@@ -339,7 +362,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T23:51:18",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "81a00f55a695",
@@ -350,7 +374,8 @@
       "never_run": false,
       "last_run_time": "2026-08-09T06:03:49",
       "output_count_24h": 0,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "3c2578a553f3",
@@ -361,7 +386,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T18:11:37",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "a370de1c776c",
@@ -372,7 +398,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T04:31:49",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "7abc6750c24a",
@@ -383,7 +410,8 @@
       "never_run": false,
       "last_run_time": "2026-08-14T09:00:20",
       "output_count_24h": 0,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": true
     },
     {
       "id": "74dfa88cea60",
@@ -394,7 +422,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T06:04:35",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "f03d1289fee6",
@@ -403,9 +432,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:00:57",
+      "last_run_time": "2026-08-16T00:10:58",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "ee9ebdc2a789",
@@ -414,9 +444,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:01:02",
+      "last_run_time": "2026-08-16T00:16:03",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "28ecc728b07c",
@@ -427,7 +458,8 @@
       "never_run": false,
       "last_run_time": "2026-08-16T00:01:12",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "44d816c96346",
@@ -436,9 +468,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:00:58",
+      "last_run_time": "2026-08-16T00:11:00",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "f89df8b07912",
@@ -449,7 +482,8 @@
       "never_run": false,
       "last_run_time": "2026-08-15T03:30:31",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "e3da6cc1a77b",
@@ -458,9 +492,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:00:55",
+      "last_run_time": "2026-08-16T00:10:57",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "946cab1935ae",
@@ -469,9 +504,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:05:55",
+      "last_run_time": "2026-08-16T00:15:57",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "1e8a80d03607",
@@ -482,7 +518,8 @@
       "never_run": false,
       "last_run_time": "2026-08-16T00:00:54",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "91d95c0872db",
@@ -491,9 +528,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:00:54",
+      "last_run_time": "2026-08-16T00:15:57",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     },
     {
       "id": "a435700c7b58",
@@ -502,9 +540,10 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T00:06:03",
+      "last_run_time": "2026-08-16T00:16:10",
       "output_count_24h": 1,
-      "potentially_silent": false
+      "potentially_silent": false,
+      "intentional_nonzero": false
     }
   ],
   "skills": {
@@ -1040,23 +1079,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 177.0,
+      "latency_ms": 201.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 333.0,
+      "latency_ms": 1081.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 14.0
+      "latency_ms": 12.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-15T16:09:41.429706+00:00",
+    "generated_at": "2026-08-15T16:17:49.673764+00:00",
     "overall_score": 92.5,
     "overall_tier": "healthy",
     "actions": [
@@ -1070,13 +1109,13 @@
         "suggestion": "Check: hermes cron history 81a00f55a695"
       },
       {
-        "type": "alert",
+        "type": "info",
         "target": "Workspace Health Monitor",
         "target_id": "7abc6750c24a",
-        "severity": "critical",
-        "reason": "Last run failed",
+        "severity": "info",
+        "reason": "Script exited non-zero (likely intentional signal) \u2014 report was generated",
         "action": "manual",
-        "suggestion": "Check: hermes cron history 7abc6750c24a"
+        "suggestion": "Review output: ~/.hermes/cron/output/7abc6750c24a/"
       },
       {
         "type": "archive_candidate",
@@ -1360,9 +1399,9 @@
       "total": 33,
       "auto_executed": 0,
       "manual_required": 33,
-      "critical": 2,
+      "critical": 1,
       "warnings": 0,
-      "info": 31
+      "info": 32
     },
     "auto_actions": [],
     "manual_review": [
@@ -1376,13 +1415,13 @@
         "suggestion": "Check: hermes cron history 81a00f55a695"
       },
       {
-        "type": "alert",
+        "type": "info",
         "target": "Workspace Health Monitor",
         "target_id": "7abc6750c24a",
-        "severity": "critical",
-        "reason": "Last run failed",
+        "severity": "info",
+        "reason": "Script exited non-zero (likely intentional signal) \u2014 report was generated",
         "action": "manual",
-        "suggestion": "Check: hermes cron history 7abc6750c24a"
+        "suggestion": "Review output: ~/.hermes/cron/output/7abc6750c24a/"
       },
       {
         "type": "archive_candidate",
@@ -1668,64 +1707,72 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 12.3
+        "latency_s": 3.3
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 3.8
+        "latency_s": 2.3
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.6
+        "latency_s": 5.2
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 3.0
+        "latency_s": 10.1
       }
     },
     "cron_quality": {
       "43ba1d393c5a": {
         "name": "X Crypto Scanner",
-        "quality": ""
+        "quality": {
+          "quality": "low",
+          "score": 42,
+          "reason": "The visible output contains only job metadata and an echoed prompt with no actual scanning findings or actionable crypto intelligence, suggesting the report is dominated by boilerplate rather than delivered signal."
+        }
       },
       "a354447653dc": {
         "name": "Fleet Operations Agent",
         "quality": {
-          "quality": "low",
-          "score": 42,
-          "reason": "The visible output consists only of boilerplate metadata and an echo of the raw prompt including leaked system instructions, with no actual fleet operations insights or actionable content."
+          "quality": "noise",
+          "score": 12,
+          "reason": "Output contains only job metadata and an echo of the cron prompt template with no actual fleet operations findings, data, or actionable content."
         }
       },
       "46929a249347": {
         "name": "trading-strategy-review",
-        "quality": {
-          "quality": "low",
-          "score": 48,
-          "reason": "The visible output contains only job metadata and echoed prompt boilerplate with no demonstrable trading analysis or actionable signal, though clean formatting suggests the job itself is functioning."
-        }
+        "quality": ""
       },
       "66a98cf277aa": {
         "name": "\ud83d\udc0b Whale Monitor",
         "quality": {
-          "quality": "noise",
-          "score": 22,
-          "reason": "Output contains only metadata header and an echoed system prompt with no actual whale monitoring data, analysis, or actionable signal visible."
+          "quality": "low",
+          "score": 45,
+          "reason": "The visible output consists only of boilerplate metadata and an echoed system prompt with no actual whale monitoring data, findings, or actionable signal; at best the real content is buried further in, and the prompt-echo header adds noise rather than value."
         }
       },
       "8bd6a73fc440": {
         "name": "\ud83d\udcf0 News Agent",
-        "quality": ""
+        "quality": "{\"quality\": \"low\", \"score\": 42, \"reason\": \"The output echoes the raw system prompt and metadata instead of leading with"
       },
       "4a4564fc946b": {
         "name": "\u23f0 Daily Review",
-        "quality": ""
+        "quality": {
+          "quality": "low",
+          "score": 45,
+          "reason": "The first 500 characters contain only job metadata and an echoed prompt with no actual review findings or actionable content, suggesting the output is mostly boilerplate noise."
+        }
       },
       "6f7b35ec5e0b": {
         "name": "\ud83d\udc9a Fleet Heartbeat",
-        "quality": ""
+        "quality": {
+          "quality": "low",
+          "score": 45,
+          "reason": "The visible output is entirely job metadata and an echoed prompt \u2014 no actual fleet status or actionable signal appears in the first 500 characters."
+        }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
@@ -1737,30 +1784,16 @@
       },
       "0d71774646b8": {
         "name": "Fleet Research Agent",
-        "quality": {
-          "quality": "noise",
-          "score": 25,
-          "reason": "The output contains only job metadata and the echoed prompt preamble with no actual research findings, report content, or actionable signal."
-        }
+        "quality": ""
       }
     },
     "skill_freshness": {
-      "apple-apps": "",
+      "apple-apps": "{\"freshness\": \"current\", \"confidence\": 0.6, \"issues\": [\"Content truncated at 800 chars \u2014 cannot verify links, install commands",
       "macos-computer-use": "",
       "autonomous-research": "",
-      "code-delegation": {
-        "freshness": "current",
-        "confidence": 0.65,
-        "issues": [
-          "All three referenced tools (Claude Code, OpenAI Codex CLI `@openai/codex`, OpenCode) are active, actively maintained projects \u2014 no dead or deprecated tools detected in visible content",
-          "Content truncated at 800 chars; reference files (e.g., references/claude-code.md) and any links cannot be verified for validity",
-          "No last-reviewed or last-updated date in metadata, making it impossible to establish review cadence for freshness audits",
-          "AI CLI tools in this space evolve rapidly (flags, subcommands, package versions change frequently, e.g., Claude Code headless/print-mode flags), so undocumented drift risk is high even if tools themselves are current",
-          "Version 1.0.0 suggests initial release; no changelog visible to confirm maintenance history"
-        ]
-      },
+      "code-delegation": "{\"freshness\": \"current\", \"confidence\": 0.7, \"issues",
       "computer-use": "",
-      "merge-reconciler": "{\"freshness\": \"current\", \"confidence\": 0.6, \"issues\": [\"Content is truncated at ~800 chars, so the full document (including any links, tool commands, or code examples) could not be reviewed\", \"No external URLs appear in the visible excerpt, so link health cannot be verified either way\", \"References 'Hermes Agent' and related_skills: [hermes-agent] \u2014 an internal/custom ecosystem that cannot be validated as current from this excerpt alone\", \"'Kanban' tag appears tangential to the merge-arbitration purpose; possible metadata drift or copy-paste from another skill\", \"Core concept (git merge conflicts, multi-agent coordination) is not tied to any versioned",
+      "merge-reconciler": "",
       "skills-hub-research": "",
       "thoth-agent": ""
     }
