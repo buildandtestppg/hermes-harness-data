@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-08-14T22:03:23.296511+00:00",
+    "generated_at": "2026-08-15T04:03:58.295561+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
   "overall": {
-    "score": 83.9,
+    "score": 85.9,
     "tier": "healthy",
     "weights": {
       "cron": 35,
@@ -14,7 +14,7 @@
       "providers": 20
     },
     "component_scores": {
-      "cron": 91.3,
+      "cron": 96.9,
       "skills": 90.5,
       "memory": 80.0,
       "providers": 66.7
@@ -25,13 +25,13 @@
   },
   "scores": {
     "cron": {
-      "score": 91.3,
+      "score": 96.9,
       "tier": "healthy",
       "breakdown": {
         "total": 39,
-        "ok": 34,
-        "silent": 1,
-        "success_rate": 87.2
+        "ok": 37,
+        "silent": 0,
+        "success_rate": 94.9
       },
       "issues": []
     },
@@ -88,7 +88,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:46:44",
+      "last_run_time": "2026-08-15T11:46:21",
       "output_count_24h": 21,
       "potentially_silent": false
     },
@@ -99,7 +99,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:26:01",
+      "last_run_time": "2026-08-15T11:26:44",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -121,7 +121,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:41:23",
+      "last_run_time": "2026-08-15T11:41:47",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:53:17",
+      "last_run_time": "2026-08-15T11:53:21",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -143,7 +143,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T09:04:33",
+      "last_run_time": "2026-08-15T09:04:13",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -154,7 +154,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:48:55",
+      "last_run_time": "2026-08-15T11:48:57",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -165,7 +165,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T10:07:23",
+      "last_run_time": "2026-08-15T10:06:41",
       "output_count_24h": 2,
       "potentially_silent": false
     },
@@ -176,7 +176,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T03:03:19",
+      "last_run_time": "2026-08-15T09:03:28",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -187,7 +187,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:23:46",
+      "last_run_time": "2026-08-15T09:24:08",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -198,8 +198,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T09:02:06",
-      "output_count_24h": 1,
+      "last_run_time": "2026-08-15T09:02:09",
+      "output_count_24h": 2,
       "potentially_silent": false
     },
     {
@@ -218,11 +218,11 @@
       "name": "Wiki Compactor",
       "schedule": "0 2 * * 0",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-09T02:03:12",
-      "output_count_24h": 0,
-      "potentially_silent": true
+      "last_run_time": "2026-08-15T06:04:05",
+      "output_count_24h": 1,
+      "potentially_silent": false
     },
     {
       "id": "ccddd0e232cc",
@@ -231,7 +231,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T04:31:45",
+      "last_run_time": "2026-08-15T10:33:44",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -242,7 +242,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:17:53",
+      "last_run_time": "2026-08-15T06:17:51",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -262,10 +262,10 @@
       "name": "\ud83d\udcf8 Weekly Fitness Check-in",
       "schedule": "0 9 * * 1",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-10T09:03:51",
-      "output_count_24h": 0,
+      "last_run_time": "2026-08-15T06:04:57",
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -275,8 +275,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:00:53",
-      "output_count_24h": 8,
+      "last_run_time": "2026-08-15T12:00:55",
+      "output_count_24h": 6,
       "potentially_silent": false
     },
     {
@@ -286,7 +286,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T03:02:23",
+      "last_run_time": "2026-08-15T09:02:24",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -297,7 +297,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T02:10:14",
+      "last_run_time": "2026-08-15T08:10:15",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -308,7 +308,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-14T21:05:46",
+      "last_run_time": "2026-08-15T09:05:38",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -319,7 +319,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:00:52",
+      "last_run_time": "2026-08-15T12:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -330,7 +330,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:00:54",
+      "last_run_time": "2026-08-15T12:00:56",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -341,7 +341,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:00:08",
+      "last_run_time": "2026-08-15T11:26:39",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -363,7 +363,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T00:07:45",
+      "last_run_time": "2026-08-15T06:05:09",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -386,7 +386,7 @@
       "last_run_ok": false,
       "never_run": false,
       "last_run_time": "2026-08-14T09:00:20",
-      "output_count_24h": 1,
+      "output_count_24h": 0,
       "potentially_silent": false
     },
     {
@@ -394,10 +394,10 @@
       "name": "Workspace Stale Reporter",
       "schedule": "0 9 * * 0",
       "status": "active",
-      "last_run_ok": false,
+      "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-09T09:03:28",
-      "output_count_24h": 0,
+      "last_run_time": "2026-08-15T06:04:35",
+      "output_count_24h": 1,
       "potentially_silent": false
     },
     {
@@ -407,7 +407,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:50:52",
+      "last_run_time": "2026-08-15T12:00:56",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -418,7 +418,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:00:59",
+      "last_run_time": "2026-08-15T12:01:06",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -429,7 +429,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:01:00",
+      "last_run_time": "2026-08-15T12:01:06",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -440,7 +440,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:50:54",
+      "last_run_time": "2026-08-15T12:00:58",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -462,7 +462,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:00:52",
+      "last_run_time": "2026-08-15T12:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -473,7 +473,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:00:52",
+      "last_run_time": "2026-08-15T12:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -484,7 +484,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:00:52",
+      "last_run_time": "2026-08-15T12:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -495,7 +495,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T06:00:52",
+      "last_run_time": "2026-08-15T12:00:54",
       "output_count_24h": 1,
       "potentially_silent": false
     },
@@ -506,7 +506,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-15T05:49:05",
+      "last_run_time": "2026-08-15T11:48:56",
       "output_count_24h": 2,
       "potentially_silent": false
     }
@@ -1044,53 +1044,26 @@
     {
       "name": "Z.AI",
       "available": false,
-      "latency_ms": 150.0,
+      "latency_ms": 136.0,
       "status_code": 401
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 332.0,
+      "latency_ms": 319.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 14.0
+      "latency_ms": 16.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-14T22:01:16.169112+00:00",
-    "overall_score": 83.9,
+    "generated_at": "2026-08-15T04:01:17.341063+00:00",
+    "overall_score": 85.9,
     "overall_tier": "healthy",
     "actions": [
-      {
-        "type": "investigate",
-        "target": "Wiki Compactor",
-        "target_id": "7c57a0c4cff1",
-        "severity": "warning",
-        "reason": "No output in 24h \u2014 possible silent failure",
-        "action": "manual",
-        "suggestion": "Run: hermes cron run 7c57a0c4cff1 --dry-run"
-      },
-      {
-        "type": "alert",
-        "target": "Wiki Compactor",
-        "target_id": "7c57a0c4cff1",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 7c57a0c4cff1"
-      },
-      {
-        "type": "alert",
-        "target": "\ud83d\udcf8 Weekly Fitness Check-in",
-        "target_id": "7d8920b2c397",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 7d8920b2c397"
-      },
       {
         "type": "alert",
         "target": "HL Strategy Lab \u2014 Weekly Deep Eval",
@@ -1108,15 +1081,6 @@
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 7abc6750c24a"
-      },
-      {
-        "type": "alert",
-        "target": "Workspace Stale Reporter",
-        "target_id": "74dfa88cea60",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 74dfa88cea60"
       },
       {
         "type": "archive_candidate",
@@ -1405,42 +1369,15 @@
       }
     ],
     "summary": {
-      "total": 38,
+      "total": 34,
       "auto_executed": 0,
-      "manual_required": 38,
-      "critical": 6,
-      "warnings": 1,
+      "manual_required": 34,
+      "critical": 3,
+      "warnings": 0,
       "info": 31
     },
     "auto_actions": [],
     "manual_review": [
-      {
-        "type": "investigate",
-        "target": "Wiki Compactor",
-        "target_id": "7c57a0c4cff1",
-        "severity": "warning",
-        "reason": "No output in 24h \u2014 possible silent failure",
-        "action": "manual",
-        "suggestion": "Run: hermes cron run 7c57a0c4cff1 --dry-run"
-      },
-      {
-        "type": "alert",
-        "target": "Wiki Compactor",
-        "target_id": "7c57a0c4cff1",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 7c57a0c4cff1"
-      },
-      {
-        "type": "alert",
-        "target": "\ud83d\udcf8 Weekly Fitness Check-in",
-        "target_id": "7d8920b2c397",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 7d8920b2c397"
-      },
       {
         "type": "alert",
         "target": "HL Strategy Lab \u2014 Weekly Deep Eval",
@@ -1458,15 +1395,6 @@
         "reason": "Last run failed",
         "action": "manual",
         "suggestion": "Check: hermes cron log 7abc6750c24a"
-      },
-      {
-        "type": "alert",
-        "target": "Workspace Stale Reporter",
-        "target_id": "74dfa88cea60",
-        "severity": "critical",
-        "reason": "Last run failed",
-        "action": "manual",
-        "suggestion": "Check: hermes cron log 74dfa88cea60"
       },
       {
         "type": "archive_candidate",
@@ -1760,22 +1688,22 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.1
+        "latency_s": 1.6
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 7.0
+        "latency_s": 2.5
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.9
+        "latency_s": 1.0
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.0
+        "latency_s": 1.2
       }
     },
     "cron_quality": {
@@ -1783,23 +1711,23 @@
         "name": "X Crypto Scanner",
         "quality": {
           "quality": "medium",
-          "score": 68,
-          "reason": "The actual signal content is well-structured and actionable (specific tickers, price levels, source links, engagement metrics), but the leaked internal reasoning text at the start of the output is a quality defect that should not appear in a final report."
+          "score": 65,
+          "reason": "Well-structured report with tweet URLs, engagement metrics, and scores, but leaked meta-commentary in the output and the visible 'top signal' has very weak engagement (2 likes, 2 retweets) and a low 2.9 score, suggesting marginal signal quality despite good formatting."
         }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
         "quality": {
           "quality": "medium",
-          "score": 68,
-          "reason": "Well-structured digest with transparent error reporting and multi-angle scanning, but the arXiv API block forcing fallback to web search undermines data reliability for a research scanner's core function."
+          "score": 72,
+          "reason": "Well-structured header with transparent methodology and honest disclosure of API rate-limiting with a fallback verification workaround, but the visible excerpt is mostly metadata and the actual research digest content (paper summaries and actionable insights) cannot be confirmed from this truncated output."
         }
       }
     },
     "skill_freshness": {
-      "apple-apps": "",
+      "apple-apps": "{\"freshness\": \"current\", \"confidence\": 0.6, \"issues\": [\"Content truncated at 800 chars; only frontmatter and intro reviewed, cannot verify full body or links for dead URLs\", \"References third-party community CLIs (memo, remindctl, imsg) whose maintenance status and Homebrew formula availability cannot be confirmed from the excerpt; no",
       "macos-computer-use": "",
-      "autonomous-research": "",
+      "autonomous-research": "{\"freshness\": \"current\", \"confidence\": 0.6, \"issues\": [\"Content truncated at ~800 chars \u2014 the full subsystem table and referenced files cannot be inspected\", \"Cannot verify references/autoresearch.md exists or contains current patterns/dead links\", \"No last-reviewed date, changelog, or tool version pins to establish recency\", \"'hermes' metadata namespace is non-standard; cannot confirm it is still supported by host tooling\", \"No external URLs visible in the excerpt, so dead-link detection was impossible\", \"Concepts referenced (LL",
       "code-delegation": "",
       "computer-use": "",
       "merge-reconciler": "",
