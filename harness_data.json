@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-15T22:04:58.727230+00:00",
+    "generated_at": "2026-08-15T22:20:42.457238+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -120,7 +120,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T05:43:22",
+      "last_run_time": "2026-08-16T06:02:16",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -277,7 +277,7 @@
       "last_run_ok": true,
       "never_run": false,
       "last_run_time": "2026-08-15T06:04:57",
-      "output_count_24h": 1,
+      "output_count_24h": 0,
       "potentially_silent": false,
       "intentional_nonzero": false
     },
@@ -348,7 +348,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T06:00:58",
+      "last_run_time": "2026-08-16T06:16:00",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -421,7 +421,7 @@
       "last_run_ok": true,
       "never_run": false,
       "last_run_time": "2026-08-15T06:04:35",
-      "output_count_24h": 1,
+      "output_count_24h": 0,
       "potentially_silent": false,
       "intentional_nonzero": false
     },
@@ -492,7 +492,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T06:00:56",
+      "last_run_time": "2026-08-16T06:10:57",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -504,7 +504,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T06:00:55",
+      "last_run_time": "2026-08-16T06:15:58",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -528,7 +528,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T06:00:55",
+      "last_run_time": "2026-08-16T06:15:58",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -540,7 +540,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-16T05:46:05",
+      "last_run_time": "2026-08-16T06:03:58",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -1079,13 +1079,13 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 226.0,
+      "latency_ms": 225.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 284.0,
+      "latency_ms": 329.0,
       "model_count": 19
     },
     {
@@ -1095,7 +1095,7 @@
     }
   ],
   "actions": {
-    "generated_at": "2026-08-15T22:01:18.792835+00:00",
+    "generated_at": "2026-08-15T22:16:11.445052+00:00",
     "overall_score": 93.9,
     "overall_tier": "healthy",
     "actions": [
@@ -1707,95 +1707,202 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.6
+        "latency_s": 1.5
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.8
+        "latency_s": 1.9
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.2
+        "latency_s": 3.8
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.0
+        "latency_s": 3.9
       }
     },
     "cron_quality": {
       "43ba1d393c5a": {
         "name": "X Crypto Scanner",
         "quality": {
-          "quality": "noise",
-          "score": 15,
-          "reason": "Visible output contains only job metadata and echoed prompt boilerplate with no actual crypto scan results, signals, or actionable content."
+          "quality": "medium",
+          "score": 68,
+          "reason": "Well-structured scan with scores, engagement metrics, and links, plus one plausible alpha signal (UBS BTC ETF options) \u2014 but the top-ranked DePIN entry appears to be shill/spam account promotion, indicating imperfect noise filtering in signal selection."
         }
       },
       "a354447653dc": {
         "name": "Fleet Operations Agent",
-        "quality": ""
+        "quality": {
+          "quality": "medium",
+          "score": 70,
+          "reason": "Well-structured digest with actionable trading PnL, win rate, and curated news, but empty token tags [[]] indicate a tagging bug and the -0.0% OI change suggests flat or broken market data."
+        }
       },
       "46929a249347": {
         "name": "trading-strategy-review",
-        "quality": ""
+        "quality": {
+          "quality": "high",
+          "score": 84,
+          "reason": "Well-structured review with actionable state info (trader idle since Aug 12, no positions) and quantified strategy health metrics (scores, ranks, PnL vs Hold, win%) that enable concrete decisions like strategy reassignment or investigating the idle state."
+        }
       },
       "66a98cf277aa": {
         "name": "\ud83d\udc0b Whale Monitor",
-        "quality": ""
+        "quality": {
+          "quality": "high",
+          "score": 84,
+          "reason": "Well-structured report with a clear actionable signal (HYPE 85% bid-weighted orderbook indicating strong buying pressure) plus a clean contextual table of prices, OI, and funding rates, though most tracked coins show routine flat movement adding limited incremental value."
+        }
       },
       "8bd6a73fc440": {
         "name": "\ud83d\udcf0 News Agent",
         "quality": {
-          "quality": "low",
-          "score": 45,
-          "reason": "The visible output contains only job metadata and an echoed prompt preamble with no actual news content or actionable signal shown, making it impossible to derive value from the excerpt."
+          "quality": "unknown",
+          "score": 0,
+          "reason": "no output to evaluate"
         }
       },
       "4a4564fc946b": {
         "name": "\u23f0 Daily Review",
         "quality": {
-          "quality": "low",
-          "score": 48,
-          "reason": "The visible output is only metadata and an echoed prompt with no actual review content or actionable findings, so it provides marginal value and may just be noise."
+          "quality": "medium",
+          "score": 62,
+          "reason": "Clean completion confirmation with traceable artifacts (4 named wiki files, compaction, report delivery) has monitoring value, but lacks substantive review content like change summaries, highlights, or flagged anomalies, making it a status log rather than actionable signal."
         }
       },
       "6f7b35ec5e0b": {
         "name": "\ud83d\udc9a Fleet Heartbeat",
-        "quality": ""
+        "quality": {
+          "quality": "medium",
+          "score": 65,
+          "reason": "The three missing health records are actionable signal, but listing 'OK' agents under the WARNINGS header is a formatting flaw that dilutes clarity and adds noise."
+        }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
         "quality": {
-          "quality": "high",
-          "score": 82,
-          "reason": "Well-structured digest with transparent methodology showing adaptive fallback (web search + direct page verification) when the arXiv API was rate-limited, clear topic/date metadata, and verified arXiv IDs indicating real actionable signal rather than noise."
+          "quality": "medium",
+          "score": 74,
+          "reason": "Well-structured header with strong methodological transparency (verified arXiv IDs, honest disclosure of API rate-limiting with a sensible fallback), but the visible excerpt only covers metadata and methodology rather than the actual paper digest content, so real value cannot be fully confirmed."
         }
       },
       "3876dd862ca1": {
         "name": "Polymarket Sentiment Scanner",
-        "quality": ""
+        "quality": {
+          "quality": "unknown",
+          "score": 0,
+          "reason": "no output to evaluate"
+        }
       },
       "0d71774646b8": {
         "name": "Fleet Research Agent",
         "quality": {
-          "quality": "noise",
-          "score": 18,
-          "reason": "The visible output consists only of job metadata and echoed prompt boilerplate with no actual fleet research findings, insights, or actionable content."
+          "quality": "high",
+          "score": 82,
+          "reason": "Well-structured build report with quantified problem identification (41K+ signals, only 88 evaluated, pipeline dead since Aug 3) and a concrete deliverable that addresses a genuine fleet blind spot, though truncated output prevents verifying actual evaluator results or validation."
         }
       }
     },
     "skill_freshness": {
-      "apple-apps": "",
-      "macos-computer-use": "",
-      "autonomous-research": "",
-      "code-delegation": "{\"freshness\": \"current\", \"confidence\": 0.6, \"issues\": [\"Content truncated at 800 chars \u2014 reference subsystem files (references/claude-code.md, etc.) could not be inspected for dead links, deprecated CLI flags, or stale examples\", \"Referenced tools (Claude Code, @openai",
-      "computer-use": "",
-      "merge-reconciler": "",
-      "skills-hub-research": "",
-      "thoth-agent": ""
+      "apple-apps": {
+        "freshness": "stale",
+        "confidence": 0.55,
+        "issues": [
+          "'remindctl' is not a widely known or maintained Reminders CLI; the community-standard tool is keith/reminders-cli \u2014 the referenced binary should be verified to exist and still build",
+          "'memo' for Apple Notes likely reads the private Notes SQLite database, whose schema Apple changes across macOS releases; compatibility with current macOS (Sonoma/Sequoia/Tahoe) is unverified",
+          "Find My has no AppleScript dictionary; 'Find My (AppleScript)' describes an unsupported/deprecated pattern \u2014 real implementations scrape the local Items.data file or use Shortcuts, both of which break silently on macOS updates",
+          "Permissions path is slightly wrong: System Settings pane is 'Privacy & Security' (not 'Privacy'), and the Automation entry only appears after the first automation attempt \u2014 worth correcting",
+          "macOS Sequoia (15) changed automation consent behavior (periodic re-approval prompts for AppleScript control), which can break unattended flows described here; no mention of this",
+          "No 'last verified' date, minimum macOS version, or Homebrew formula status given \u2014 key freshness signals for OS-coupled tooling",
+          "Content is truncated at 800 chars, so any links or install commands later in the doc could not be checked for dead links",
+          "iMessage CLIs depend on ~/Library/Messages/chat.db behind Full Disk Access; schema and TCC changes across macOS versions frequently break these tools and the doc gives no version pinning"
+        ]
+      },
+      "macos-computer-use": {
+        "freshness": "current",
+        "confidence": 0.65,
+        "issues": [
+          "Review limited to the first 800 characters \u2014 the document is cut off mid-sentence ('pyautogui-s'), so references, links, and patterns in the remainder cannot be assessed",
+          "Tool name 'computer_use' should be verified against the actual runtime; e.g., the Anthropic API exposes computer use as a 'computer' tool definition (computer-use-2025-01-24), and a name mismatch would silently break the skill's conditional-loading trigger",
+          "Frontmatter contains only version 1.0.0 with no last-updated date, changelog, or maintenance status, making the document's age impossible to determine",
+          "No URLs appear in the visible excerpt, so link rot cannot be evaluated (no dead links found, but none were checkable)",
+          "Conditional-loading pattern ('load whenever the tool is available') and skills-style frontmatter match current conventions, but the 'works with any tool-capable model' claim is unverifiable from the excerpt",
+          "pyautogui comparison is still valid \u2014 the library is not deprecated \u2014 though it is in low-maintenance status, so the contrast remains apt rather than stale"
+        ]
+      },
+      "autonomous-research": {
+        "freshness": "current",
+        "confidence": 0.55,
+        "issues": [
+          "Content truncated at 800 chars \u2014 full assessment of subsystem reference map and remaining sections is not possible",
+          "Cannot verify that references/autoresearch.md exists or is current; no way to detect dead relative links from this excerpt",
+          "'hermes' metadata namespace is non-standard and cannot be verified as an active framework \u2014 may be internal tooling or deprecated scaffolding",
+          "Version 1.0.0 with no last-reviewed or updated date provides no freshness signal",
+          "Subsystem table is cut off mid-row ('searchable knobs...'), so additional subsystems referencing potentially deprecated tools are invisible",
+          "No URLs present in visible content, so dead-link check is limited to unverified local file references"
+        ]
+      },
+      "code-delegation": {
+        "freshness": "current",
+        "confidence": 0.7,
+        "issues": [
+          "Review limited to first 800 chars \u2014 full contents of references/claude-code.md and other subsystem files could not be verified for stale flags, commands, or links",
+          "All three referenced tools (Claude Code, OpenAI Codex CLI via @openai/codex, OpenCode CLI) are actively maintained as of latest knowledge, but these CLIs iterate rapidly \u2014 version-specific CLI flags, auth flows, or config patterns in the full references may drift quickly",
+          "Minor naming ambiguity: 'Codex' also refers to OpenAI's deprecated 2023 Codex model API; the explicit '@openai/codex' package and 'CLI' qualifier correctly disambiguate, but references should avoid conflating the two",
+          "No URLs visible in excerpt, so link rot could not be assessed \u2014 dead-link check needed on the full skill body and reference files",
+          "OpenCode is a community/fast-moving project with less stable API surface than the vendor-backed CLIs; higher maintenance risk"
+        ]
+      },
+      "computer-use": {
+        "freshness": "current",
+        "confidence": 0.65,
+        "issues": [
+          "Excerpt truncates mid-sentence at 'any tool-capable model \u2014 Claude'; if the full doc enumerates specific model names/snapshots (e.g., OpenAI computer-use-preview), those deprecate quickly \u2014 capability-based wording is safer",
+          "platforms claims Windows, but true background/no-focus GUI control on Windows requires UI Automation APIs; author's known toolchain (trycua/cua) is primarily macOS (Accessibility API) + Linux \u2014 verify Windows background support is real rather than aspirational",
+          "No URLs appear in the visible excerpt, so dead links cannot be ruled out \u2014 confirm any repo/doc links still point to the active trycua project",
+          "'Background, no focus stealing' claim matches AX-based/virtual-display approaches but NOT Anthropic's stock computer-use reference implementation; doc should state which tool provides this capability to avoid confusion",
+          "Model-facing framing ('works with any tool-capable model') is current and not a deprecated pattern; pyautogui contrast is still apt, not an outdated reference",
+          "related_skills is empty and 'Hermes Agent' is a niche/internal harness \u2014 metadata may be incomplete rather than stale; frontmatter format itself follows current Agent Skills (SKILL.md) conventions"
+        ]
+      },
+      "merge-reconciler": {
+        "freshness": "current",
+        "confidence": 0.55,
+        "issues": [
+          "Content truncated at ~800 characters ('Two agent branches/worktr...'), so the full skill body including any commands, API references, or links cannot be reviewed",
+          "Depends on the 'Hermes Agent' ecosystem and related_skills entry 'hermes-agent', which cannot be verified as an existing or maintained public framework; if Hermes is deprecated or renamed, this skill's references and dependencies are stale",
+          "Frontmatter lacks a last-updated date, changelog, or minimum-version requirement, making maintenance recency impossible to establish",
+          "Tag 'Kanban' appears only tangentially related to git merge arbitration, suggesting possible metadata drift from an earlier purpose",
+          "No deprecated tools, dead links, or obsolete patterns visible in the provided excerpt; core concepts (git merge conflicts, multi-agent collaboration, merge-queue arbitration) remain relevant"
+        ]
+      },
+      "skills-hub-research": {
+        "freshness": "stale",
+        "confidence": 0.6,
+        "issues": [
+          "Point-in-time statistics ('91K+ total installs', '20+ agents') have no 'as of' date and will age quickly, making the doc stale on read",
+          "ClawHub (clawhub.ai) and the 'Backed by OpenClaw' claim cannot be verified; if renamed, defunct, or hallucinated, this row is dead weight or a dead link",
+          "Hub feature snapshots ('security-scanned', 'vector searchable', 'Versioned') are marketing-state claims that may no longer match current offerings and are not independently verifiable from the doc",
+          "Third-party CLI install commands ('npx skills add', 'hermes skills install') are unpinned and can break across major versions; no last-verified date recorded",
+          "Skills.sh install counts and agent-compatibility figures reference a fast-moving ecosystem; doc has no review cadence or ownership metadata to trigger refresh",
+          "Review limited to first 800 characters; the truncated 'Official' hub row and remaining workflow/security sections could not be evaluated"
+        ]
+      },
+      "thoth-agent": {
+        "freshness": "current",
+        "confidence": 0.6,
+        "issues": [
+          "Referenced tools (Ollama, OpenAI) and patterns (Think\u2192Act\u2192Observe loop, adapter registry, permission system) are active and not deprecated",
+          "Machine-specific path ~/Projects/thoth/ is unverifiable and non-portable \u2014 effectively a dead link on any machine other than the author's",
+          "Volatile snapshot metrics ('35 modules', '306 passing tests') go stale immediately with any commit and cannot be validated from the doc",
+          "No last-updated timestamp or dependency version pins (Ollama, OpenAI SDK/API versions) to anchor or verify compatibility",
+          "No external URLs present, so link health is uncheckable; the only reference is an unverifiable local filesystem path"
+        ]
+      }
     }
   }
 }
