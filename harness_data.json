@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-18T10:06:08.161531+00:00",
+    "generated_at": "2026-08-18T10:08:52.574178+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -120,7 +120,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-18T17:42:41",
+      "last_run_time": "2026-08-18T18:02:11",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -1079,23 +1079,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 168.0,
+      "latency_ms": 246.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 294.0,
+      "latency_ms": 417.0,
       "model_count": 19
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 53.0
+      "latency_ms": 18.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-18T10:01:26.985243+00:00",
+    "generated_at": "2026-08-18T10:03:47.247701+00:00",
     "overall_score": 94.9,
     "overall_tier": "healthy",
     "actions": [
@@ -1707,22 +1707,22 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 12.0
+        "latency_s": 1.3
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 12.0
+        "latency_s": 1.3
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 12.0
+        "latency_s": 1.3
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 12.0
+        "latency_s": 1.3
       }
     },
     "cron_quality": {
@@ -1731,15 +1731,15 @@
         "quality": {
           "quality": "medium",
           "score": 65,
-          "reason": "Well-structured report with ranked signals, scores, and direct links, but the underlying signals are weak\u2014very low engagement (3 and 0 likes) and the second entry is truncated mid-sentence with no substantive content, limiting real actionable value."
+          "reason": "Well-structured report with links, scores, and engagement metrics, but the surfaced signals show very low engagement (0-3 likes) and truncated content, making actual value uncertain."
         }
       },
       "a354447653dc": {
         "name": "Fleet Operations Agent",
         "quality": {
-          "quality": "high",
-          "score": 82,
-          "reason": "Well-structured status report with concrete actionable data (fleet health, trading metrics, active SOL signal with strength) though two of three news items lack ticker tags reducing their actionability."
+          "quality": "medium",
+          "score": 72,
+          "reason": "Well-structured digest with genuinely useful elements (fleet health, PnL tracking, one active SOL signal, tagged news), but it's more status reporting than actionable analysis \u2014 the signal lacks guidance, the negative PnL gets no context or recommendation, and empty tag artifacts like [[]] indicate parsing bugs."
         }
       },
       "46929a249347": {
@@ -1747,15 +1747,15 @@
         "quality": {
           "quality": "high",
           "score": 85,
-          "reason": "Well-structured performance review with concrete equity/drawdown metrics (-9.66% return) and per-pair strategy health scores, margins, and trends that directly inform trading strategy assignments, making it actionable signal rather than noise."
+          "reason": "Well-structured performance review with concrete, actionable data (equity, return, per-pair strategy scores with margins and trends) that clearly informs trading decisions, though flat positions slightly reduce immediate actionability."
         }
       },
       "66a98cf277aa": {
         "name": "\ud83d\udc0b Whale Monitor",
         "quality": {
           "quality": "medium",
-          "score": 68,
-          "reason": "The whale position changes and orderbook imbalance data are genuinely actionable, but the leaked instruction text 'Now format the Discord report:' at the start indicates a pipeline bug that contaminates the otherwise well-structured report."
+          "score": 72,
+          "reason": "Contains specific, quantified whale position changes and orderbook imbalance signals in clean structured format, but the leaked instruction preamble ('Now format the Discord report:') indicates a pipeline defect and the raw alert list lacks summarization or prioritization."
         }
       },
       "8bd6a73fc440": {
@@ -1770,24 +1770,24 @@
         "name": "\u23f0 Daily Review",
         "quality": {
           "quality": "high",
-          "score": 86,
-          "reason": "Dense, well-structured daily report with quantified metrics, trend deltas, and clear actionable problem flags (meta-agent 126.8 days stale, whale-monitor 0% uptime checks, paper-trader -9.66% with stale wiki), though truncated output hides potential action recommendations."
+          "score": 84,
+          "reason": "Well-structured daily report with quantified metrics, trend deltas, and clearly flagged actionable issues (meta-agent 126.8d stale, whale-monitor 0% uptime checks, circuit breaker) that enable immediate triage decisions."
         }
       },
       "6f7b35ec5e0b": {
         "name": "\ud83d\udc9a Fleet Heartbeat",
         "quality": {
           "quality": "medium",
-          "score": 63,
-          "reason": "Well-structured and the missing health records are potentially actionable, but flagging agents last seen 0.1-0.2h ago against a 1h threshold is a false-positive logic bug that pollutes the signal with noise."
+          "score": 62,
+          "reason": "Well-structured and the 'no health record found' entries are actionable, but flagging agents seen 0.0h and 0.2h ago against a 1h threshold suggests inverted comparison logic producing false-positive warnings that erode trust."
         }
       },
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
         "quality": {
           "quality": "medium",
-          "score": 68,
-          "reason": "Structured digest with transparent methodology and graceful degradation via web search fallback despite API rate-limiting, but the primary arXiv source being unavailable throughout raises completeness concerns and the truncated snippet prevents verifying actual paper content quality."
+          "score": 74,
+          "reason": "The job showed good resilience and transparency by falling back to web search with browser verification when the arXiv API was rate-limited, producing a structured digest header, but the persistently failing primary API indicates a systemic issue needing remediation and the fallback method's coverage/reliability is unverified in the visible excerpt."
         }
       },
       "3876dd862ca1": {
@@ -1801,95 +1801,93 @@
       "0d71774646b8": {
         "name": "Fleet Research Agent",
         "quality": {
-          "quality": "high",
-          "score": 84,
-          "reason": "Well-structured research report with a clear actionable thesis (fade losing whales, follow winners) backed by concrete PnL and win-rate data, though the truncated excerpt prevents verifying full recommendations or statistical rigor."
+          "quality": "medium",
+          "score": 72,
+          "reason": "Well-structured with specific quantified data and a clear testable thesis, but the opening leaks internal agent reasoning and the headline 'genuine edge' claim appears based on descriptive PnL divergence without visible backtest validation."
         }
       }
     },
     "skill_freshness": {
       "apple-apps": {
         "freshness": "stale",
-        "confidence": 0.5,
+        "confidence": 0.65,
         "issues": [
-          "'remindctl' is not a recognized or widely maintained Reminders CLI; the canonical tool is reminders-cli (keith/reminders-cli), suggesting an incorrect or defunct tool reference",
-          "'imsg' as an iMessage CLI is an obscure/niche tool; iMessage CLI tooling is frequently abandoned and often breaks with macOS updates and Messages database changes",
-          "Find My has no public AppleScript dictionary; scripting it relies on fragile UI scripting or legacy Find My Friends hacks deprecated since macOS 10.15",
-          "Referenced CLIs (memo, imsg, remindctl) are third-party Homebrew projects with unverified maintenance status; no upstream repo links or versions shown to validate",
-          "No last-updated date or changelog metadata despite version 1.0.0, making freshness unverifiable",
-          "Content truncated at 800 chars; links (if any) and permission instructions could not be fully audited",
-          "General pattern (System Settings > Privacy > Automation, Homebrew, Apple Events) is still current, but accuracy of specific tool names is doubtful"
+          "Heavy reliance on AppleScript/OSA, which Apple is sunsetting: JXA was deprecated at WWDC 2025 and macOS Tahoe 26 is announced as the last release with full legacy automation support, so all AppleScript-based flows need a review/migration plan",
+          "Find My (AppleScript) is not a viable integration: the Find My app exposes no AppleScript scripting dictionary, so this automation path is likely broken or relies on unsupported hacks",
+          "Permission path 'System Settings \u2192 Privacy' uses pre-Ventura naming; it has been 'Privacy & Security' since macOS 13, and the Settings layout changed again in macOS Tahoe",
+          "Depends on niche third-party CLIs (memo, remindctl, imsg) with no pinned versions, repo/homebrew URLs, or last-tested dates in the visible metadata \u2014 high risk of dead links or unmaintained tools (remindctl in particular requires companion setup)",
+          "No mention of Sequoia+ permission friction (monthly re-approval prompts for Accessibility/Screen Recording, stricter Apple Events grants) that materially affects terminal-driven automation reliability",
+          "iMessage DB access notes appear to predate recent macOS chat.db/Full Disk Access behavior changes; guidance should be re-validated on current macOS",
+          "Version 1.0.0 with no last-reviewed date and content truncated, so link liveness and CLI availability cannot be fully verified"
         ]
       },
       "macos-computer-use": {
         "freshness": "current",
-        "confidence": 0.7,
+        "confidence": 0.6,
         "issues": [
-          "Content truncated at 800 chars - full skill body not reviewable",
-          "hermes metadata key is non-standard/not widely recognized",
-          "References pyautogui comparison (truncated) - pyautogui is still maintained but the comparison framing may age poorly",
-          "Cannot verify whether referenced implementation APIs (CGEvent, CGWindowListCreateImage etc.) are in the full body",
-          "No explicit dependency versions or tool version constraints visible"
+          "Only 800 chars visible \u2014 full content truncated, cannot verify links or deeper API references",
+          "References 'hermes' metadata namespace which may be platform-specific and unverifiable without context",
+          "Claims 'works with any tool-capable model' \u2014 broad claim, may not hold for all provider implementations",
+          "No visible date/versioning of underlying tool API (computer_use is still evolving across providers)",
+          "Description cuts off mid-sentence at 'pyautogui-s' \u2014 likely 'pyautogui-style', but incomplete text prevents full assessment"
         ]
       },
       "autonomous-research": {
         "freshness": "current",
         "confidence": 0.55,
         "issues": [
-          "Content truncated at 800 chars \u2014 subsystem table cut off mid-row, so subsystems beyond autoresearch could not be reviewed",
-          "No external URLs present in the excerpt, so link rot cannot be assessed; only internal relative path references/autoresearch.md is cited and its existence cannot be verified",
-          "No version pins, dates, or named external dependencies for the underlying tooling, making temporal drift undetectable from this content alone",
-          "'Self-building cron pipelines' \u2014 cron is not deprecated, but self-modifying cron jobs are a fragile legacy pattern; modern alternatives (systemd timers, Kubernetes CronJobs, workflow schedulers) may warrant a mention",
-          "Skill version is 1.0.0 with no changelog or last-reviewed date in metadata, so staleness of the doc itself cannot be determined"
+          "Content truncated at 800 chars \u2014 full subsystem reference map not reviewable, other subsystems may hide outdated entries",
+          "Reference file references/autoresearch.md cannot be verified to exist from text alone \u2014 potential dead link unconfirmed",
+          "No URLs, external tool versions, or dates present in visible portion, so no deprecated APIs detectable but also no freshness anchors to validate against",
+          "metadata.hermes field is non-standard schema; cannot verify if the tooling it targets is still active",
+          "Conceptual patterns referenced (LLM parameter optimization loops, plan\u2192eval\u2192learn cycles, cron scheduling) are all still current practice, so no deprecated patterns found in visible text"
         ]
       },
       "code-delegation": {
         "freshness": "current",
         "confidence": 0.7,
         "issues": [
-          "Only first 800 characters provided \u2014 reference files (references/claude-code.md, references/codex.md, references/opencode.md) cannot be inspected for dead links, deprecated flags, or stale commands",
-          "No 'last reviewed' or 'last verified' date in frontmatter, so actual recency of the guidance cannot be confirmed despite version 1.0.0",
-          "References fast-moving CLI tools (Claude Code, OpenAI Codex CLI, OpenCode) whose invocation patterns and flags (e.g., print mode) change frequently; content may drift stale without a documented review cadence",
-          "OpenCode has undergone project/maintainer transitions; the referenced distribution and canonical docs should be verified as still authoritative",
-          "Potential naming ambiguity: 'Codex' also refers to the OpenAI model deprecated in 2023; snippet correctly cites the 2025 @openai/codex CLI, but reference file should disambiguate to avoid confusion"
+          "All three referenced tools (Claude Code, OpenAI Codex CLI, OpenCode) are actively maintained as of the review knowledge base, so no tool references are dead or deprecated",
+          "Only first 800 chars provided \u2014 reference files (references/claude-code.md, references/codex-cli.md, references/opencode.md presumed) cannot be inspected for dead links, outdated flags, or deprecated patterns",
+          "OpenAI Codex CLI underwent significant churn in 2025 (TypeScript-to-Rust rewrite, config migrating from config.json to config.toml, auth flow changes) \u2014 subsystem reference content should be spot-checked against current docs as it may capture pre-rewrite patterns",
+          "Claude Code CLI evolves rapidly (flag and output-format changes); 'print mode' terminology is current but any pinned CLI flags or --output-format examples in references/ should be verified",
+          "Version 1.0.0 with no last-reviewed or last-updated metadata field means freshness cannot be self-attested; consider adding a maintained/lastVerified date to frontmatter"
         ]
       },
       "computer-use": {
-        "freshness": "current",
-        "confidence": 0.7,
+        "freshness": "stale",
+        "confidence": 0.5,
         "issues": [
-          "Content truncated mid-sentence at the 800-char cutoff ('any tool-capable model \u2014 Claude'), so the remainder of the doc cannot be audited for dead links or deprecated references",
-          "No URLs appear in the provided excerpt, so link rot cannot be assessed from this sample",
-          "The sentence beginning 'any tool-capable model \u2014 Claude' appears to enumerate specific model names; model references age quickly and should be generalized or versioned with a review date",
-          "Strong claim of background (non-focus-stealing) input across macos/windows/linux may overpromise: macOS accessibility APIs and Linux Wayland both restrict synthetic/background input as of current OS releases \u2014 no X11-vs-Wayland caveat is noted",
-          "No last-updated or reviewed-on date in frontmatter (only version 2.0.0), making future freshness checks harder",
-          "The pyautogui contrast is still valid \u2014 pyautogui is actively maintained, not deprecated, so this reference is fine"
+          "Content is truncated mid-sentence ('any tool-capable model \u2014 Claude'), so the full doc could not be reviewed; remaining sections may contain outdated references.",
+          "No last-updated date, changelog, or release timestamp despite version 2.0.0 \u2014 freshness is unverifiable.",
+          "No links present at all (no repo, docs, or tool references), so dead links cannot be ruled out in the unseen portion; zero citations is itself a gap for a v2.0 skill.",
+          "related_skills is an empty array \u2014 no cross-links to validate the skill graph.",
+          "Cross-platform claim [macos, windows, linux] for true background (non-focus-stealing) input injection is dubious, especially on Windows where standard APIs (SendInput) require foreground focus; the capability claim may overstate what the tool supports.",
+          "No deprecated patterns or outdated tool names detected in the visible portion (pyautogui is mentioned only as a contrast, not a dependency; 'computer_use' tool naming matches current conventions), but the excerpt is too short to certify as current.",
+          "Dual attribution (human author plus 'Hermes Agent') with unclear maintainership makes it hard to assess whether anyone is actively maintaining this skill."
         ]
       },
       "merge-reconciler": {
         "freshness": "current",
-        "confidence": 0.7,
+        "confidence": 0.65,
         "issues": [
-          "Content truncated at 800 chars; remaining body (instructions, tools, links) cannot be reviewed",
-          "No URLs present in the visible excerpt, so dead-link risk is unverified rather than confirmed clean",
-          "Tag 'Kanban' appears tangential to merge-conflict reconciliation and may need pruning",
-          "related_skills references 'hermes-agent' which cannot be validated from this snippet; unverifiable dependency",
-          "metadata.hermes is a custom nonstandard namespace; confirm it still matches the current skill loader schema",
-          "No deprecated APIs or patterns observed: git merge conflicts, merge queues, and multi-agent arbitration are all active concepts as of 2025"
+          "Excerpt truncated at 800 chars; the remainder of the doc (usage steps, commands, examples) could not be assessed for outdated flags or syntax",
+          "No external URLs appear in the excerpt, so link validity could not be verified either way",
+          "References a proprietary 'Hermes Agent' / 'hermes-agent' ecosystem whose current status cannot be independently verified; if Hermes has been renamed or deprecated, the related_skills and author fields would be stale",
+          "'Kanban' tag appears tangential to merge-conflict resolution, suggesting possible relevance drift or leftover metadata rather than a freshness problem",
+          "No deprecated tooling detected: Git merge workflows and merge-queue arbiter pattern (GitHub merge queues / GitLab merge trains) are current as of this review"
         ]
       },
       "skills-hub-research": {
-        "freshness": "stale",
-        "confidence": 0.6,
+        "freshness": "current",
+        "confidence": 0.55,
         "issues": [
-          "Hardcoded metric '91K+ total installs' for Skills.sh is a snapshot figure that goes stale immediately; counts like this should be dated, made dynamic, or removed",
-          "ClawHub (clawhub.ai) could not be verified as an established hub; risk of dead link or fictional/unrenamed service - requires live link validation",
-          "'Backed by OpenClaw' attribution is unverifiable; ecosystem branding around this space has churned and the claim may be outdated or wrong",
-          "Hermes Agent and 'hermes skills install' CLI are not verifiable public tools; if this is an internal/private agent, the doc should state that context explicitly",
-          "No 'last-verified' date or content-version field in frontmatter, making freshness impossible for consumers to audit",
-          "Hub comparison tables rot quickly as hubs shut down, merge, or change install methods; doc lacks a re-verification cadence",
-          "Review limited to first 800 chars - installation workflow and security evaluation sections could not be assessed for deprecated patterns",
-          "Positive note: Skills.sh reference and 'npx skills add <owner/repo>' pattern are current and correct as of last knowledge"
+          "Time-sensitive hardcoded metric ('91K+ total installs' for skills.sh) will rapidly go stale; should be dated or sourced dynamically",
+          "ClawHub (clawhub.ai) has low verifiable public footprint; 'Backed by OpenClaw' claim needs re-verification because OpenClaw's ecosystem is volatile (project previously renamed Clawdbot/Moltbot)",
+          "'Hermes Agent' and the 'hermes skills install' CLI are not publicly documented tools; if internal, the doc should state that explicitly",
+          "Skills-hub landscape (skills.sh, Agent Skills, cross-agent installers) emerged mid-2025 and changes fast \u2014 agent counts ('20+'), install methods, and feature claims require periodic re-validation",
+          "Link liveness could not be checked in real time; URL validity for clawhub.ai is unconfirmed",
+          "Only first 800 chars reviewed \u2014 the 'Official' hub row is truncated, limiting completeness of this assessment"
         ]
       }
     }
