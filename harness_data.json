@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-08-27T22:09:52.930365+00:00",
+    "generated_at": "2026-08-28T04:07:05.719964+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
   "overall": {
-    "score": 94.6,
+    "score": 94.1,
     "tier": "healthy",
     "weights": {
       "cron": 35,
@@ -14,7 +14,7 @@
       "providers": 20
     },
     "component_scores": {
-      "cron": 100.0,
+      "cron": 98.6,
       "skills": 87.8,
       "memory": 88.0,
       "providers": 100
@@ -23,13 +23,13 @@
   },
   "scores": {
     "cron": {
-      "score": 100.0,
+      "score": 98.6,
       "tier": "healthy",
       "breakdown": {
         "total": 42,
-        "ok": 42,
+        "ok": 41,
         "silent": 0,
-        "success_rate": 100.0
+        "success_rate": 97.6
       },
       "issues": []
     },
@@ -84,8 +84,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:01:22",
-      "output_count_24h": 10,
+      "last_run_time": "2026-08-28T11:54:34",
+      "output_count_24h": 11,
       "potentially_silent": false,
       "intentional_nonzero": false
     },
@@ -96,7 +96,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T05:25:31",
+      "last_run_time": "2026-08-28T11:25:36",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -120,7 +120,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:01:36",
+      "last_run_time": "2026-08-28T11:42:48",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -132,7 +132,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T05:53:14",
+      "last_run_time": "2026-08-28T11:59:35",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -144,7 +144,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-27T09:11:29",
+      "last_run_time": "2026-08-28T09:09:09",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -156,7 +156,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:03:27",
+      "last_run_time": "2026-08-28T11:48:38",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -168,7 +168,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-27T10:06:38",
+      "last_run_time": "2026-08-28T10:07:31",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -180,7 +180,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T03:04:00",
+      "last_run_time": "2026-08-28T09:02:35",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -190,12 +190,12 @@
       "name": "Fleet Research Agent",
       "schedule": "22 1,5,9,13,17,21 * * *",
       "status": "active",
-      "last_run_ok": true,
+      "last_run_ok": false,
       "never_run": false,
-      "last_run_time": "2026-08-28T05:26:52",
+      "last_run_time": "2026-08-28T09:25:05",
       "output_count_24h": 1,
       "potentially_silent": false,
-      "intentional_nonzero": false
+      "intentional_nonzero": true
     },
     {
       "id": "d6cc11071af7",
@@ -204,8 +204,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-27T09:02:21",
-      "output_count_24h": 1,
+      "last_run_time": "2026-08-28T09:03:21",
+      "output_count_24h": 2,
       "potentially_silent": false,
       "intentional_nonzero": false
     },
@@ -240,7 +240,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T04:30:37",
+      "last_run_time": "2026-08-28T10:31:52",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -252,8 +252,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T00:23:06",
-      "output_count_24h": 2,
+      "last_run_time": "2026-08-28T06:18:39",
+      "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
     },
@@ -288,8 +288,8 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:13",
-      "output_count_24h": 2,
+      "last_run_time": "2026-08-28T12:00:30",
+      "output_count_24h": 3,
       "potentially_silent": false,
       "intentional_nonzero": false
     },
@@ -300,7 +300,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T03:02:10",
+      "last_run_time": "2026-08-28T09:02:02",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -312,7 +312,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T02:10:00",
+      "last_run_time": "2026-08-28T08:10:23",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -324,7 +324,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-27T21:07:00",
+      "last_run_time": "2026-08-28T09:06:15",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -336,7 +336,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:13",
+      "last_run_time": "2026-08-28T12:00:29",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -348,7 +348,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:05:15",
+      "last_run_time": "2026-08-28T12:00:35",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -360,7 +360,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:07",
+      "last_run_time": "2026-08-28T11:58:11",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -384,7 +384,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T00:08:59",
+      "last_run_time": "2026-08-28T06:11:59",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -408,7 +408,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-26T09:00:31",
+      "last_run_time": "2026-08-28T09:00:04",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -432,7 +432,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:15",
+      "last_run_time": "2026-08-28T12:00:35",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -444,7 +444,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:01:27",
+      "last_run_time": "2026-08-28T12:01:01",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -456,7 +456,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T04:07:41",
+      "last_run_time": "2026-08-28T10:08:46",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -468,7 +468,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:17",
+      "last_run_time": "2026-08-28T12:00:37",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -492,7 +492,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:13",
+      "last_run_time": "2026-08-28T12:00:33",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -504,7 +504,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:05:12",
+      "last_run_time": "2026-08-28T12:00:29",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -516,7 +516,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:12",
+      "last_run_time": "2026-08-28T12:00:29",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -528,7 +528,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:12",
+      "last_run_time": "2026-08-28T12:00:31",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -540,7 +540,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:04:15",
+      "last_run_time": "2026-08-28T11:48:36",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -552,7 +552,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-27T09:01:30",
+      "last_run_time": "2026-08-28T09:00:53",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -564,7 +564,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:05:13",
+      "last_run_time": "2026-08-28T12:01:29",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -576,7 +576,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-08-28T06:00:29",
+      "last_run_time": "2026-08-28T12:00:47",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -1073,9 +1073,9 @@
         "path": "/Users/mojoai/.hermes/skills/devops/hermes-system-harness",
         "valid": false,
         "error": "11 broken ref(s)",
-        "size_bytes": 100095,
+        "size_bytes": 103791,
         "file_count": 7,
-        "line_count": 797
+        "line_count": 806
       },
       {
         "name": "hermes-workspace-dev",
@@ -1115,26 +1115,35 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 187.0,
+      "latency_ms": 179.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 330.0,
+      "latency_ms": 270.0,
       "model_count": 18
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 8.0
+      "latency_ms": 48.0
     }
   ],
   "actions": {
-    "generated_at": "2026-08-27T22:05:30.412022+00:00",
-    "overall_score": 94.6,
+    "generated_at": "2026-08-28T04:02:15.188763+00:00",
+    "overall_score": 94.1,
     "overall_tier": "healthy",
     "actions": [
+      {
+        "type": "info",
+        "target": "Fleet Research Agent",
+        "target_id": "0d71774646b8",
+        "severity": "info",
+        "reason": "Script exited non-zero (likely intentional signal) \u2014 report was generated",
+        "action": "manual",
+        "suggestion": "Review output: ~/.hermes/cron/output/0d71774646b8/"
+      },
       {
         "type": "review",
         "target": "bot-mode-operations",
@@ -1459,15 +1468,24 @@
       }
     ],
     "summary": {
-      "total": 36,
+      "total": 37,
       "auto_executed": 0,
-      "manual_required": 36,
+      "manual_required": 37,
       "critical": 0,
       "warnings": 0,
-      "info": 36
+      "info": 37
     },
     "auto_actions": [],
     "manual_review": [
+      {
+        "type": "info",
+        "target": "Fleet Research Agent",
+        "target_id": "0d71774646b8",
+        "severity": "info",
+        "reason": "Script exited non-zero (likely intentional signal) \u2014 report was generated",
+        "action": "manual",
+        "suggestion": "Review output: ~/.hermes/cron/output/0d71774646b8/"
+      },
       {
         "type": "review",
         "target": "bot-mode-operations",
@@ -1797,22 +1815,22 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.1
+        "latency_s": 5.5
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.1
+        "latency_s": 5.5
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.1
+        "latency_s": 5.5
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.1
+        "latency_s": 5.5
       }
     },
     "cron_quality": {
@@ -1820,8 +1838,8 @@
         "name": "X Crypto Scanner",
         "quality": {
           "quality": "high",
-          "score": 83,
-          "reason": "Well-structured digest with specific tickers, attributed sources, engagement metrics for credibility filtering, condensed theses, signal scores, and direct links \u2014 genuinely time-saving curation, though it lacks trade parameters (entry/exit/timeframe) and the underlying value still hinges on influencer tweets rather than independent analysis."
+          "score": 84,
+          "reason": "Well-structured output with scored, curated whale-movement signals including exchange flow context (actionable for trading), engagement metrics for credibility filtering, source attribution, and direct verification links."
         }
       },
       "a354447653dc": {
@@ -1829,23 +1847,23 @@
         "quality": {
           "quality": "medium",
           "score": 70,
-          "reason": "Well-structured and scannable with concrete metrics, but contains duplicate signal entries ($ETH alpha_leak listed twice), a malformed empty ticker tag [[]], and truncated news text, indicating dedup and formatting issues that reduce actionable value."
+          "reason": "Well-structured ops digest with concrete metrics (PnL, win rate, fleet health, named signals), but weak threshold-level signal strengths (0.45), broken/empty ticker tags, truncated news, and no signal direction (long/short) limit its actionability."
         }
       },
       "46929a249347": {
         "name": "trading-strategy-review",
         "quality": {
           "quality": "high",
-          "score": 90,
-          "reason": "Well-structured review with actionable signal \u2014 the BTC alert explicitly flags an assigned strategy underperforming its runner-up by 4.1 points with declining trend, plus capital tracking and per-pair health margins giving clear reassignment decision points."
+          "score": 88,
+          "reason": "Well-structured performance review with a clear actionable alert \u2014 BTC's assigned strategy (macd, 62.1) is underperforming its runner-up (trend, 66.2) with a declining three-point trend \u2014 plus capital tracking and scannable status indicators, making this genuine signal rather than noise."
         }
       },
       "66a98cf277aa": {
         "name": "\ud83d\udc0b Whale Monitor",
         "quality": {
           "quality": "high",
-          "score": 85,
-          "reason": "Specific, actionable whale signals (HYPE orderbook imbalance, 5 whales shorting, full portfolio unwind) presented in a clean scannable format, though identical funding rates across all coins suggests a minor data quality issue."
+          "score": 82,
+          "reason": "Delivers a clear, actionable headline signal (HYPE 80% ask-weighted orderbook, corroborated by its 20% book reading in the table) plus a notable whale PUMP SHORT position, though most table rows show flat prices and uniform funding rates adding minor noise."
         }
       },
       "8bd6a73fc440": {
@@ -1860,8 +1878,8 @@
         "name": "\u23f0 Daily Review",
         "quality": {
           "quality": "high",
-          "score": 84,
-          "reason": "Well-structured, information-dense review with quantified metrics and clear actionable flags (meta broken 136d, whale-mon 0% uptime, 94.8% signal bridge waste), though minor redundancy between sections and persistently repeated unresolved alerts slightly dilute value."
+          "score": 87,
+          "reason": "Dense but well-structured digest with concrete metrics, trends, and clearly flagged failures (meta-agent 136.8d no briefs, paper-trader stuck 51d, whale-monitor 0% uptime, negative PnL) that make anomalies immediately actionable; only minor deductions for cryptic abbreviations and no explicit remediation steps."
         }
       },
       "6f7b35ec5e0b": {
@@ -1875,25 +1893,25 @@
       "652fe2a9c9ca": {
         "name": "arXiv Research Scanner",
         "quality": {
-          "quality": "medium",
-          "score": 74,
-          "reason": "Well-structured and transparent about its API-failure fallback with verified paper IDs and relevant on-topic papers, but the degraded 3-query web-search methodology likely means incomplete coverage compared to a full arXiv scan, capping its value below a high rating."
+          "quality": "noise",
+          "score": 12,
+          "reason": "Output contains only an API failure status message mixed with leaked code fragments and tool-call markup, with no actual research digest or actionable arXiv content."
         }
       },
       "3876dd862ca1": {
         "name": "Polymarket Sentiment Scanner",
         "quality": {
-          "quality": "medium",
-          "score": 65,
-          "reason": "The scanner correctly applied skill rules (filtering mechanical expiry-market repricing, honoring SILENT_MODE) and transparently reported a genuine null result, but the output contains no actionable signal\u2014its value is limited to confirming system health and state maintenance rather than delivering insights."
+          "quality": "unknown",
+          "score": 0,
+          "reason": "no output to evaluate"
         }
       },
       "0d71774646b8": {
         "name": "Fleet Research Agent",
         "quality": {
           "quality": "high",
-          "score": 88,
-          "reason": "Presents a clear, falsifiable thesis (signal profits driven by SOL beta, not signal accuracy) backed by structured quantitative evidence including a damning negative win-average-move metric, making it directly actionable for deciding whether to retire the signal system."
+          "score": 87,
+          "reason": "Presents a clear, falsifiable thesis backed by quantitative evidence (per-asset accuracy, win/loss move asymmetry) that distinguishes market beta from genuine signal alpha \u2014 a directly actionable finding that could prevent deploying a worthless signal system."
         }
       }
     },
@@ -1902,71 +1920,67 @@
         "freshness": "current",
         "confidence": 0.55,
         "issues": [
-          "Verification date (2026-08-19) postdates reviewer knowledge; existence of the specific CLIs cannot be independently confirmed",
-          "Reliance on niche single-maintainer third-party taps (antonrorodr/memo, steipete/tap/remindctl, steipete/tap/imsg) \u2014 high abandonment risk; better-known alternatives exist (e.g., keith/reminders-cli for Reminders)",
-          "Minor redundancy: 'brew tap X && brew install X/Y' pattern can be collapsed to single 'brew install X/Y/Z' command which auto-taps; not deprecated but non-idiomatic",
-          "Permission path is slightly imprecise: Automation access lives under 'Privacy & Security \u2192 Automation' and is hidden until first request; doc's shorthand could confuse users hunting for the setting",
-          "Content truncated mid-way through the iMessage section ('Permission: Gr...') \u2014 remainder of doc unreviewed; imsg permission steps may be incomplete",
-          "Positive: doc includes explicit verification stamp distinguishing installed vs. missing tools and confirms references/ files exist \u2014 good freshness hygiene; uses current macOS 'System Settings' terminology (not deprecated 'System Preferences') and current AppleScript/Homebrew patterns, no dead links evident in reviewed portion"
+          "Tools `memo` (antoniorodr), `remindctl`, and `imsg` (steipete/tap) cannot be verified against known Homebrew taps as of early 2025 knowledge; they are either post-cutoff releases or possibly incorrect tool names (steipete's Reminders CLI was historically named `rem`, and no known `imsg` tap exists)",
+          "Redundant install pattern: `brew tap antoniorodr/memo && brew install antoniorodr/memo/memo` \u2014 the fully-qualified install form makes the explicit tap unnecessary; pick one",
+          "Self-reported verification stamp (2026-08-19) and runtime status claims (imsg installed, memo/remindctl missing) cannot be independently confirmed and will silently drift stale without re-verification",
+          "Body truncates mid-sentence in the iMessage permissions section, so freshness of the remaining content (including any additional apps) is unreviewable",
+          "No fallback documented if a brew tap is abandoned or renamed (e.g., pinning versions or linking to source repos)"
         ]
       },
       "macos-computer-use": {
         "freshness": "current",
         "confidence": 0.7,
         "issues": [
-          "No URLs, repo links, or version pins in the excerpt, so dead-link and API-drift risk is unverifiable; parameter names (mode='som', capture_after=True) are tool-specific and would silently rot if the underlying tool renames them \u2014 pin a tool version or link the tool schema",
-          "Claim that Claude 'was trained on both' element indices and coordinates is unverifiable and will age poorly as other models get coordinate training; hedge the wording",
-          "No mention of macOS TCC permission requirements (Accessibility + Screen Recording, including periodic re-approval prompts since Sequoia), the most common real-world failure mode for AX-based background control",
-          "'No Anthropic-native schema to learn' is accurate for this wrapper but could confuse users of Anthropic's native computer-use tool, whose beta versions rotate; clarify scope",
-          "Content is otherwise current: AX-tree/SoM-first interaction is the modern pattern, the pyautogui contrast is valid, and the model list (Claude/GPT/Gemini/local OpenAI-compatible endpoints) reflects the present landscape"
+          "Review limited to first 2000 chars; the remainder (actions beyond right_click, setup, troubleshooting sections) is unverified and could contain dead links or deprecated APIs",
+          "Claim 'Claude was trained on both' element indices and pixel coordinates is imprecise and may age poorly \u2014 Anthropic's native computer-use tool is coordinate/screenshot-based; index support here comes from the wrapper's prompting, not model training, which could mislead future maintenance",
+          "No last-updated or version metadata in the body, so future freshness audits have no date anchor",
+          "No links present in the reviewed portion, so no dead-link risk found, but also no way to confirm referenced tooling versions (e.g., which computer_use implementation this wraps)"
         ]
       },
       "autonomous-research": {
         "freshness": "current",
         "confidence": 0.7,
         "issues": [
-          "Freshness claim is self-attested ('all 5 references/ files verified present') and cannot be independently confirmed from the excerpt",
-          "Body truncated at 2000 chars; only the subsystem table is visible, so links, code samples, and patterns in the remainder are unreviewed",
-          "Fleet implementation status markers (e.g., 'failure classification... \u2705 Live' as of Jul 4, 2026) are fast-drifting details embedded in a reference map and likely to go stale between reviews",
-          "Internal artifact references (planner.py, external_signal_accuracy table, 'fleet domains') have no external verification path, so silent breakage would go undetected",
-          "Obsidian dependency for the knowledge store is current but adds an external-tool coupling not covered by the stated review scope",
-          "No deprecated tools, dead links, or outdated patterns detected in the visible portion, but the 'When to Use' section is too vague ('any topic in the subsystem map') to judge relevance decay"
+          "Content truncated at 2000 chars mid-table (fleet-data-quality-pitfalls entry cut off); freshness of remaining body cannot be assessed",
+          "Reference file existence ('all 5 references/ files verified present') is self-reported as of Aug 23, 2026 and cannot be independently verified from this excerpt",
+          "Subsystem status claims (e.g., '\u2705 Live' markers dated Jul 4, 2026) reflect a point-in-time snapshot and may drift from actual fleet implementation status",
+          "No external URLs visible in the excerpt, so dead-link risk appears low but is unconfirmed for the truncated portion"
         ]
       },
       "code-delegation": {
         "freshness": "current",
-        "confidence": 0.75,
+        "confidence": 0.7,
         "issues": [
-          "All three referenced tools (Claude Code, OpenAI Codex CLI @openai/codex, OpenCode) are real and actively maintained as of early 2025, but this ecosystem evolves extremely fast \u2014 CLI flags and subcommands (e.g., codex exec, claude -p) change frequently, so the underlying reference files should be spot-checked against current docs",
-          "Naming ambiguity: 'Codex' now refers to both the local CLI (@openai/codex) and OpenAI's cloud-based Codex agent; the reference should disambiguate to avoid drift",
-          "OpenCode has undergone branding/rebranding churn in the past; verify the current canonical repo/package name and TUI feature claims (parallel worktrees)",
-          "Cannot verify from this excerpt that the three references/*.md files and the 'hermes-agent' related skill actually exist \u2014 potential dead internal links",
-          "Only the first 2000 chars were reviewed; the actual reference bodies may contain outdated installation commands or deprecated flags"
+          "All three referenced tools (Claude Code, Codex CLI via @openai/codex, OpenCode CLI) are actively maintained products with no known deprecation as of reviewer knowledge",
+          "No external URLs appear in the excerpt, so dead links cannot be confirmed or ruled out \u2014 internal references/*.md files are unverified",
+          "Codex CLI moved from TypeScript to a Rust implementation after launch; if reference docs contain installation/setup commands they should be checked against current @openai/codex packaging",
+          "Claude Code description ('print mode + interactive TUI') is accurate but incomplete \u2014 newer capabilities (headless/SDK mode, subagents, hooks) may merit mention depending on the reference file's depth",
+          "OpenCode project has undergone maintainer/governance changes; verify the canonical repo and install command in references/opencode.md are still correct",
+          "Only first 2000 chars reviewed \u2014 version-pinned commands or screenshots in the full body could be stale and were not checked",
+          "Reviewer knowledge has a training cutoff; rapid-moving CLIs like these can change flags/commands frequently, so confidence is capped"
         ]
       },
       "computer-use": {
         "freshness": "stale",
-        "confidence": 0.62,
+        "confidence": 0.6,
         "issues": [
-          "References 'cua-driver' (cua-driver MCP tools, 'cua-driver skills install', '~/.cua-driver/skills/cua-driver') which does not match the known upstream project at github.com/trycua/cua (published as the 'cua' Python library / CLI with its own Computer interface and MCP server) \u2014 the driver name, install command, and skill paths are unverifiable and likely renamed or fabricated",
-          "Documents a temporary transitional state: 'Hermes autodetection is a planned cua-driver follow-up' plus manual symlink instructions are explicitly stopgap guidance that will rot as soon as the follow-up ships",
-          "Link points at the cua monorepo root while all specific instructions refer to a 'cua-driver' component that may not exist at that URL \u2014 likely dead/misleading deep reference",
-          "Unverifiable model-training claims ('Claude was trained on both; other models are often only reliable with indices') that age poorly as new models and tool-calling conventions evolve",
-          "Only first 2000 chars reviewed \u2014 the full action vocabulary cannot be validated against the actual tool schema, so deprecated actions may go undetected",
-          "Core patterns (SoM capture, AX-tree element indices, AX/UIA/AT-SPI accessibility mapping) are current and sound, which is why this is 'stale' rather than 'outdated'"
+          "Primary dependency link https://github.com/trycua/cua likely points to an archived/deprecated repo \u2014 the cua project was reportedly sunset in favor of a hosted product; verify the link still resolves to an actively maintained driver",
+          "Tool-name mismatch: doc consistently references 'cua-driver' (cua-driver skills install, ~/.cua-driver/skills/cua-driver) but the linked repo ships the 'cua' CLI \u2014 suggests a fork/rename not reflected in the link, or an install path that doesn't exist in the referenced project",
+          "Roadmap language ('Hermes autodetection is a planned cua-driver follow-up') has no version or date anchor; this may already be shipped or abandoned, leaving readers with stale manual-config steps (pointing Hermes at ~/.cua-driver/... or symlinking)",
+          "Manual symlink workaround is self-described as temporary ('currently point Hermes at...'), a strong signal the doc lags the tool's actual installation flow",
+          "No version pinning, changelog reference, or last-reviewed date anywhere in the doc, making drift between documented action vocabulary and the driver's real API undetectable",
+          "Minor: 'any tool-capable model' claim is fine, but 'There is no Anthropic-native schema to learn' sidesteps that Anthropic ships a computer-use tool schema \u2014 worth clarifying this wrapper deliberately bypasses it, since readers may hit conflicting docs"
         ]
       },
       "merge-reconciler": {
         "freshness": "current",
-        "confidence": 0.6,
+        "confidence": 0.7,
         "issues": [
-          "Core git patterns are sound and modern (merge/rebase conflict handling, worktrees, regenerating lockfiles instead of hand-merging, merge-queue analogy) \u2014 nothing deprecated in the git guidance itself",
-          "No URLs appear in the excerpt, so there are no dead links to flag \u2014 but also no external references to verify the procedure against",
-          "Heavy coupling to ecosystem-specific, non-public tooling: 'hermes kanban show <task-id>', 'kanban_create(title=, assignee=, parents=)' \u2014 these are unverifiable outside the originating orchestrator and will fail silently if that stack changed; recommend documenting generic fallbacks (git log, PR bodies, plain subagent prompt)",
-          "'delegate_task' is not the subagent-spawn tool name in current mainstream runtimes (e.g., Claude Code exposes 'Task'; SDKs vary) \u2014 likely stale or harness-specific naming; should be phrased generically ('spawn a subagent') or versioned against the target harness",
-          "Kanban-native path assumes a specific kanban tool schema (assignee, parents fields, third-profile assignment) with no schema check or error path if the API drifted",
-          "Excerpt is truncated at 2000 chars and cuts off mid-'How to Run'; the Procedure section \u2014 where outdated CLI flags or deprecated commands would most likely live \u2014 could not be reviewed",
-          "Minor: 'AGENTS' branches' phrasing assumes the reader knows branches are agent-owned; harmless but could be clarified for portability"
+          "References internal/proprietary tooling that is not standard or publicly verifiable: 'hermes kanban show <task-id>', delegate_task, and kanban_create \u2014 these are coupling risks that will silently break if the host environment's tool names drift, though there is no evidence they are deprecated",
+          "Hard-coded API signature for kanban_create(title=, assignee=, parents=) pins the skill to one version of that tool's schema; verify against the current tool registry",
+          "Parenthetical reference to a tool named 'terminal' is framework-specific and may not match current tool naming in the target runtime",
+          "No dead links found in the reviewed text (no URLs are present at all), and core git concepts (merge, rebase, worktrees, merge queues) plus multi-agent patterns (AGENTS conventions, parallel-PR campaigns) are current \u2014 no deprecated patterns detected",
+          "Review covers only the first 2000 chars of the body with frontmatter stripped; the Procedure section was not examined and may contain additional tool calls, command-line flags, or links that could be stale"
         ]
       }
     }
