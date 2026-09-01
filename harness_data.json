@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-01T10:01:12.371805+00:00",
+    "generated_at": "2026-09-01T10:07:07.247805+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -456,7 +456,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-01T16:20:12",
+      "last_run_time": "2026-09-01T18:01:48",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -564,7 +564,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-01T18:00:30",
+      "last_run_time": "2026-09-01T18:01:30",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -1115,23 +1115,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 164.0,
+      "latency_ms": 223.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 307.0,
+      "latency_ms": 345.0,
       "model_count": 19
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 47.0
+      "latency_ms": 7.0
     }
   ],
   "actions": {
-    "generated_at": "2026-09-01T10:01:11.075861+00:00",
+    "generated_at": "2026-09-01T10:01:50.159716+00:00",
     "overall_score": 94.0,
     "overall_tier": "healthy",
     "actions": [
@@ -1833,22 +1833,179 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.3
+        "latency_s": 1.7
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.3
+        "latency_s": 1.7
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.3
+        "latency_s": 1.7
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 1.3
+        "latency_s": 1.7
+      }
+    },
+    "cron_quality": {
+      "43ba1d393c5a": {
+        "name": "X Crypto Scanner",
+        "quality": {
+          "quality": "low",
+          "score": 52,
+          "reason": "Well-formatted digest with links, scores, and engagement metrics, but the actual signals are weak \u2014 the top item is off-topic (maritime AIS, not crypto), summaries are vague, and low-engagement accounts offer little actionable trading value."
+        }
+      },
+      "a354447653dc": {
+        "name": "Fleet Operations Agent",
+        "quality": {
+          "quality": "high",
+          "score": 81,
+          "reason": "Well-structured operational digest with concrete actionable data (fleet health, precise PnL/WR metrics, ticker-specific signals with strength scores, and tagged high-impact news), only minor defects like an empty [[]] tag and truncation."
+        }
+      },
+      "46929a249347": {
+        "name": "trading-strategy-review",
+        "quality": {
+          "quality": "high",
+          "score": 88,
+          "reason": "Well-structured review with actionable signals: clear position status, quantified strategy scores with margin analysis, and a valuable warning flag on ETH's unstable strategy switch (+0.17 margin)."
+        }
+      },
+      "66a98cf277aa": {
+        "name": "\ud83d\udc0b Whale Monitor",
+        "quality": {
+          "quality": "high",
+          "score": 87,
+          "reason": "Contains genuinely actionable whale signals (specific wallet flipping SOL long to short at +649% PnL, 78% bid-weighted BTC orderbook) in a clean, timestamped format with contextual metrics, though the routine funding/OI table data adds minor redundancy."
+        }
+      },
+      "8bd6a73fc440": {
+        "name": "\ud83d\udcf0 News Agent",
+        "quality": {
+          "quality": "unknown",
+          "score": 0,
+          "reason": "no output to evaluate"
+        }
+      },
+      "4a4564fc946b": {
+        "name": "\u23f0 Daily Review",
+        "quality": {
+          "quality": "high",
+          "score": 86,
+          "reason": "Well-structured daily digest with concrete metrics, trend deltas, and clearly actionable failure signals (paper-trader stuck at -$483 for 55d, arxiv 5d stale, whale-monitor 0% uptime inconsistency), though dense jargon slightly limits readability."
+        }
+      },
+      "6f7b35ec5e0b": {
+        "name": "\ud83d\udc9a Fleet Heartbeat",
+        "quality": {
+          "quality": "unknown",
+          "score": 0,
+          "reason": "no output to evaluate"
+        }
+      },
+      "652fe2a9c9ca": {
+        "name": "arXiv Research Scanner",
+        "quality": {
+          "quality": "high",
+          "score": 84,
+          "reason": "Well-structured scan with transparent methodology, graceful recovery from arXiv API timeouts via fallback discovery, and clearly organized topic-categorized paper sections indicating real curated value."
+        }
+      },
+      "3876dd862ca1": {
+        "name": "Polymarket Sentiment Scanner",
+        "quality": {
+          "quality": "high",
+          "score": 82,
+          "reason": "Delivers actionable signal \u2014 Fed rate probabilities include movement deltas and explicit prioritization ('strongest non-expiry move'), with clean structure and interpretive context; only minor dilution from near-certainty expiry levels (98-99.8%) that add little marginal information."
+        }
+      },
+      "0d71774646b8": {
+        "name": "Fleet Research Agent",
+        "quality": {
+          "quality": "high",
+          "score": 82,
+          "reason": "A well-structured, evidence-backed negative result that correctly identifies stale data as blocking further research and avoids fabricating insights, giving the operator a clear actionable signal to fix data ingestion instead of wasting cycles re-analyzing exhausted history."
+        }
+      }
+    },
+    "skill_freshness": {
+      "apple-apps": {
+        "freshness": "current",
+        "confidence": 0.6,
+        "issues": [
+          "Verification date 2026-08-19 is beyond reviewer's knowledge cutoff; tool existence and repo health (antoniorodr/memo, steipete/tap/remindctl, steipete/tap/imsg) cannot be independently confirmed and these are niche third-party taps with high abandonment/rot risk",
+          "Doc embeds machine-specific volatile state in the Status line (/opt/homebrew/bin/imsg installed, memo/remindctl not installed) \u2014 this is environment snapshot data that will go stale immediately and doesn't belong in shared skill docs",
+          "No mention of macOS Sequoia+ periodic re-authorization for AppleScript/Automation permissions, which materially affects the documented permission-granting flow for all three tools",
+          "references/*.md links (apple-notes.md, apple-reminders.md) are asserted 'verified present' but cannot be validated from the body text; skill claims link health rather than demonstrating it",
+          "Body is truncated mid-sentence in the iMessage section ('Permission: Gr...'), so the permission instructions for imsg \u2014 the tool flagged as actually installed \u2014 are incomplete in the provided content",
+          "Homebrew tap syntax 'brew tap antoniorodr/memo && brew install antoniorodr/memo/memo' duplicates the tap name; the second command would conventionally be just 'brew install memo' after tapping \u2014 minor but suggests untested copy-paste"
+        ]
+      },
+      "macos-computer-use": {
+        "freshness": "current",
+        "confidence": 0.78,
+        "issues": [
+          "Only the first 2000 characters were reviewed; staleness or dead links in the remainder of the doc cannot be assessed",
+          "No URLs appear in the excerpt, so link-rot verification is impossible from this sample",
+          "Claim that non-Claude models are 'often only reliable with indices' is an overgeneralization that ages quickly - GPT and Gemini now ship native computer-use/GUI training, so this line risks becoming stale",
+          "Model-capability statements (e.g., 'Claude was trained on both') will need periodic revision as model families change",
+          "Doc correctly avoids the deprecated Anthropic computer-use beta schemas (computer_20241022, superseded by computer_20250124) by being model-agnostic, but later sections should be checked for any beta-header references",
+          "Implementation-specific parameters (capture_after, som/vision/ax modes) cannot be validated against the actual tool without its current API spec"
+        ]
+      },
+      "autonomous-research": {
+        "freshness": "current",
+        "confidence": 0.75,
+        "issues": [
+          "No outdated tools or deprecated patterns detected \u2014 LLM-driven optimization loops, maker-checker, and feedback-loop patterns described are current conventions",
+          "Reference file existence is self-reported only: the Aug 23, 2026 review claims all 5 references/ files verified, but this cannot be independently confirmed from the excerpt; treat as unverified until spot-checked",
+          "Content truncated at 2000 chars \u2014 freshness of the remainder of the body (potential external links, tool versions, or code snippets) is not assessable",
+          "Internal fleet status markers (e.g., '\u2705 Live' annotations dated Jul 4, 2026) rely on manual updates with no staleness-detection mechanism noted, creating drift risk between reviews",
+          "Hard dependency on Obsidian for knowledge store is current but unpinned to a version; low risk, worth noting if the vault tooling migrates"
+        ]
+      },
+      "code-delegation": {
+        "freshness": "current",
+        "confidence": 0.8,
+        "issues": [
+          "All three referenced tools (Claude Code, Codex CLI, OpenCode) are actively maintained as of latest knowledge; no outdated tools detected in the excerpt",
+          "Reference files (references/claude-code.md, codex.md, opencode.md) were not included in the excerpt, so embedded command examples, flags, and any URLs inside them could not be verified",
+          "Codex naming ambiguity: the original Codex model was deprecated in 2023, but this doc correctly refers to the 2025+ Codex CLI (@openai/codex); a clarifying note could prevent confusion for future readers",
+          "Codex CLI migrated from a TypeScript implementation to a Rust binary distributed via the same npm package \u2014 verify codex.md reflects current install/usage patterns",
+          "'When to Use' section is generic umbrella boilerplate with no concrete trigger examples, weakening skill-routing precision",
+          "No 'last verified' date stamps or version pins for fast-moving third-party CLIs, making silent staleness hard to detect",
+          "hermes-agent skill dependency (delegate_task tool) is unverifiable from this excerpt; if that skill is renamed or refactored this link rots"
+        ]
+      },
+      "computer-use": {
+        "freshness": "stale",
+        "confidence": 0.72,
+        "issues": [
+          "'Last reviewed: Aug 29, 2026' postdates verifiable knowledge \u2014 the self-attested review date cannot be confirmed and reads as fabricated, undermining the doc's freshness claim",
+          "'ClawHub' as a skill registry and the '@cua/driver' ClawHub skill do not match any known ecosystem (no such registry exists to my knowledge) \u2014 likely dead/fabricated reference",
+          "'cua-driver' as a CLI sub-project of trycua/cua, the 'cua-driver skills install' command, and the '~/.cua-driver/skills/' install path do not appear in the known trycua/cua repository; the real pip package 'cua' historically targets browser/VM agent automation, not local background desktop driving",
+          "'Hermes' as an agent harness exposing a unified computer_use tool across Claude/GPT/Gemini/local endpoints is unverified",
+          "Claim that actions never move the user's cursor ('opposite of pyautogui') contradicts mainstream computer-use stacks (Anthropic computer use, pyautogui/xdotool); only true if the driver invokes AX/UIA/AT-SPI actions directly, which is not a documented capability of the referenced project",
+          "github.com/trycua/cua is a real repo, but the cited internals ('libs/cua-driver README', 'raw cua-driver MCP tools') are unverifiable and likely 404",
+          "Doc mixes current, legitimate patterns (SOM-mode capture with numbered overlays, platform AX/UIA/AT-SPI role naming) with unverifiable tool references \u2014 classic sign of partially hallucinated or speculative documentation that needs re-verification against upstream"
+        ]
+      },
+      "merge-reconciler": {
+        "freshness": "stale",
+        "confidence": 0.6,
+        "issues": [
+          "References 'delegate_task' as the subagent-spawning mechanism \u2014 this matches an older agent-harness tool name; current environments typically use a Task/agent-spawn tool or SDK-level subagents, so verify this call signature still exists",
+          "Depends on a 'hermes kanban show <task-id>' CLI \u2014 a niche/likely-internal tool that cannot be verified as current; if hermes was renamed, replaced, or versioned, these invocations fail silently for readers",
+          "kanban_create(title=..., assignee=..., parents=[...]) assumes a specific kanban API schema (including a 'parents' parameter) that is unverified and probably not portable across environments",
+          "No canonical documentation links are included for the referenced tools, making it impossible for a consumer to self-check whether the tool references are still valid",
+          "No dead URLs are present in this excerpt, so no link-rot risk \u2014 but that is because there are no links at all",
+          "Core content is current and relevant: git merge/rebase conflict handling, worktrees, and the neutral-reconciler/multi-agent pattern are not deprecated; only the orchestration-tool references (delegate_task, hermes kanban, kanban_create) are questionable"
+        ]
       }
     }
   }
