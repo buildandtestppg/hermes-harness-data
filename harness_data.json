@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-07T16:02:26.092987+00:00",
+    "generated_at": "2026-09-07T16:08:10.554184+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -1139,23 +1139,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 961.0,
+      "latency_ms": 1488.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 813.0,
+      "latency_ms": 1263.0,
       "model_count": 19
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 19.0
+      "latency_ms": 13.0
     }
   ],
   "actions": {
-    "generated_at": "2026-09-07T16:02:21.208933+00:00",
+    "generated_at": "2026-09-07T16:02:47.877294+00:00",
     "overall_score": 94.0,
     "overall_tier": "healthy",
     "actions": [
@@ -1857,23 +1857,172 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.9
+        "latency_s": 4.0
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.9
+        "latency_s": 4.0
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.9
+        "latency_s": 4.0
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 4.9
+        "latency_s": 4.0
       }
+    },
+    "cron_quality": {
+      "43ba1d393c5a": {
+        "name": "X Crypto Scanner",
+        "quality": {
+          "quality": "medium",
+          "score": 70,
+          "reason": "Well-structured scan with links, scores, and some genuinely actionable items (HYPE whale accumulation, BTC liquidity map), but mixed with low-engagement promotional posts and a mislabeled tweet, so signal quality is inconsistent."
+        }
+      },
+      "a354447653dc": {
+        "name": "Fleet Operations Agent",
+        "quality": {
+          "quality": "medium",
+          "score": 76,
+          "reason": "Well-structured digest with genuinely actionable content (whale position changes with wallet addresses, orderbook pressure, funding/OI data, tagged news), but duplicate $HYPE signals and low-strength info-level alerts introduce some redundancy."
+        }
+      },
+      "46929a249347": {
+        "name": "trading-strategy-review",
+        "quality": {
+          "quality": "high",
+          "score": 90,
+          "reason": "Well-structured, specific, and actionable \u2014 quantified risk flags (ETH 0.79% from SL, bearish sentiment conflicting with both longs, realized vs peak-based drawdown) plus strategy health with clear decision-logic context (hysteresis, champion freeze, min-trade gates) give immediate decision value rather than noise."
+        }
+      },
+      "66a98cf277aa": {
+        "name": "\ud83d\udc0b Whale Monitor",
+        "quality": {
+          "quality": "high",
+          "score": 87,
+          "reason": "Well-structured digest with specific wallet-level positioning changes, PnL figures, orderbook bias, funding, and a coherent synthesized theme (long-bias rotation into weakness) that makes it actionable rather than raw noise."
+        }
+      },
+      "8bd6a73fc440": {
+        "name": "\ud83d\udcf0 News Agent",
+        "quality": {
+          "quality": "high",
+          "score": 84,
+          "reason": "Well-structured digest with a genuinely notable, well-contextualized LINK/SWIFT story plus specific actionable minor items (ROUTE shutdown/burn, PONS whale intel), all with sources and clear hierarchy; only minor filler like the memecoin item and BTC-flat aside."
+        }
+      },
+      "4a4564fc946b": {
+        "name": "\u23f0 Daily Review",
+        "quality": {
+          "quality": "high",
+          "score": 90,
+          "reason": "Dense, well-structured report with quantified metrics, trend deltas, and day-counts on persistent bugs (meta cron day 148, whale=oi day 25) that clearly surface actionable priorities across wiki, fleet, trading, and signals \u2014 truncation is the only limitation and is not penalized."
+        }
+      },
+      "6f7b35ec5e0b": {
+        "name": "\ud83d\udc9a Fleet Heartbeat",
+        "quality": {
+          "quality": "ok",
+          "score": null,
+          "issue": "all-clear protocol response \u2014 healthy by design"
+        }
+      },
+      "652fe2a9c9ca": {
+        "name": "arXiv Research Scanner",
+        "quality": {
+          "quality": "high",
+          "score": 85,
+          "reason": "Well-structured, on-scope digest with verifiable arXiv links, technically specific summaries, and genuinely actionable takeaways (e.g., the safe-RL shielding pattern), with only a minor date/arXiv-ID inconsistency in entry 2 and slightly stale (June) papers for a daily scanner."
+        }
+      },
+      "3876dd862ca1": {
+        "name": "Polymarket Sentiment Scanner",
+        "quality": {
+          "quality": "silent",
+          "score": null,
+          "issue": "healthy silent run \u2014 nothing to report by design"
+        }
+      },
+      "0d71774646b8": {
+        "name": "Fleet Research Agent",
+        "quality": {
+          "quality": "high",
+          "score": 88,
+          "reason": "Presents a clear, falsifiable thesis (maker execution is the only stable edge) backed by specific, recent, quantified evidence (OOS failure of cluster selection, all-folds maker stability, live fill audit) with an actionable decision-framework direction."
+        }
+      }
+    },
+    "skill_freshness": {
+      "apple-apps": {
+        "freshness": "current",
+        "confidence": 0.85,
+        "issues": [
+          "Body truncated at 2000 chars \u2014 remainder of the iMessage section and any sections after it (and their reference links) could not be reviewed",
+          "All tools are third-party Homebrew taps (steipete/tap, antoniorodr/memo) that can move or break without notice, but the 2026-08-19 verification stamp (~3 weeks old) covers them, so no staleness is indicated"
+        ]
+      },
+      "macos-computer-use": {
+        "freshness": "current",
+        "confidence": 0.75,
+        "issues": [
+          "Body truncated at ~2000 chars mid-action-table ('right_clic...') \u2014 remaining actions, error-handling, and any links or version references were not reviewable",
+          "No URLs or tool version numbers appear in the visible excerpt, so dead-link/version-drift risk is unverifiable rather than confirmed absent",
+          "Model-capability claims (e.g., 'other models are often only reliable with indices', 'Claude was trained on both') are time-sensitive and may drift as models improve; no visible review date in the excerpt to confirm recency",
+          "References to pyautogui-style automation and the 'Anthropic-native computer use schema' remain accurate as of 2026-09 but the latter evolves \u2014 worth periodic re-check"
+        ]
+      },
+      "autonomous-research": {
+        "freshness": "current",
+        "confidence": 0.85,
+        "issues": []
+      },
+      "code-delegation": {
+        "freshness": "current",
+        "confidence": 0.72,
+        "issues": [
+          "All three referenced tools (Claude Code, OpenAI Codex CLI @openai/codex, OpenCode) are real, actively maintained projects as of the latest verifiable information; the npm package name @openai/codex is correct and no deprecation notices or dead links are visible in the excerpt.",
+          "Only the umbrella skill body was reviewed \u2014 the actual contents of references/claude-code.md, references/codex.md, and references/opencode.md were not visible, and version-specific CLI flags/commands/install instructions in those reference files are the most likely location for staleness in this fast-moving space.",
+          "The 'hermes-agent' related skill appears to be internal to the same skill ecosystem and could not be externally verified as still existing or current.",
+          "No 'Last reviewed' stamp is visible (frontmatter was stripped), so recency of the documentation itself cannot be confirmed from this excerpt."
+        ]
+      },
+      "computer-use": {
+        "freshness": "current",
+        "confidence": 0.85,
+        "issues": [
+          "Review limited to first 2000 chars of body; full document not assessed",
+          "Verification claims (libs/cua-driver README, @cua/driver ClawHub skill) depend on upstream trycua/cua repo structure that can drift without notice, though stamped verified Aug 29, 2026"
+        ]
+      },
+      "merge-reconciler": {
+        "freshness": "current",
+        "confidence": 0.75,
+        "issues": [
+          "Core subject matter (git merge/rebase conflict resolution, neutral reconciliation for parallel agent worktrees) is evergreen and increasingly relevant to multi-agent coding campaigns \u2014 no deprecated patterns found",
+          "No URLs are present, so there is no dead-link risk to flag",
+          "References environment-specific tooling whose current existence cannot be verified externally: `delegate_task`, `hermes kanban show <task-id>`, and `kanban_create(...)` with a `parents` parameter \u2014 confirm these match the live tool registry and that parameter names/signatures haven't drifted",
+          "Frontmatter was stripped, so any 'Last reviewed' stamp could not be inspected; not a staleness issue per review policy (only future-dated stamps would be), but worth re-stamping at next touch since tool-coupled skills rot faster than conceptual ones"
+        ]
+      }
+    },
+    "memory_accuracy": {
+      "checked": 5,
+      "issues": [
+        {
+          "index": 0,
+          "problem": "Minor ambiguity: the stored trigger marker ends with '...' \u2014 unclear whether the ellipsis is part of the literal system-prompt string or a truncation of it. Exact substring matching on this stored string could fail or misfire. Consider storing the full verbatim marker."
+        },
+        {
+          "index": 2,
+          "problem": "Minor internal tension: evaluator.py is called the 'SOLE strategy authority', yet the resume condition ('until it respects the same hysteresis rules') implies optimizer.py will eventually run again alongside it. Clarify whether a resumed optimizer would submit to evaluator.py or share authority, so future sessions don't misinterpret the resume condition as overriding the 'sole authority' claim."
+        }
+      ],
+      "overall_quality": "high"
     }
   }
 }
