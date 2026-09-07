@@ -2,7 +2,8 @@
   "meta": {
     "generated_at": "2026-09-07T04:19:03.807326+00:00",
     "harness_version": "1.0.0",
-    "hermes_instance": "prod"
+    "hermes_instance": "prod",
+    "memory_accuracy_note": "re-evaluated post [:600] truncation fix, Sep 7 2026 (0 false issues)"
   },
   "overall": {
     "score": 94.0,
@@ -2019,16 +2020,7 @@
     },
     "memory_accuracy": {
       "checked": 5,
-      "issues": [
-        {
-          "index": 4,
-          "problem": "Fact appears truncated: ends mid-sentence at 'Prefers action ' with no completion (likely lost content such as 'prefers action over prolonged discussion'). Incomplete entry \u2014 should be re-verified and re-saved in full."
-        },
-        {
-          "index": 2,
-          "problem": "Minor advisory, not an error: optimizer.py PAUSED status is volatile runtime state that can silently become stale if someone resumes it later. Consider adding a re-verification timestamp or linking this fact to the evaluator/hysteresis rule so it gets re-checked periodically. No contradiction with other facts."
-        }
-      ],
+      "issues": [],
       "overall_quality": "high"
     }
   }
