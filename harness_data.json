@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-09T16:01:25.626935+00:00",
+    "generated_at": "2026-09-09T16:07:15.271319+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -444,7 +444,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-09T23:45:58",
+      "last_run_time": "2026-09-10T00:01:21",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -1175,23 +1175,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 465.0,
+      "latency_ms": 763.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 1556.0,
+      "latency_ms": 439.0,
       "model_count": 19
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 45.0
+      "latency_ms": 4.0
     }
   ],
   "actions": {
-    "generated_at": "2026-09-09T16:01:20.563532+00:00",
+    "generated_at": "2026-09-09T16:01:38.425390+00:00",
     "overall_score": 94.0,
     "overall_tier": "healthy",
     "actions": [
@@ -1893,23 +1893,176 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.1
+        "latency_s": 4.3
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.1
+        "latency_s": 4.3
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.1
+        "latency_s": 4.3
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 5.1
+        "latency_s": 4.3
       }
+    },
+    "cron_quality": {
+      "43ba1d393c5a": {
+        "name": "X Crypto Scanner",
+        "quality": {
+          "quality": "medium",
+          "score": 65,
+          "reason": "Well-structured digest with links, scores, and engagement metrics, but several items are mislabeled (crime news tagged DePIN, XRP-flow news tagged BTC), signals skew toward low-engagement hype rather than actionable trades, and $TAO items are redundant."
+        }
+      },
+      "a354447653dc": {
+        "name": "Fleet Operations Agent",
+        "quality": {
+          "quality": "medium",
+          "score": 68,
+          "reason": "Well-structured with real market data, whale alerts, and trading metrics, but duplicate $SOL signals and empty news ticker tags [[]] indicate parsing/dedup issues that dilute actionable value."
+        }
+      },
+      "46929a249347": {
+        "name": "trading-strategy-review",
+        "quality": {
+          "quality": "high",
+          "score": 90,
+          "reason": "Well-structured review with concrete position P&L, strategy health stats with explicit low-confidence freeze flags, and thorough risk checks (stops, sentiment gate, drawdown breaker) \u2014 a no-change cycle confirmed with specific evidence is genuine actionable signal, not noise."
+        }
+      },
+      "66a98cf277aa": {
+        "name": "\ud83d\udc0b Whale Monitor",
+        "quality": {
+          "quality": "high",
+          "score": 88,
+          "reason": "Dense, well-structured alert with specific whale addresses, position deltas, PnL, orderbook imbalance, funding rates, and internally consistent table data that together form a clear actionable bearish-sentiment picture."
+        }
+      },
+      "8bd6a73fc440": {
+        "name": "\ud83d\udcf0 News Agent",
+        "quality": {
+          "quality": "high",
+          "score": 87,
+          "reason": "Well-structured, timely digest with tiered priorities, ticker tags, and source links; the Tether/Fasanara and EIP-8288 stories are genuinely actionable, with only the meme-coin item adding marginal noise."
+        }
+      },
+      "4a4564fc946b": {
+        "name": "\u23f0 Daily Review",
+        "quality": {
+          "quality": "high",
+          "score": 90,
+          "reason": "Dense, well-structured daily review with concrete metrics, clear status flags (dead meta/fleet-monitor agents, paper-trader bleed deceleration), tracked deltas, bug timelines, and specific actionable watch items like the 800 API-call threshold and pending scout digest archival."
+        }
+      },
+      "6f7b35ec5e0b": {
+        "name": "\ud83d\udc9a Fleet Heartbeat",
+        "quality": {
+          "quality": "ok",
+          "score": null,
+          "issue": "all-clear protocol response \u2014 healthy by design"
+        }
+      },
+      "652fe2a9c9ca": {
+        "name": "arXiv Research Scanner",
+        "quality": {
+          "quality": "high",
+          "score": 88,
+          "reason": "Well-structured scan entry with specific paper metadata, verifiable arXiv ID/date consistency, concrete performance metrics (Sharpe, costs, out-of-sample window), and a genuinely actionable takeaway for autonomous quant research."
+        }
+      },
+      "3876dd862ca1": {
+        "name": "Polymarket Sentiment Scanner",
+        "quality": {
+          "quality": "silent",
+          "score": null,
+          "issue": "healthy silent run \u2014 nothing to report by design"
+        }
+      },
+      "0d71774646b8": {
+        "name": "Fleet Research Agent",
+        "quality": {
+          "quality": "high",
+          "score": 84,
+          "reason": "Well-structured build report with concrete deliverables, coherent research motivation tied to prior findings (Sep 8 ceiling scan, Sep 9 sampler), and statistically disciplined methodology (no-lookahead z-scores, n\u226530 verdict gate, de-overlapping) \u2014 though actual empirical signal results are still pending by design."
+        }
+      }
+    },
+    "skill_freshness": {
+      "apple-apps": {
+        "freshness": "current",
+        "confidence": 0.7,
+        "issues": [
+          "Relevance gap: as of macOS 26 (Tahoe, shipped 2025), Apple provides first-party CLI tools (notes, reminders, messages) \u2014 the skill recommends only third-party CLIs (memo, remindctl, imsg) and does not mention the native alternatives, which are now the lower-friction option on supported macOS versions.",
+          "Verification stamp (2026-08-19) confirms imsg is installed and references/ files exist, but memo and remindctl are explicitly NOT installed, so their brew tap/install commands and permission flows are documented but unverified on this machine.",
+          "Content was truncated at 2000 chars; the imsg permission section is cut off mid-sentence, so the remainder (potential additional tools, links, or outdated commands) could not be reviewed."
+        ]
+      },
+      "macos-computer-use": {
+        "freshness": "current",
+        "confidence": 0.82,
+        "issues": [
+          "No URLs or external links appear in the reviewed excerpt, so link rot cannot be fully ruled out for the unshown remainder (content truncated at 2000 chars)",
+          "Frontmatter was stripped, so any 'Last reviewed' stamp or tool version pin could not be verified",
+          "References to model families (Claude, GPT, Gemini) and patterns (SOM overlays, AX-tree element indexing, capture-verify loop, OpenAI-compatible local endpoints) all align with current 2025-2026 computer-use practice; pyautogui reference is to a still-maintained library used only as a contrast, not a recommended dependency"
+        ]
+      },
+      "autonomous-research": {
+        "freshness": "current",
+        "confidence": 0.85,
+        "issues": [
+          "Body truncated at 2000 chars \u2014 remainder of document (including any external links or tool-specific commands beyond the reference table) could not be verified",
+          "Minor: 'When to Use' section is thin ('any topic in the subsystem map') which may cause over-triggering of this umbrella skill, though this is a relevance concern rather than a staleness one",
+          "Note (not a defect): 'Last reviewed: Aug 23, 2026' is 18 days before today's date (2026-09-10) \u2014 within normal freshness; inline 'Updated Jul 4, 2026' note on loop-engineering-patterns.md is also past-dated and consistent",
+          "Verified: exactly 5 subsystem rows match the 'all 5 references/ files verified present' claim; no deprecated tools, dead external links, or obsolete patterns observed in visible content (Obsidian, cron, LLM-loop patterns all remain current)"
+        ]
+      },
+      "code-delegation": {
+        "freshness": "current",
+        "confidence": 0.7,
+        "issues": [
+          "No dead links or deprecated tool names found in the provided body \u2014 Claude Code, Codex CLI (@openai/codex), and OpenCode were all actively maintained products, none known to be sunset or renamed",
+          "Frontmatter was stripped, so any 'Last reviewed' stamp could not be verified",
+          "Only the umbrella/index content was provided; the actual reference files (references/claude-code.md, codex.md, opencode.md) were not reviewed and may contain stale CLI flags or install commands",
+          "Codex description scopes it as 'the open-source local coding agent'; OpenAI's Codex lineup has expanded beyond the local CLI (cloud agent, IDE integration), so the framing may under-represent the current product but is not incorrect for the CLI itself",
+          "AI coding CLI tooling changes rapidly (flags, package names, default modes); without in-file version stamps or dates, currency of the deeper reference content cannot be confirmed"
+        ]
+      },
+      "computer-use": {
+        "freshness": "current",
+        "confidence": 0.65,
+        "issues": [
+          "'Last reviewed' stamp (Aug 29, 2026) is ~12 days old and recent \u2014 not a staleness concern per review policy",
+          "References to trycua/cua, the `cua` pip package, and the github.com/trycua/cua repo are plausible and were reportedly re-verified at review time, but live link/repo status cannot be confirmed from the excerpt alone \u2014 if the repo is archived or the driver sub-project moved, install instructions would break",
+          "Highly specific ecosystem details that may drift quickly: `@cua/driver` on ClawHub, `cua-driver skills install`, and the `~/.cua-driver/skills/cua-driver` path \u2014 these are brittle against upstream CLI/skill-packaging changes even if accurate today",
+          "The 'background' / non-focus-stealing behavior claim is atypical for computer-use tooling (most move the real cursor or run in a VM); it is not falsifiable from the doc and depends on wrapper behavior that could change silently",
+          "No deprecated patterns detected: pyautogui reference is still a valid comparison point, and the AX/UIA/AT-SPI role-name guidance matches current platform accessibility frameworks",
+          "Note: the provided body is truncated mid-sentence ('treat the'), so freshness of the remaining ~sections (action vocabulary, platform notes) could not be assessed"
+        ]
+      },
+      "merge-reconciler": {
+        "freshness": "current",
+        "confidence": 0.8,
+        "issues": [
+          "References internal/proprietary tooling (`delegate_task`, `hermes kanban show`, `kanban_create`) whose current status cannot be verified against public documentation; if any of these APIs have changed names in your harness, this section needs updating",
+          "No review-date stamp is visible in the reviewed body (frontmatter was stripped), so recency of last review could not be confirmed"
+        ]
+      }
+    },
+    "memory_accuracy": {
+      "checked": 5,
+      "issues": [
+        {
+          "index": 3,
+          "problem": "Not incorrect, but a fragility/staleness risk: hardcoding a single IP (98.98.124.194) for api.z.ai in /etc/hosts will silently break whenever Z.AI rotates IPs or uses multi-IP CDN routing. The fact acknowledges this ('if IP changes, update entry'), but no periodic verification is noted \u2014 consider adding a health check or TTL-style re-validation."
+        }
+      ],
+      "overall_quality": "high"
     }
   }
 }
