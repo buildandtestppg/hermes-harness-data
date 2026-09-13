@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-13T16:09:05.411848+00:00",
+    "generated_at": "2026-09-13T16:10:42.959686+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -108,7 +108,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-13T12:04:16",
+      "last_run_time": "2026-09-14T00:05:25",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -348,7 +348,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-14T00:00:48",
+      "last_run_time": "2026-09-14T00:05:49",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -504,7 +504,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-14T00:00:45",
+      "last_run_time": "2026-09-14T00:05:45",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -564,7 +564,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-14T00:03:44",
+      "last_run_time": "2026-09-14T00:09:46",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -1175,23 +1175,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 180.0,
+      "latency_ms": 162.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 318.0,
+      "latency_ms": 1008.0,
       "model_count": 20
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 11.0
+      "latency_ms": 10.0
     }
   ],
   "actions": {
-    "generated_at": "2026-09-13T16:03:45.888346+00:00",
+    "generated_at": "2026-09-13T16:10:40.488921+00:00",
     "overall_score": 92.8,
     "overall_tier": "healthy",
     "actions": [
@@ -1893,174 +1893,23 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.9
+        "latency_s": 2.5
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.9
+        "latency_s": 2.5
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.9
+        "latency_s": 2.5
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.9
+        "latency_s": 2.5
       }
-    },
-    "cron_quality": {
-      "43ba1d393c5a": {
-        "name": "X Crypto Scanner",
-        "quality": {
-          "quality": "high",
-          "score": 82,
-          "reason": "Clear, well-structured failure alert that identifies root cause, required action (manual re-login by Mojo), expected auto-recovery, and last-success context for both scanners; only minor deduction for redundancy since both failures are long-running known states (Reddit blocked 108 days), which adds little new information."
-        }
-      },
-      "a354447653dc": {
-        "name": "Fleet Operations Agent",
-        "quality": {
-          "quality": "medium",
-          "score": 68,
-          "reason": "Well-structured dashboard with genuine whale-position and orderbook signals, but broken ticker tags [[]], near-flat market metrics, and no synthesis or recommendations limit overall actionability."
-        }
-      },
-      "46929a249347": {
-        "name": "trading-strategy-review",
-        "quality": {
-          "quality": "high",
-          "score": 90,
-          "reason": "Well-structured, data-dense review with concrete actionable signals (SOL 0.70% from stop, sentiment conflict against open LONG, hysteresis breach on SOL/emacross, closed gate stats) and clear prioritized risk flags."
-        }
-      },
-      "66a98cf277aa": {
-        "name": "\ud83d\udc0b Whale Monitor",
-        "quality": {
-          "quality": "medium",
-          "score": 65,
-          "reason": "Well-structured with one actionable signal (HYPE 75% ask-weighted orderbook confirmed by table data), but the whale position PnLs are trivial ($5-$119) and a 22.5 SOL position isn't whale-sized, so most entries dilute rather than add signal."
-        }
-      },
-      "8bd6a73fc440": {
-        "name": "\ud83d\udcf0 News Agent",
-        "quality": {
-          "quality": "silent",
-          "score": null,
-          "issue": "healthy silent run \u2014 nothing to report by design"
-        }
-      },
-      "4a4564fc946b": {
-        "name": "\u23f0 Daily Review",
-        "quality": {
-          "quality": "high",
-          "score": 90,
-          "reason": "Dense, well-structured report with quantified metrics and specific actionable items \u2014 flagged dead crons with day counts, tripped breaker status, stopped lab bleed, 95.7% signal waste with day tracking, and stale-page backlog \u2014 clear operational signal, not noise."
-        }
-      },
-      "6f7b35ec5e0b": {
-        "name": "\ud83d\udc9a Fleet Heartbeat",
-        "quality": {
-          "quality": "high",
-          "score": 90,
-          "reason": "Highly actionable watchdog output: pinpoints a specific failing job (x_tweets) with quantified evidence (74h stale, 20 scans/0 tweets), a likely root cause (expired X session), and a concrete fix (manual Chrome re-login), while cleanly confirming the governance queue is clear."
-        }
-      },
-      "652fe2a9c9ca": {
-        "name": "arXiv Research Scanner",
-        "quality": {
-          "quality": "high",
-          "score": 88,
-          "reason": "Well-structured, transparent digest with primary-source verification, specific quantitative details, relevant categorization, actionable 'why it matters' analysis, and honest disclosure of the API rate-limit fallback \u2014 clear signal rather than noise."
-        }
-      },
-      "3876dd862ca1": {
-        "name": "Polymarket Sentiment Scanner",
-        "quality": {
-          "quality": "silent",
-          "score": null,
-          "issue": "healthy silent run \u2014 nothing to report by design"
-        }
-      },
-      "0d71774646b8": {
-        "name": "Fleet Research Agent",
-        "quality": {
-          "quality": "high",
-          "score": 91,
-          "reason": "The output directly answers its research question with rigorous, decision-ready analysis \u2014 leave-one-out sensitivity (biggest trade only 20% of edge), fee stress at 3x, decomposition across asset/side/time all confirming the edge is broad rather than artifact, plus honest reporting of the one costly segment (+1R partials, -$18) \u2014 making it clearly actionable for Operations despite the modest n=15 cohort."
-        }
-      }
-    },
-    "skill_freshness": {
-      "apple-apps": {
-        "freshness": "current",
-        "confidence": 0.82,
-        "issues": []
-      },
-      "macos-computer-use": {
-        "freshness": "current",
-        "confidence": 0.75,
-        "issues": [
-          "Content truncated at 2000 chars, so actions table and any later sections/links could not be audited for dead links or deprecated patterns",
-          "Frontmatter stripped, so no 'Last reviewed' date or tool version info is available to verify against",
-          "Claim that 'Claude was trained on both' indices and pixel coordinates is a harness-level assumption rather than documented model training; Anthropic's computer-use training has historically emphasized screenshot+coordinates \u2014 worth verifying wording, though not a staleness defect",
-          "No dates, API versions, or URLs appear in the reviewed portion, so nothing is verifiably outdated; the model-agnostic tool-schema pattern and OpenAI-compatible endpoint references remain current conventions"
-        ]
-      },
-      "autonomous-research": {
-        "freshness": "current",
-        "confidence": 0.88,
-        "issues": []
-      },
-      "code-delegation": {
-        "freshness": "current",
-        "confidence": 0.75,
-        "issues": []
-      },
-      "computer-use": {
-        "freshness": "current",
-        "confidence": 0.82,
-        "issues": [
-          "Last-reviewed stamp (2026-08-29) is recent (~2 weeks before today) and claims upstream verification of trycua/cua refs; no internal contradictions found",
-          "External references (github.com/trycua/cua, pip package 'cua', '@cua/driver' on ClawHub) cannot be independently verified from the excerpt; flag for link-check on next review cycle",
-          "Doc depends on a companion skill installed via 'cua-driver skills install' and a '~/.cua-driver/skills/cua-driver' path \u2014 brittle external dependency that may drift independently of this skill",
-          "Only first 2000 chars reviewed; truncated mid-sentence ('treat the') so the action vocabulary and any platform-specific sections were not evaluated",
-          "Platform role-name claims (AXButton/UIA Button/AT-SPI 'push button') are consistent with current accessibility frameworks; no deprecated patterns (e.g., pyautogui-style foreground automation) are endorsed \u2014 it explicitly contrasts against them"
-        ]
-      },
-      "merge-reconciler": {
-        "freshness": "current",
-        "confidence": 0.8,
-        "issues": [
-          "Core content is current: git merge/rebase conflict handling, neutral-reconciler pattern for multi-agent branches, and parallel-worktree/merge-queue concepts are all still-relevant practices as of 2026-09; no dead links or deprecated git patterns found.",
-          "Doc depends on internal tool calls (hermes kanban show, delegate_task, kanban_create with assignee/parents parameters) whose signatures cannot be verified from the excerpt \u2014 if any of these internal APIs were renamed or their parameters changed, those lines would drift silently since no tool version or last-reviewed stamp appears in the body (frontmatter stripped, so a stamp may exist there).",
-          "Minor: recommends kanban_create(parents=[...]) as carrying completion summaries into context \u2014 worth confirming this behavior still holds in the current kanban tooling, as it is a behavioral assumption rather than a documented contract."
-        ]
-      },
-      "skills-hub-research": {
-        "freshness": "current",
-        "confidence": 0.6,
-        "issues": [
-          "Volatile statistic '91K+ total installs' for Skills.sh will go stale quickly and cannot be verified without visiting the site",
-          "Frontmatter was stripped, so no 'Last reviewed' stamp is visible in the provided content \u2014 recency cannot be confirmed from what was shared",
-          "Body truncated at 2000 chars; the remainder of the doc (research methodology steps 3+, any evaluation criteria or links) is unreviewed for dead links or deprecated patterns",
-          "Subagent-delegation workaround note ('returns too quickly with minimal results') is likely version-specific behavior and should be periodically revalidated",
-          "Heavy reliance on external third-party services (clawhub.ai, skills.sh, Claude Marketplace, Lobehub) whose install methods, URLs, or trust models can change independently of this skill",
-          "No version pinning or snapshot date for the hub table; ecosystem stats like '20+ agents' and install counts are point-in-time claims"
-        ]
-      }
-    },
-    "memory_accuracy": {
-      "checked": 5,
-      "issues": [
-        {
-          "index": 3,
-          "problem": "Static /etc/hosts pin of api.z.ai to 98.98.124.194 is stale-prone and undated. API endpoints frequently rotate IPs (and 98.98.x.x is an unusual range for an API host, suggesting possible direct/CDN edge routing that can change without notice). Fact itself acknowledges the risk but has no 'last verified' date \u2014 recommend re-verifying the IP resolves and TLS/SNI still works before relying on it."
-        }
-      ],
-      "overall_quality": "high"
     }
   }
 }
