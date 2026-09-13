@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-13T16:10:42.959686+00:00",
+    "generated_at": "2026-09-13T16:17:12.276160+00:00",
     "harness_version": "1.0.0",
     "hermes_instance": "prod"
   },
@@ -348,7 +348,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-14T00:05:49",
+      "last_run_time": "2026-09-14T00:10:50",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -492,7 +492,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-14T00:00:44",
+      "last_run_time": "2026-09-14T00:10:46",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -504,7 +504,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-14T00:05:45",
+      "last_run_time": "2026-09-14T00:10:46",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -564,7 +564,7 @@
       "status": "active",
       "last_run_ok": true,
       "never_run": false,
-      "last_run_time": "2026-09-14T00:09:46",
+      "last_run_time": "2026-09-14T00:10:46",
       "output_count_24h": 1,
       "potentially_silent": false,
       "intentional_nonzero": false
@@ -1175,23 +1175,23 @@
     {
       "name": "Z.AI",
       "available": true,
-      "latency_ms": 162.0,
+      "latency_ms": 185.0,
       "status_code": 404
     },
     {
       "name": "Ollama Cloud",
       "available": true,
-      "latency_ms": 1008.0,
+      "latency_ms": 308.0,
       "model_count": 20
     },
     {
       "name": "Ollama Local",
       "available": true,
-      "latency_ms": 10.0
+      "latency_ms": 11.0
     }
   ],
   "actions": {
-    "generated_at": "2026-09-13T16:10:40.488921+00:00",
+    "generated_at": "2026-09-13T16:10:53.453851+00:00",
     "overall_score": 92.8,
     "overall_tier": "healthy",
     "actions": [
@@ -1893,23 +1893,195 @@
       "fast": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.5
+        "latency_s": 2.2
       },
       "review": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.5
+        "latency_s": 2.2
       },
       "reasoning": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.5
+        "latency_s": 2.2
       },
       "deep": {
         "model": "glm-5.2",
         "available": true,
-        "latency_s": 2.5
+        "latency_s": 2.2
       }
+    },
+    "cron_quality": {
+      "43ba1d393c5a": {
+        "name": "X Crypto Scanner",
+        "quality": {
+          "quality": "medium",
+          "score": 70,
+          "reason": "Well-structured and actionable for the X failure (explicit root cause and named owner for manual re-login), but it largely re-reports known stale issues \u2014 X unchanged since Sep 10 and Reddit blocked for 108 days \u2014 so much of the content is redundant repeated alerting rather than new signal."
+        }
+      },
+      "a354447653dc": {
+        "name": "Fleet Operations Agent",
+        "quality": {
+          "quality": "high",
+          "score": 80,
+          "reason": "Well-structured digest with genuinely actionable signals \u2014 specific whale position changes (addresses, sizes, direction), concrete PnL/win-rate metrics, and relevant curated news \u2014 though flat market metrics, empty [[]] ticker tags, and the contradictory '+35%' on a reduced PONS long slightly temper the value."
+        }
+      },
+      "46929a249347": {
+        "name": "trading-strategy-review",
+        "quality": {
+          "quality": "high",
+          "score": 90,
+          "reason": "Timely, well-structured review delivering actionable signal: quantified drawdown risk (~$87 from hard 10% breaker), three assigned strategies trailing challengers with exact margins and sample sizes, sound filtering of small-sample leaderboard artifacts, and clear position/equity state."
+        }
+      },
+      "66a98cf277aa": {
+        "name": "\ud83d\udc0b Whale Monitor",
+        "quality": {
+          "quality": "medium",
+          "score": 68,
+          "reason": "Well-structured with a genuinely actionable HYPE orderbook imbalance alert (75% ask-weighted, consistent with the 25% book reading), but the 1h deltas are essentially flat and the whale trades carry trivial PnL ($5-$119), limiting overall signal strength."
+        }
+      },
+      "8bd6a73fc440": {
+        "name": "\ud83d\udcf0 News Agent",
+        "quality": {
+          "quality": "silent",
+          "score": null,
+          "issue": "healthy silent run \u2014 nothing to report by design"
+        }
+      },
+      "4a4564fc946b": {
+        "name": "\u23f0 Daily Review",
+        "quality": {
+          "quality": "high",
+          "score": 90,
+          "reason": "Dense, well-structured operational report with specific quantified metrics, clear failure diagnostics (dead crons with day counts, blind health endpoints), meaningful status changes (breaker trip, lab bleed stopped), and actionable prioritization \u2014 genuine signal, not noise."
+        }
+      },
+      "6f7b35ec5e0b": {
+        "name": "\ud83d\udc9a Fleet Heartbeat",
+        "quality": {
+          "quality": "high",
+          "score": 92,
+          "reason": "Watchdog detected a real failure with strong diagnostics (20 scans/0 tweets indicates session expiry rather than job crash), a specific remediation step, and a brief healthy-status summary \u2014 highly actionable signal with no noise."
+        }
+      },
+      "652fe2a9c9ca": {
+        "name": "arXiv Research Scanner",
+        "quality": {
+          "quality": "high",
+          "score": 86,
+          "reason": "Well-structured digest with primary-source verification, transparent fallback handling after API rate-limiting, internally consistent metadata (ID 2604.26747 matches the 2026-04 date and q-fin categories), and genuinely actionable per-paper analysis with quantitative detail \u2014 only minor concern is that the featured paper is ~4.5 months old at scan time."
+        }
+      },
+      "3876dd862ca1": {
+        "name": "Polymarket Sentiment Scanner",
+        "quality": {
+          "quality": "silent",
+          "score": null,
+          "issue": "healthy silent run \u2014 nothing to report by design"
+        }
+      },
+      "0d71774646b8": {
+        "name": "Fleet Research Agent",
+        "quality": {
+          "quality": "high",
+          "score": 90,
+          "reason": "Decisive, well-structured research with proper decomposition, fee stress tests, top-trade removal, and honest cost identification (the +1R partial segment), giving Operations a clear, robust basis to review the time-stop rule; only minor deductions for the small n=15 cohort and a slight arithmetic inconsistency in the removal figure."
+        }
+      }
+    },
+    "skill_freshness": {
+      "apple-apps": {
+        "freshness": "current",
+        "confidence": 0.82,
+        "issues": [
+          "Body is truncated at 2000 chars (iMessage permission section cut off mid-sentence at 'Permission: Gr'), so the remainder of the doc cannot be verified for freshness",
+          "Doc's own status note records that memo and remindctl are not installed on this machine \u2014 an environment gap rather than a documentation staleness issue, but the doc should be re-verified after install",
+          "brew install via full tap path (e.g., 'antoniorodr/memo/memo') is valid but slightly redundant with the preceding 'brew tap'; not deprecated, just a minor style point"
+        ]
+      },
+      "macos-computer-use": {
+        "freshness": "current",
+        "confidence": 0.7,
+        "issues": [
+          "No dead links or deprecated patterns found in the excerpt",
+          "References to tool-calling models (Claude, GPT, Gemini, OpenAI-compatible endpoints) are still accurate as of 2026-09",
+          "No 'Last reviewed' stamp visible in the excerpted body (may exist in stripped frontmatter); recommend confirming one is present",
+          "Cannot verify tool parameter names (e.g., capture_after=True, mode=som|vision|ax) against the live implementation from documentation alone",
+          "Claim 'There is no Anthropic-native schema to learn' is fine for this wrapper but could mislead if read as a statement about Anthropic's official computer-use API; consider clarifying",
+          "Claim that non-Claude models are 'often only reliable with indices' is a generalization that may age poorly as other vendors train on coordinate-based computer use; consider softening or dating it",
+          "Content is truncated at 2000 chars, so the full action list and any version/changelog sections were not reviewed"
+        ]
+      },
+      "autonomous-research": {
+        "freshness": "current",
+        "confidence": 0.88,
+        "issues": [
+          "Content truncated at 2000 chars \u2014 full body could not be reviewed",
+          "Review stamp (Aug 23, 2026) is ~3 weeks old; no staleness by policy but re-verification of reference files may be due soon"
+        ]
+      },
+      "code-delegation": {
+        "freshness": "current",
+        "confidence": 0.6,
+        "issues": [
+          "All three referenced tools (Claude Code, OpenAI Codex CLI `@openai/codex`, OpenCode) are real, actively maintained projects \u2014 no deprecated tools identified in the umbrella doc",
+          "No dead links detectable in the excerpt (no URLs present in the shown content)",
+          "Content is truncated to 2000 chars \u2014 the `references/*.md` subsystem files, where outdated commands or install instructions would most likely live, could not be inspected",
+          "No 'Last reviewed' stamp visible in the excerpt (may exist in stripped frontmatter), so review-date verification is not possible",
+          "Codex CLI has evolved rapidly (npm package name, config format, cloud/local unification changes during 2025) \u2014 worth verifying the codex.md reference still matches current CLI flags, though nothing in the umbrella doc itself is outdated",
+          "OpenCode ecosystem had forks/rebrands in 2025 (e.g., Crush) \u2014 verify opencode.md still points at the intended active project"
+        ]
+      },
+      "computer-use": {
+        "freshness": "current",
+        "confidence": 0.85,
+        "issues": []
+      },
+      "merge-reconciler": {
+        "freshness": "current",
+        "confidence": 0.65,
+        "issues": [
+          "Core subject matter (git merge/rebase conflict resolution, neutral third-party reconciliation) is evergreen \u2014 no deprecated git patterns or outdated concepts found in the reviewed excerpt",
+          "No external URLs present in the excerpt, so dead links cannot be the basis for staleness here",
+          "Internal/organizational tool references ('hermes kanban show <task-id>', 'delegate_task', 'kanban_create' with title/assignee/parents kwargs) cannot be validated against current tool schemas from this excerpt alone \u2014 confirm these tool names and parameter names still match the live versions",
+          "Frontmatter was stripped, so any 'Last reviewed' stamp could not be checked against the 2026-09-14 review threshold",
+          "Only the first 2000 characters were provided; the Procedure section and any later tool invocations remain unreviewed and could contain outdated references"
+        ]
+      },
+      "skills-hub-research": {
+        "freshness": "stale",
+        "confidence": 0.6,
+        "issues": [
+          "'Lobehub' row cites a 'Lobechain ecosystem' \u2014 no known skills hub by this name exists; LobeHub is a chat/UI framework, and the 'lobehub/<name>' install prefix appears fabricated or misdocumented",
+          "'Claude Marketplace' row has no URL and no known Claude/Anthropic skills marketplace installable via a third-party CLI; Claude skills are distributed via Anthropic's official channels, so this install path is dubious or fabricated",
+          "'91K+ total installs' for Skills.sh is a volatile hardcoded metric that is almost certainly outdated by 2026-09 and should be removed or dynamically checked",
+          "The note that subagent delegation 'often fails' is a time-sensitive bug workaround that may no longer apply and should be re-verified against current Hermes behavior",
+          "Core entries (ClawHub/clawhub.ai, Skills.sh, Hermes CLI commands) appear consistent with current tooling but live URLs and CLI flags could not be re-verified as of 2026-09; confirm all links resolve",
+          "Frontmatter was stripped for review \u2014 verify a 'Last reviewed' stamp exists and refresh it after correcting the above"
+        ]
+      }
+    },
+    "memory_accuracy": {
+      "checked": 5,
+      "issues": [
+        {
+          "index": 2,
+          "problem": "Operational-status facts with no timestamps: 'optimizer.py is PAUSED' and cron schedules (5min paper_trader, hourly evaluator) are undated and prone to going stale. Recommend verifying optimizer is still paused and crons still active before relying on this. No internal contradictions found, however."
+        },
+        {
+          "index": 3,
+          "problem": "Hardcoded IP 98.98.124.194 for api.z.ai is inherently fragile \u2014 if z.ai serves via a rotating CDN/anycast IP, this entry could silently break or point to a stale host. The memory partially mitigates this with an update note, but the IP is unverifiable and should be re-checked periodically. Also, the claimed SERVFAIL root cause (Tailscale + Singtel DNS both failing on the zensafedns.net CNAME) is environment-specific and may not hold after router/Tailscale updates."
+        },
+        {
+          "index": 4,
+          "problem": "Entirely unverifiable externally and undated; account ownership/handles for @mojoppg vs @0xMojojo could have changed (e.g., handle swaps or new primary account). Internally consistent, but treat as low-confidence until re-confirmed."
+        }
+      ],
+      "overall_quality": "high"
     }
   }
 }
